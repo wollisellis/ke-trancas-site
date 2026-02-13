@@ -1,0 +1,68 @@
+﻿python : Traceback (most recent call last):
+No linha:1 caractere:1
++ python -c "import openpyxl; wb = openpyxl.load_workbook(r'c:\\Users\\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "<string>", line 1, in <module>
+    import openpyxl; wb = openpyxl.load_workbook(r'c:\\Users\\ellis\\Minireview\\EJCN_OldMaterials\\EJCN_Actual\\Supple
+mentary_Table_S1_Included_Studies.xlsx'); ws = wb.active; authors = [(ws.cell(row=r, column=2).value, ws.cell(row=r, 
+column=3).value) for r in range(2, ws.max_row + 1)]; print(len(authors)); [print(f'{i+1}. {a[0]} {a[1]}') for i, a in 
+enumerate(authors)]
+                                                                                                                       
+                                                                                                                       
+                                                                         ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ellis\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u011f' in position 14: character maps to <undefined>
+53
+1. Azimi 2025
+2. Lee 2023
+3. Omar 2025
+4. Ponzo 2024
+5. Haman 2024
+6. Gavai 2025
+7. Papastratis 2024
+8. Kirk 2023
+9. OÆHara 2025
+10. Niszczota 2023
+11. Chatelan 2023
+12. Han 2024
+13. Sun 2023
+14. Solomon 2025
+15. Oh 2021
+16. Lacruz-Pleguezuelos 2025
+17. Veluvali 2025
+18. Bermingham 2024
+19. Bernstein 2025
+20. Yang 2025
+21. Mathioudakis 2025
+22. Seid 2024
+23. Chotwanvirat 2024
+24. Panayotova 2025
+25. Bayram 2025
+26. Theodore Armand 2024
+27. Chiang 2024
+28. Comanici 2025
+29. Huang 2025
+30. Rein 2023
+31. Hoang 2023
+32. WHO 2023
+33. EU AI Act 2024
+34. FDA 2022
+35. ICDA 2021
+36. CDR 2024
+37. Belkhouribchia 2025
+38. Zhou 2025
+39. Ponzo 2024
+40. Kaya Kaþar 2025
+41. Liao 2024
+42. Lo 2024
+43. Kim 2024
+44. Hou 2025
+45. Wang 2025
+46. Bergling 2025
+47. Shamanna 2024
+48. Li 2024

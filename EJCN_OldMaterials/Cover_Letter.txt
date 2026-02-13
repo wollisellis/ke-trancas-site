@@ -1,0 +1,54 @@
+
+COVER LETTER
+European Journal of Clinical Nutrition (EJCN)
+
+Manuscript: "Large Language Models and Related AI Systems in Clinical Nutrition: A Scoping Review of Performance, Safety, and Implementation (2020-2025)"
+
+Dear Editor-in-Chief,
+
+We submit for your consideration our manuscript titled "Large Language Models and Related AI Systems in Clinical Nutrition: A Scoping Review of Performance, Safety, and Implementation (2020-2025)" for publication in the European Journal of Clinical Nutrition as a Review Article (scoping review).
+
+This PRISMA-ScR-compliant scoping review synthesizes evidence from 53 sources (2020-2025) identified via searches across six databases (PubMed/MEDLINE, Web of Science Core Collection, Scopus, IEEE Xplore, ACM Digital Library, and Google Scholar) plus supplementary citation screening. The work aligns with EJCN's stated interest in Nutrition Research Tools (including machine learning/AI in nutrition and precision nutrition) and addresses a clinically important question: where these tools are reliable, where they fail, and what safeguards are supported by the current evidence, while highlighting critical safety gaps (e.g., systematic portion-size underestimation) that currently preclude autonomous clinical use.
+
+Submission details (for editorial triage):
+- Article type: Review Article (scoping review)
+- Main text word count (excluding abstract, tables/figures, references): ~4,900
+- Figures/Tables: 1 figure (PRISMA flow), 3 tables
+- Supplementary files: PRISMA-ScR checklist; complete search strategy + database-specific search strings; Supplementary Table S1 (included sources extraction table; n=53); Supplementary Table S4 (ethical/governance framework)
+- Ethics: No human participants were enrolled; ethics approval/informed consent are not applicable (evidence synthesis of publicly available sources)
+
+Key contributions include:
+
+1. Performance benchmarking for dietetics tasks: We synthesize quantitative evaluations across standardized examinations and clinical scenarios, highlighting strong performance in constrained tasks and marked degradation in complex multi-comorbidity decision support.
+
+2. Safety evidence synthesis: We summarize documented safety vulnerabilities (e.g., hallucination under adversarial conditions, citation fabrication, allergen-related errors) and mitigation approaches, with implications for clinical governance.
+
+3. Implementation and research agenda: We map evidence gaps (notably, scarcity of long-term outcome studies) and provide actionable recommendations for future trials, benchmark development, and safe deployment pathways in diet therapy and patient-facing nutrition support.
+
+The manuscript has not been previously published and is not under consideration elsewhere. All authors have approved the manuscript and agree with its submission to the European Journal of Clinical Nutrition.
+
+If accepted, we intend to publish Open Access under a CC BY license where eligible under institutional/publisher agreements (e.g., CAPES consortium - Springer Nature Read & Publish).
+
+Suggested reviewers: None.
+Reviewers to exclude: None.
+
+Prior contact with an Editorial Board Member: No.
+
+We have no conflicts of interest to declare. This study was financed, in part, by the Sao Paulo Research Foundation (FAPESP), Brasil. Process Number #2025/06258-7. This study was partially funded by CAPES (Coordenacao de Aperfeicoamento de Pessoal de Nivel Superior), Finance Code 001. D.T.C. and F.B.B. thank CNPq (Conselho Nacional de Desenvolvimento Cientifico e Tecnologico). D.T.C. is supported by a CNPq productivity grant #304542/2024-5.
+
+Thank you for your consideration.
+
+Sincerely,
+
+Ellis Wollis Malta Abhulime (Corresponding Author)
+Vicente Rossi Monaco
+Rafael Delgado de Melo
+Fabiana Braga Benatti
+Diogo Thimoteo da Cunha
+
+Multidisciplinary Laboratory in Food and Health (LabMAS)
+School of Applied Sciences (FCA)
+University of Campinas (UNICAMP)
+Limeira, Sao Paulo, Brazil
+
+Email: elliswollismalta@gmail.com
