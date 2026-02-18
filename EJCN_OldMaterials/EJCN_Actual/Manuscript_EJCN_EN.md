@@ -189,6 +189,10 @@ Safety concerns are central, not peripheral: hallucination rates of 50–82% und
 
 If implemented, LLMs should be restricted to supervised decision support with proportionate safeguards: retrieval-augmented architectures, local validation, documentation of AI involvement, audit trails, and predefined escalation triggers. Advancing the field requires nutrition-specific public benchmarks and long-term trials with prespecified safety endpoints, building on emerging RCT evidence [35, 36] and prioritizing equity-focused evaluation across diverse populations.
 
+## ACKNOWLEDGEMENTS
+
+Not applicable.
+
 ## AUTHOR CONTRIBUTIONS
 
 E.W.M.A. conceived the study and led the writing. V.R.M. and R.D.M. conducted the literature screening and selection of sources. E.W.M.A., V.R.M., and R.D.M. performed data extraction. F.B.B. and D.T.C. supervised the project and provided critical revision for important intellectual content. All authors reviewed and approved the final manuscript.

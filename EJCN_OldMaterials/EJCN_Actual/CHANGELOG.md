@@ -1,5 +1,24 @@
 # CHANGELOG — Manuscript_EJCN_EN_VANCOUVER.md
 
+## [2026-02-18] Submission Audit and Final Package
+
+### Summary
+Full compliance audit and final submission package for EJCN.
+
+### Compliance (all PASS)
+- Abstract: 203/250 words
+- Body: 3,944/5,000 words
+- Refs: 54/100, Vancouver, 1-54 sequential
+- Figs+Tables: 4/8
+- All 13 mandatory sections present
+
+### Actions
+- PRISMA figure regenerated (600 DPI PNG+PDF, improved layout)
+- Manuscript DOCX regenerated (double-spaced, TNR 12pt)
+- Clean submission folder: EJCN_Submission_Final/ (10 files)
+
+---
+
 ## [2026-01-14] Introduction Revision
 
 ### Summary
@@ -366,3 +385,39 @@ Tightened the manuscript to comfortably meet EJCN word limits, improved Results 
    - Updated `REFERENCE_AUDIT.md` automated word-count figures to reflect the current manuscript text.
    - Added `generate_prisma_flowchart.py` and regenerated `Figure_1_PRISMA_Flowchart.png/.pdf/.svg` with PRISMA-style center-aligned arrows and non-overlapping exclusion-box typography.
 
+
+---
+
+## [2026-02-16 v16] Submission Hardening Pass (>97% quality target)
+
+### Summary
+Applied a full editorial hardening pass for submission consistency, formal EJCN compliance, and package integrity.
+
+### Changes Made
+1. **Supplementary labeling and consistency**
+   - Fixed heading mismatch in `Supplementary_Table_S3_Ethical_Framework.docx` (`S2` -> `S3`).
+   - Updated manuscript title in:
+     - `Supplementary_File_S2_PRISMA-ScR_Checklist.docx`
+     - `Supplementary_File_S3_Complete_Search_Strategy.docx`
+   - Re-exported supplementary PDFs and rebuilt `Supplementary_Information.pdf`.
+
+2. **Cover letter alignment**
+   - Rewrote `Cover_Letter.docx` to match the final manuscript title, article metadata, supplementary file naming, and corresponding author details.
+   - Removed old inconsistent fields (`~5,700`, `Supplementary Table S4`, legacy title variant).
+
+3. **Figure quality fix**
+   - Updated `generate_prisma_flowchart.py` to eliminate clipping in the right-side exclusion box.
+   - Regenerated `Figure_1_PRISMA_Flowchart.png/.pdf/.svg`.
+
+4. **Manuscript formal compliance**
+   - Added `## ACKNOWLEDGEMENTS` section to `Manuscript_EJCN_EN.md`.
+   - Regenerated `Manuscript_EJCN_EN.docx` from markdown.
+   - Applied global double spacing and line numbering in the final DOCX.
+
+5. **Audit refresh**
+   - Updated `REFERENCE_AUDIT.md` with current counts and final consistency checks.
+
+### Validation
+- Citation mapping is still exact: 54 cited / 54 listed, no gaps, no orphan references.
+- Current word counts: Abstract = 207; main body (approx.) = 4,442.
+- Supplementary package now consistently uses S2/S3/Table S3 nomenclature and the final manuscript title.
