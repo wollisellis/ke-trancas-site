@@ -1,0 +1,176 @@
+[2026-02-20T03:18:00.414744] Starting literature review...
+
+=== PHASE 1: SEARCH ===
+[2026-02-20T03:18:00.414770] Searching OpenAlex: large language model healthcare
+[2026-02-20T03:18:05.640427] Searching OpenAlex: LLM clinical application
+[2026-02-20T03:18:09.841950] Searching OpenAlex: GPT medicine diagnosis
+[2026-02-20T03:18:14.165019] Searching OpenAlex: language model medical education
+[2026-02-20T03:18:18.827408] Searching OpenAlex: AI chatbot healthcare patient
+[2026-02-20T03:18:22.985815] Searching OpenAlex: LLM drug discovery
+[2026-02-20T03:18:28.119600] Searching OpenAlex: transformer model radiology
+[2026-02-20T03:18:31.986149] Searching OpenAlex: BERT clinical NLP
+Total unique papers found: 1119
+
+=== PHASE 2: ENRICHMENT ===
+Processing paper 1/150
+Processing paper 2/150
+Processing paper 3/150
+Processing paper 4/150
+Processing paper 5/150
+Processing paper 6/150
+Processing paper 7/150
+Processing paper 8/150
+Processing paper 9/150
+Processing paper 10/150
+Processing paper 11/150
+Processing paper 12/150
+Processing paper 13/150
+Processing paper 14/150
+Processing paper 15/150
+Processing paper 16/150
+Processing paper 17/150
+Processing paper 18/150
+Processing paper 19/150
+Processing paper 20/150
+Processing paper 21/150
+Processing paper 22/150
+Processing paper 23/150
+Processing paper 24/150
+Processing paper 25/150
+Processing paper 26/150
+Processing paper 27/150
+Processing paper 28/150
+Processing paper 29/150
+Processing paper 30/150
+Processing paper 31/150
+Processing paper 32/150
+Processing paper 33/150
+Processing paper 34/150
+Processing paper 35/150
+Processing paper 36/150
+Processing paper 37/150
+Processing paper 38/150
+Processing paper 39/150
+Processing paper 40/150
+Processing paper 41/150
+Processing paper 42/150
+Processing paper 43/150
+Processing paper 44/150
+Processing paper 45/150
+Processing paper 46/150
+Processing paper 47/150
+Processing paper 48/150
+Processing paper 49/150
+Processing paper 50/150
+Processing paper 51/150
+Processing paper 52/150
+Processing paper 53/150
+Processing paper 54/150
+Processing paper 55/150
+Processing paper 56/150
+Processing paper 57/150
+Processing paper 58/150
+Processing paper 59/150
+Processing paper 60/150
+Processing paper 61/150
+Processing paper 62/150
+Processing paper 63/150
+Processing paper 64/150
+Processing paper 65/150
+Processing paper 66/150
+Processing paper 67/150
+Processing paper 68/150
+Processing paper 69/150
+Processing paper 70/150
+Processing paper 71/150
+Processing paper 72/150
+Processing paper 73/150
+Processing paper 74/150
+Processing paper 75/150
+Processing paper 76/150
+Processing paper 77/150
+Processing paper 78/150
+Processing paper 79/150
+Processing paper 80/150
+Processing paper 81/150
+Processing paper 82/150
+Processing paper 83/150
+Processing paper 84/150
+Processing paper 85/150
+Processing paper 86/150
+Processing paper 87/150
+Processing paper 88/150
+Processing paper 89/150
+Processing paper 90/150
+Processing paper 91/150
+Processing paper 92/150
+Processing paper 93/150
+Processing paper 94/150
+Processing paper 95/150
+Processing paper 96/150
+Processing paper 97/150
+Processing paper 98/150
+Processing paper 99/150
+Processing paper 100/150
+Processing paper 101/150
+Processing paper 102/150
+Processing paper 103/150
+Processing paper 104/150
+Processing paper 105/150
+Processing paper 106/150
+Processing paper 107/150
+Processing paper 108/150
+Processing paper 109/150
+Processing paper 110/150
+Processing paper 111/150
+Processing paper 112/150
+Processing paper 113/150
+Processing paper 114/150
+Processing paper 115/150
+Processing paper 116/150
+Processing paper 117/150
+Processing paper 118/150
+Processing paper 119/150
+Processing paper 120/150
+Processing paper 121/150
+Processing paper 122/150
+Processing paper 123/150
+Processing paper 124/150
+Processing paper 125/150
+Processing paper 126/150
+Processing paper 127/150
+Processing paper 128/150
+Processing paper 129/150
+Processing paper 130/150
+Processing paper 131/150
+Processing paper 132/150
+Processing paper 133/150
+Processing paper 134/150
+Processing paper 135/150
+Processing paper 136/150
+Processing paper 137/150
+Processing paper 138/150
+Processing paper 139/150
+Processing paper 140/150
+Processing paper 141/150
+Processing paper 142/150
+Processing paper 143/150
+Processing paper 144/150
+Processing paper 145/150
+Processing paper 146/150
+Processing paper 147/150
+Processing paper 148/150
+Processing paper 149/150
+Processing paper 150/150
+
+=== PHASE 3: SCREENING ===
+Papers after screening: 5
+
+=== PHASE 4: SYNTHESIS ===
+
+=== PHASE 5: REFERENCES ===
+
+=== PHASE 6: DRAFT GENERATION ===
+
+[2026-02-20T03:22:30.233724] Literature review complete!
+Output files saved to: /home/unienutri/.openclaw/workspace/lit-review-llm-health

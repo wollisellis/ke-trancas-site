@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Journal of Medical Internet Research (JMIR)",
+    "impact_factor": 7.4,
+    "scope": "Digital health, AI, medical informatics",
+    "fit": "Excellent for LLM + healthcare applications",
+    "format": "PRISMA systematic review",
+    "url": "https://www.jmir.org/"
+  },
+  {
+    "name": "npj Digital Medicine",
+    "impact_factor": 15.2,
+    "scope": "Digital medicine, AI in healthcare",
+    "fit": "High-impact, good for LLM reviews",
+    "format": "Narrative/systematic review",
+    "url": "https://www.nature.com/npjdigitalmed/"
+  },
+  {
+    "name": "Artificial Intelligence in Medicine",
+    "impact_factor": 7.5,
+    "scope": "AI applications in medicine",
+    "fit": "Specialized in AI/ML in healthcare",
+    "format": "Systematic review",
+    "url": "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine"
+  },
+  {
+    "name": "International Journal of Medical Informatics",
+    "impact_factor": 4.7,
+    "scope": "Medical informatics, NLP, EHR",
+    "fit": "Good for clinical NLP/LLM studies",
+    "format": "Systematic review",
+    "url": "https://www.sciencedirect.com/journal/international-journal-of-medical-informatics"
+  },
+  {
+    "name": "BMJ Health & Care Informatics",
+    "impact_factor": 3.5,
+    "scope": "Health informatics, digital health",
+    "fit": "Practical, good for implementation studies",
+    "format": "Systematic review",
+    "url": "https://informatics.bmj.com/"
+  }
+]
