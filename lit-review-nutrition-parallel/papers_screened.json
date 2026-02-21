@@ -1,0 +1,12900 @@
+[
+  {
+    "id": "https://openalex.org/W4391564557",
+    "doi": "https://doi.org/10.3390/nu16040469",
+    "title": "Is ChatGPT an Effective Tool for Providing Dietary Advice?",
+    "authors": [
+      "Valentina Ponzo",
+      "Ilaria Goitre",
+      "Enrica Favaro",
+      "Fabio Dario Merlo",
+      "Maria Vittoria Mancino",
+      "Sergio Riso",
+      "Simona Bo"
+    ],
+    "year": 2024,
+    "journal": "Nutrients",
+    "abstract": {
+      "The": [
+        0
+      ],
+      "chatbot": [
+        1,
+        149,
+        188
+      ],
+      "Chat": [
+        2
+      ],
+      "Generative": [
+        3
+      ],
+      "Pretrained": [
+        4
+      ],
+      "Transformer": [
+        5
+      ],
+      "(ChatGPT)": [
+        6
+      ],
+      "is": [
+        7,
+        189
+      ],
+      "becoming": [
+        8
+      ],
+      "increasingly": [
+        9
+      ],
+      "popular": [
+        10
+      ],
+      "among": [
+        11
+      ],
+      "patients": [
+        12
+      ],
+      "for": [
+        13,
+        38,
+        58,
+        107,
+        110,
+        118,
+        128,
+        175
+      ],
+      "searching": [
+        14
+      ],
+      "health-related": [
+        15
+      ],
+      "information.": [
+        16
+      ],
+      "Prior": [
+        17
+      ],
+      "studies": [
+        18
+      ],
+      "have": [
+        19
+      ],
+      "raised": [
+        20
+      ],
+      "concerns": [
+        21
+      ],
+      "regarding": [
+        22
+      ],
+      "accuracy": [
+        23,
+        169
+      ],
+      "in": [
+        24,
+        30,
+        42,
+        156,
+        170,
+        180
+      ],
+      "offering": [
+        25
+      ],
+      "nutritional": [
+        26,
+        40
+      ],
+      "advice.": [
+        27,
+        161
+      ],
+      "We": [
+        28
+      ],
+      "investigated": [
+        29
+      ],
+      "November": [
+        31
+      ],
+      "2023": [
+        32
+      ],
+      "ChatGPT\u2019s": [
+        33,
+        85
+      ],
+      "potential": [
+        34
+      ],
+      "as": [
+        35
+      ],
+      "a": [
+        36,
+        71,
+        167,
+        194
+      ],
+      "tool": [
+        37
+      ],
+      "providing": [
+        39,
+        171
+      ],
+      "guidance": [
+        41
+      ],
+      "relation": [
+        43
+      ],
+      "to": [
+        44,
+        69,
+        100,
+        122,
+        133,
+        138,
+        192
+      ],
+      "different": [
+        45
+      ],
+      "non-communicable": [
+        46
+      ],
+      "diseases": [
+        47,
+        76
+      ],
+      "(NCDs).": [
+        48
+      ],
+      "First,": [
+        49
+      ],
+      "the": [
+        50,
+        66,
+        139,
+        148,
+        187
+      ],
+      "dietary": [
+        51,
+        173
+      ],
+      "advice": [
+        52,
+        174
+      ],
+      "given": [
+        53
+      ],
+      "by": [
+        54
+      ],
+      "ChatGPT": [
+        55,
+        88,
+        165
+      ],
+      "(version": [
+        56
+      ],
+      "3.5)": [
+        57
+      ],
+      "various": [
+        59,
+        129
+      ],
+      "NCDs": [
+        60,
+        130
+      ],
+      "was": [
+        61,
+        77,
+        120
+      ],
+      "compared": [
+        62
+      ],
+      "with": [
+        63,
+        74,
+        92
+      ],
+      "guidelines;": [
+        64
+      ],
+      "then,": [
+        65
+      ],
+      "chatbot\u2019s": [
+        67
+      ],
+      "capacity": [
+        68
+      ],
+      "manage": [
+        70
+      ],
+      "complex": [
+        72,
+        181
+      ],
+      "case": [
+        73
+      ],
+      "several": [
+        75
+      ],
+      "investigated.": [
+        78
+      ],
+      "A": [
+        79,
+        115
+      ],
+      "panel": [
+        80
+      ],
+      "of": [
+        81,
+        94
+      ],
+      "nutrition": [
+        82
+      ],
+      "experts": [
+        83
+      ],
+      "assessed": [
+        84
+      ],
+      "responses.": [
+        86
+      ],
+      "Overall,": [
+        87
+      ],
+      "offered": [
+        89
+      ],
+      "clear": [
+        90
+      ],
+      "advice,": [
+        91
+      ],
+      "appropriateness": [
+        93
+      ],
+      "responses": [
+        95
+      ],
+      "ranging": [
+        96
+      ],
+      "from": [
+        97
+      ],
+      "55.5%": [
+        98
+      ],
+      "(sarcopenia)": [
+        99
+      ],
+      "73.3%": [
+        101
+      ],
+      "(NAFLD).": [
+        102
+      ],
+      "Only": [
+        103
+      ],
+      "two": [
+        104
+      ],
+      "recommendations": [
+        105,
+        127
+      ],
+      "(one": [
+        106
+      ],
+      "obesity,": [
+        108
+      ],
+      "one": [
+        109
+      ],
+      "non-alcoholic-fatty-liver": [
+        111
+      ],
+      "disease)": [
+        112
+      ],
+      "contradicted": [
+        113
+      ],
+      "guidelines.": [
+        114
+      ],
+      "single": [
+        116
+      ],
+      "suggestion": [
+        117
+      ],
+      "T2DM": [
+        119
+      ],
+      "found": [
+        121
+      ],
+      "be": [
+        123,
+        134
+      ],
+      "\u201cunsupported\u201d,": [
+        124
+      ],
+      "while": [
+        125
+      ],
+      "many": [
+        126
+      ],
+      "were": [
+        131
+      ],
+      "deemed": [
+        132
+      ],
+      "\u201cnot": [
+        135
+      ],
+      "fully": [
+        136
+      ],
+      "matched\u201d": [
+        137
+      ],
+      "guidelines": [
+        140
+      ],
+      "despite": [
+        141
+      ],
+      "not": [
+        142
+      ],
+      "directly": [
+        143
+      ],
+      "contradicting": [
+        144
+      ],
+      "them.": [
+        145
+      ],
+      "However,": [
+        146
+      ],
+      "when": [
+        147
+      ],
+      "handled": [
+        150
+      ],
+      "overlapping": [
+        151
+      ],
+      "conditions,": [
+        152
+      ],
+      "limitations": [
+        153
+      ],
+      "emerged,": [
+        154
+      ],
+      "resulting": [
+        155
+      ],
+      "some": [
+        157
+      ],
+      "contradictory": [
+        158
+      ],
+      "or": [
+        159
+      ],
+      "inappropriate": [
+        160
+      ],
+      "In": [
+        162
+      ],
+      "conclusion,": [
+        163
+      ],
+      "although": [
+        164
+      ],
+      "exhibited": [
+        166
+      ],
+      "reasonable": [
+        168
+      ],
+      "general": [
+        172
+      ],
+      "NCDs,": [
+        176
+      ],
+      "its": [
+        177
+      ],
+      "efficacy": [
+        178
+      ],
+      "decreased": [
+        179
+      ],
+      "situations": [
+        182
+      ],
+      "necessitating": [
+        183
+      ],
+      "customized": [
+        184
+      ],
+      "strategies;": [
+        185
+      ],
+      "therefore,": [
+        186
+      ],
+      "currently": [
+        190
+      ],
+      "unable": [
+        191
+      ],
+      "replace": [
+        193
+      ],
+      "healthcare": [
+        195
+      ],
+      "professional\u2019s": [
+        196
+      ],
+      "consultation.": [
+        197
+      ]
+    },
+    "citations": 66,
+    "concepts": [
+      "Advice (programming)",
+      "Medicine",
+      "Food science",
+      "Computer science",
+      "Biology"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4390974827",
+    "doi": "https://doi.org/10.3390/jpm14010107",
+    "title": "Personalized Medicine in Urolithiasis: AI Chatbot-Assisted Dietary Management of Oxalate for Kidney Stone Prevention",
+    "authors": [
+      "Noppawit Aiumtrakul",
+      "Charat Thongprayoon",
+      "Chinnawat Arayangkool",
+      "Kristine B. Vo",
+      "Chalothorn Wannaphut",
+      "Supawadee Suppadungsuk",
+      "Pajaree Krisanapan",
+      "Oscar A. Garcia Valencia",
+      "Fawad Qureshi",
+      "Jing Miao",
+      "Wisit Cheungpasitporn"
+    ],
+    "year": 2024,
+    "journal": "Journal of Personalized Medicine",
+    "abstract": {
+      "Accurate": [
+        0
+      ],
+      "information": [
+        1
+      ],
+      "regarding": [
+        2
+      ],
+      "oxalate": [
+        3,
+        14,
+        21,
+        38,
+        55,
+        70,
+        94,
+        146,
+        159,
+        175
+      ],
+      "levels": [
+        4
+      ],
+      "in": [
+        5,
+        32,
+        166,
+        198,
+        210
+      ],
+      "foods": [
+        6,
+        34
+      ],
+      "is": [
+        7
+      ],
+      "essential": [
+        8
+      ],
+      "for": [
+        9,
+        172,
+        201,
+        208,
+        213
+      ],
+      "managing": [
+        10
+      ],
+      "patients": [
+        11
+      ],
+      "with": [
+        12,
+        140
+      ],
+      "hyperoxaluria,": [
+        13
+      ],
+      "nephropathy,": [
+        15
+      ],
+      "or": [
+        16
+      ],
+      "those": [
+        17
+      ],
+      "susceptible": [
+        18
+      ],
+      "to": [
+        19,
+        26,
+        52
+      ],
+      "calcium": [
+        20
+      ],
+      "stones.": [
+        22
+      ],
+      "This": [
+        23
+      ],
+      "study": [
+        24
+      ],
+      "aimed": [
+        25
+      ],
+      "assess": [
+        27
+      ],
+      "the": [
+        28,
+        42,
+        100,
+        137,
+        153,
+        167,
+        181,
+        194,
+        206
+      ],
+      "reliability": [
+        29
+      ],
+      "of": [
+        30,
+        44,
+        75,
+        103,
+        135,
+        144,
+        157,
+        169,
+        196
+      ],
+      "chatbots": [
+        31,
+        89,
+        138,
+        171
+      ],
+      "categorizing": [
+        33
+      ],
+      "based": [
+        35
+      ],
+      "on": [
+        36
+      ],
+      "their": [
+        37
+      ],
+      "content.": [
+        39,
+        176
+      ],
+      "We": [
+        40
+      ],
+      "assessed": [
+        41
+      ],
+      "accuracy": [
+        43,
+        85,
+        102,
+        134,
+        168
+      ],
+      "ChatGPT-3.5,": [
+        45
+      ],
+      "ChatGPT-4,": [
+        46
+      ],
+      "Bard": [
+        47,
+        97,
+        150,
+        177
+      ],
+      "AI,": [
+        48
+      ],
+      "and": [
+        49,
+        66,
+        90,
+        111,
+        128,
+        189,
+        205
+      ],
+      "Bing": [
+        50,
+        107,
+        186
+      ],
+      "Chat": [
+        51
+      ],
+      "classify": [
+        53
+      ],
+      "dietary": [
+        54,
+        93,
+        145,
+        158,
+        174,
+        199
+      ],
+      "content": [
+        56,
+        71,
+        95,
+        147,
+        160
+      ],
+      "per": [
+        57
+      ],
+      "serving": [
+        58
+      ],
+      "into": [
+        59
+      ],
+      "low": [
+        60
+      ],
+      "(&lt;5": [
+        61
+      ],
+      "mg),": [
+        62,
+        65
+      ],
+      "moderate": [
+        63
+      ],
+      "(5\u20138": [
+        64
+      ],
+      "high": [
+        67
+      ],
+      "(&gt;8": [
+        68
+      ],
+      "mg)": [
+        69
+      ],
+      "categories.": [
+        72,
+        96,
+        161
+      ],
+      "A": [
+        73
+      ],
+      "total": [
+        74
+      ],
+      "539": [
+        76
+      ],
+      "food": [
+        77
+      ],
+      "items": [
+        78
+      ],
+      "were": [
+        79
+      ],
+      "processed": [
+        80
+      ],
+      "through": [
+        81
+      ],
+      "each": [
+        82
+      ],
+      "chatbot.": [
+        83
+      ],
+      "The": [
+        84,
+        133
+      ],
+      "was": [
+        86,
+        118,
+        163
+      ],
+      "compared": [
+        87
+      ],
+      "between": [
+        88,
+        123,
+        126
+      ],
+      "stratified": [
+        91
+      ],
+      "by": [
+        92,
+        106,
+        185
+      ],
+      "AI": [
+        98,
+        170,
+        178,
+        197
+      ],
+      "had": [
+        99
+      ],
+      "highest": [
+        101,
+        154,
+        182
+      ],
+      "84%,": [
+        104
+      ],
+      "followed": [
+        105,
+        184
+      ],
+      "(60%),": [
+        108
+      ],
+      "GPT-4": [
+        109,
+        127
+      ],
+      "(52%),": [
+        110
+      ],
+      "GPT-3.5": [
+        112,
+        129
+      ],
+      "(49%)": [
+        113
+      ],
+      "(p": [
+        114,
+        130
+      ],
+      "&lt;": [
+        115
+      ],
+      "0.001).": [
+        116
+      ],
+      "There": [
+        117,
+        162
+      ],
+      "a": [
+        119,
+        141
+      ],
+      "significant": [
+        120
+      ],
+      "pairwise": [
+        121
+      ],
+      "difference": [
+        122
+      ],
+      "chatbots,": [
+        124
+      ],
+      "except": [
+        125
+      ],
+      "=": [
+        131
+      ],
+      "0.30).": [
+        132
+      ],
+      "all": [
+        136
+      ],
+      "decreased": [
+        139
+      ],
+      "higher": [
+        142
+      ],
+      "degree": [
+        143
+      ],
+      "categories": [
+        148
+      ],
+      "but": [
+        149
+      ],
+      "remained": [
+        151
+      ],
+      "having": [
+        152
+      ],
+      "accuracy,": [
+        155,
+        183
+      ],
+      "regardless": [
+        156
+      ],
+      "considerable": [
+        164
+      ],
+      "variation": [
+        165
+      ],
+      "classifying": [
+        173
+      ],
+      "consistently": [
+        179
+      ],
+      "showed": [
+        180
+      ],
+      "Chat,": [
+        187
+      ],
+      "GPT-4,": [
+        188
+      ],
+      "GPT-3.5.": [
+        190
+      ],
+      "These": [
+        191
+      ],
+      "results": [
+        192
+      ],
+      "underline": [
+        193
+      ],
+      "potential": [
+        195
+      ],
+      "management": [
+        200
+      ],
+      "at-risk": [
+        202
+      ],
+      "patient": [
+        203
+      ],
+      "groups": [
+        204
+      ],
+      "need": [
+        207
+      ],
+      "enhancements": [
+        209
+      ],
+      "chatbot": [
+        211
+      ],
+      "algorithms": [
+        212
+      ],
+      "clinical": [
+        214
+      ],
+      "accuracy.": [
+        215
+      ]
+    },
+    "citations": 35,
+    "concepts": [
+      "Oxalate",
+      "Chatbot",
+      "Kidney stones",
+      "Medicine",
+      "Calcium oxalate"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4393054226",
+    "doi": "https://doi.org/10.3389/fnut.2024.1374834",
+    "title": "Qualitative evaluation of artificial intelligence-generated weight management diet plans",
+    "authors": [
+      "Dong Wook Kim",
+      "Ji Seok Park",
+      "Kavita Sharma",
+      "Amanda Velazquez",
+      "Lu Li",
+      "John W. Ostrominski",
+      "Tram T. Tran",
+      "Robert H. Seitter Per\u00e9z",
+      "Jeong\u2010Hun Shin"
+    ],
+    "year": 2024,
+    "journal": "Frontiers in Nutrition",
+    "abstract": {
+      "Importance": [
+        0
+      ],
+      "The": [
+        1,
+        153
+      ],
+      "transformative": [
+        2
+      ],
+      "potential": [
+        3,
+        51,
+        170,
+        299,
+        335
+      ],
+      "of": [
+        4,
+        34,
+        52,
+        72,
+        160,
+        171,
+        252,
+        263,
+        287,
+        300,
+        336
+      ],
+      "artificial": [
+        5
+      ],
+      "intelligence": [
+        6
+      ],
+      "(AI),": [
+        7
+      ],
+      "particularly": [
+        8
+      ],
+      "via": [
+        9
+      ],
+      "large": [
+        10
+      ],
+      "language": [
+        11
+      ],
+      "models,": [
+        12
+      ],
+      "is": [
+        13
+      ],
+      "increasingly": [
+        14
+      ],
+      "being": [
+        15
+      ],
+      "manifested": [
+        16
+      ],
+      "in": [
+        17,
+        69,
+        109,
+        191,
+        206,
+        268,
+        338
+      ],
+      "healthcare.": [
+        18
+      ],
+      "Dietary": [
+        19
+      ],
+      "interventions": [
+        20
+      ],
+      "are": [
+        21,
+        31,
+        329
+      ],
+      "foundational": [
+        22
+      ],
+      "to": [
+        23,
+        48,
+        86,
+        116
+      ],
+      "weight": [
+        24
+      ],
+      "management": [
+        25
+      ],
+      "efforts,": [
+        26
+      ],
+      "but": [
+        27
+      ],
+      "whether": [
+        28
+      ],
+      "AI": [
+        29,
+        162,
+        221,
+        337
+      ],
+      "techniques": [
+        30
+      ],
+      "presently": [
+        32
+      ],
+      "capable": [
+        33
+      ],
+      "generating": [
+        35
+      ],
+      "clinically": [
+        36
+      ],
+      "applicable": [
+        37
+      ],
+      "diet": [
+        38,
+        56,
+        89,
+        95,
+        163,
+        174,
+        204,
+        238,
+        289,
+        302,
+        314
+      ],
+      "plans": [
+        39,
+        57,
+        90,
+        96,
+        138,
+        175,
+        205,
+        255,
+        303,
+        309,
+        315
+      ],
+      "has": [
+        40
+      ],
+      "not": [
+        41
+      ],
+      "been": [
+        42
+      ],
+      "evaluated.": [
+        43,
+        148
+      ],
+      "Objective": [
+        44
+      ],
+      "Our": [
+        45
+      ],
+      "study": [
+        46,
+        296
+      ],
+      "sought": [
+        47
+      ],
+      "evaluate": [
+        49
+      ],
+      "the": [
+        50,
+        70,
+        120,
+        158,
+        161,
+        169,
+        186,
+        192,
+        201,
+        211,
+        220,
+        234,
+        253,
+        283,
+        298,
+        334
+      ],
+      "personalized": [
+        53,
+        172,
+        236,
+        340
+      ],
+      "AI-generated": [
+        54,
+        121,
+        173,
+        235,
+        254,
+        288,
+        301,
+        307
+      ],
+      "weight-loss": [
+        55,
+        88,
+        203,
+        237
+      ],
+      "for": [
+        58,
+        101,
+        139,
+        176,
+        246,
+        304
+      ],
+      "clinical": [
+        59,
+        76,
+        178,
+        305
+      ],
+      "applications": [
+        60
+      ],
+      "by": [
+        61,
+        67
+      ],
+      "employing": [
+        62
+      ],
+      "a": [
+        63
+      ],
+      "survey-based": [
+        64
+      ],
+      "assessment": [
+        65
+      ],
+      "conducted": [
+        66
+      ],
+      "experts": [
+        68,
+        213
+      ],
+      "fields": [
+        71
+      ],
+      "obesity": [
+        73,
+        110
+      ],
+      "medicine": [
+        74,
+        111
+      ],
+      "and": [
+        75,
+        80,
+        91,
+        105,
+        135,
+        151,
+        168,
+        188,
+        265,
+        285,
+        326
+      ],
+      "nutrition.": [
+        77
+      ],
+      "Design,": [
+        78
+      ],
+      "setting,": [
+        79
+      ],
+      "participants": [
+        81
+      ],
+      "We": [
+        82
+      ],
+      "utilized": [
+        83
+      ],
+      "ChatGPT": [
+        84
+      ],
+      "(4.0)": [
+        85
+      ],
+      "create": [
+        87
+      ],
+      "selected": [
+        92
+      ],
+      "two": [
+        93
+      ],
+      "control": [
+        94
+      ],
+      "from": [
+        97,
+        165,
+        313
+      ],
+      "tertiary": [
+        98,
+        320
+      ],
+      "medical": [
+        99,
+        321
+      ],
+      "centers": [
+        100
+      ],
+      "comparison.": [
+        102
+      ],
+      "Dietitians,": [
+        103
+      ],
+      "physicians,": [
+        104
+      ],
+      "nurse": [
+        106
+      ],
+      "practitioners": [
+        107
+      ],
+      "specializing": [
+        108
+      ],
+      "or": [
+        112
+      ],
+      "nutrition": [
+        113
+      ],
+      "were": [
+        114,
+        146,
+        189,
+        198,
+        256,
+        310
+      ],
+      "invited": [
+        115
+      ],
+      "provide": [
+        117
+      ],
+      "feedback": [
+        118
+      ],
+      "on": [
+        119,
+        129
+      ],
+      "plans.": [
+        122,
+        290
+      ],
+      "Each": [
+        123
+      ],
+      "plan": [
+        124,
+        164,
+        239
+      ],
+      "was": [
+        125,
+        240
+      ],
+      "assessed": [
+        126
+      ],
+      "blindly": [
+        127
+      ],
+      "based": [
+        128
+      ],
+      "its": [
+        130
+      ],
+      "effectiveness,": [
+        131
+      ],
+      "balanced-ness,": [
+        132
+      ],
+      "comprehensiveness,": [
+        133
+      ],
+      "flexibility,": [
+        134
+      ],
+      "applicability.": [
+        136
+      ],
+      "Personalized": [
+        137
+      ],
+      "hypothetical": [
+        140
+      ],
+      "patients": [
+        141
+      ],
+      "with": [
+        142,
+        242
+      ],
+      "specific": [
+        143
+      ],
+      "health": [
+        144
+      ],
+      "conditions": [
+        145
+      ],
+      "also": [
+        147
+      ],
+      "Main": [
+        149
+      ],
+      "outcomes": [
+        150,
+        155
+      ],
+      "measures": [
+        152
+      ],
+      "primary": [
+        154
+      ],
+      "measured": [
+        156
+      ],
+      "included": [
+        157,
+        190
+      ],
+      "indistinguishability": [
+        159
+      ],
+      "human-created": [
+        166
+      ],
+      "plans,": [
+        167
+      ],
+      "real-world": [
+        177
+      ],
+      "applications.": [
+        179,
+        306
+      ],
+      "Results": [
+        180
+      ],
+      "Of": [
+        181
+      ],
+      "95": [
+        182
+      ],
+      "participants,": [
+        183
+      ],
+      "67": [
+        184
+      ],
+      "completed": [
+        185
+      ],
+      "survey": [
+        187
+      ],
+      "final": [
+        193
+      ],
+      "analysis.": [
+        194
+      ],
+      "No": [
+        195
+      ],
+      "significant": [
+        196
+      ],
+      "differences": [
+        197
+      ],
+      "found": [
+        199
+      ],
+      "among": [
+        200
+      ],
+      "three": [
+        202
+      ],
+      "any": [
+        207
+      ],
+      "evaluation": [
+        208,
+        230,
+        248
+      ],
+      "category.": [
+        209
+      ],
+      "Among": [
+        210
+      ],
+      "14": [
+        212
+      ],
+      "who": [
+        214
+      ],
+      "believed": [
+        215
+      ],
+      "that": [
+        216,
+        278
+      ],
+      "they": [
+        217
+      ],
+      "could": [
+        218,
+        281
+      ],
+      "identify": [
+        219
+      ],
+      "plan,": [
+        222
+      ],
+      "only": [
+        223
+      ],
+      "five": [
+        224
+      ],
+      "did": [
+        225
+      ],
+      "so": [
+        226
+      ],
+      "correctly.": [
+        227
+      ],
+      "In": [
+        228
+      ],
+      "an": [
+        229
+      ],
+      "involving": [
+        231
+      ],
+      "57": [
+        232
+      ],
+      "experts,": [
+        233
+      ],
+      "assessed,": [
+        241
+      ],
+      "scores": [
+        243
+      ],
+      "above": [
+        244
+      ],
+      "neutral": [
+        245
+      ],
+      "all": [
+        247
+      ],
+      "variables.": [
+        249
+      ],
+      "Several": [
+        250
+      ],
+      "limitations,": [
+        251,
+        294
+      ],
+      "highlighted,": [
+        257
+      ],
+      "including": [
+        258
+      ],
+      "conflicting": [
+        259
+      ],
+      "dietary": [
+        260,
+        308
+      ],
+      "considerations,": [
+        261
+      ],
+      "lack": [
+        262
+      ],
+      "affordability,": [
+        264
+      ],
+      "insufficient": [
+        266
+      ],
+      "specificity": [
+        267
+      ],
+      "recommendations,": [
+        269
+      ],
+      "such": [
+        270
+      ],
+      "as": [
+        271
+      ],
+      "exact": [
+        272
+      ],
+      "portion": [
+        273
+      ],
+      "sizes.": [
+        274
+      ],
+      "These": [
+        275
+      ],
+      "limitations": [
+        276
+      ],
+      "suggest": [
+        277
+      ],
+      "refining": [
+        279
+      ],
+      "inputs": [
+        280
+      ],
+      "enhance": [
+        282
+      ],
+      "quality": [
+        284
+      ],
+      "applicability": [
+        286
+      ],
+      "Conclusion": [
+        291
+      ],
+      "Despite": [
+        292
+      ],
+      "certain": [
+        293
+      ],
+      "our": [
+        295
+      ],
+      "highlights": [
+        297
+      ],
+      "frequently": [
+        311
+      ],
+      "indistinguishable": [
+        312
+      ],
+      "widely": [
+        316
+      ],
+      "used": [
+        317
+      ],
+      "at": [
+        318
+      ],
+      "major": [
+        319
+      ],
+      "centers.": [
+        322
+      ],
+      "Although": [
+        323
+      ],
+      "further": [
+        324
+      ],
+      "refinement": [
+        325
+      ],
+      "prospective": [
+        327
+      ],
+      "studies": [
+        328
+      ],
+      "needed,": [
+        330
+      ],
+      "these": [
+        331
+      ],
+      "findings": [
+        332
+      ],
+      "illustrate": [
+        333
+      ],
+      "advancing": [
+        339
+      ],
+      "weight-centric": [
+        341
+      ],
+      "care.": [
+        342
+      ]
+    },
+    "citations": 33,
+    "concepts": [
+      "Weight loss",
+      "Weight management",
+      "Flexibility (engineering)",
+      "Plan (archaeology)",
+      "Transformative learning"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4405640612",
+    "doi": "https://doi.org/10.3390/jcm13247810",
+    "title": "Comparison of the Accuracy, Completeness, Reproducibility, and Consistency of Different AI Chatbots in Providing Nutritional Advice: An Exploratory Study",
+    "authors": [
+      "Valentina Ponzo",
+      "Rosalba Rosato",
+      "Maria Carmine Scigliano",
+      "Martina Onida",
+      "Simona Cossai",
+      "Marco Vecchi",
+      "Andrea Devecchi",
+      "Ilaria Goitre",
+      "Enrica Favaro",
+      "Fabio Dario Merlo",
+      "Domenico Sergi",
+      "Simona Bo"
+    ],
+    "year": 2024,
+    "journal": "Journal of Clinical Medicine",
+    "abstract": {
+      "Background:": [
+        0
+      ],
+      "The": [
+        1,
+        42
+      ],
+      "use": [
+        2
+      ],
+      "of": [
+        3,
+        24,
+        44,
+        57,
+        98,
+        105,
+        228,
+        267
+      ],
+      "artificial": [
+        4
+      ],
+      "intelligence": [
+        5
+      ],
+      "(AI)": [
+        6
+      ],
+      "chatbots": [
+        7,
+        27,
+        80,
+        127,
+        247
+      ],
+      "for": [
+        8,
+        32,
+        174,
+        179,
+        202,
+        211
+      ],
+      "obtaining": [
+        9
+      ],
+      "healthcare": [
+        10
+      ],
+      "advice": [
+        11,
+        31,
+        90,
+        257
+      ],
+      "is": [
+        12
+      ],
+      "greatly": [
+        13
+      ],
+      "increased": [
+        14
+      ],
+      "in": [
+        15,
+        28,
+        254,
+        258
+      ],
+      "the": [
+        16,
+        22,
+        55,
+        99,
+        102,
+        106,
+        121,
+        126,
+        139,
+        146,
+        155,
+        165,
+        220,
+        226,
+        265
+      ],
+      "general": [
+        17
+      ],
+      "population.": [
+        18
+      ],
+      "This": [
+        19
+      ],
+      "study": [
+        20
+      ],
+      "assessed": [
+        21
+      ],
+      "performance": [
+        23
+      ],
+      "general-purpose": [
+        25
+      ],
+      "AI": [
+        26,
+        79,
+        246
+      ],
+      "giving": [
+        29,
+        255
+      ],
+      "nutritional": [
+        30
+      ],
+      "patients": [
+        33
+      ],
+      "with": [
+        34,
+        36,
+        48,
+        61,
+        92,
+        128,
+        193
+      ],
+      "obesity": [
+        35,
+        49
+      ],
+      "or": [
+        37
+      ],
+      "without": [
+        38,
+        50
+      ],
+      "multiple": [
+        39
+      ],
+      "comorbidities.": [
+        40
+      ],
+      "Methods:": [
+        41
+      ],
+      "case": [
+        43,
+        56
+      ],
+      "a": [
+        45,
+        58
+      ],
+      "35-year-old": [
+        46
+      ],
+      "male": [
+        47
+      ],
+      "comorbidities": [
+        51
+      ],
+      "(Case": [
+        52,
+        72
+      ],
+      "1),": [
+        53
+      ],
+      "and": [
+        54,
+        68,
+        95,
+        144,
+        151,
+        162,
+        177,
+        183,
+        205,
+        209,
+        216,
+        240,
+        252,
+        262
+      ],
+      "65-year-old": [
+        59
+      ],
+      "female": [
+        60
+      ],
+      "obesity,": [
+        62
+      ],
+      "type": [
+        63
+      ],
+      "2": [
+        64
+      ],
+      "diabetes": [
+        65
+      ],
+      "mellitus,": [
+        66
+      ],
+      "sarcopenia,": [
+        67
+      ],
+      "chronic": [
+        69
+      ],
+      "kidney": [
+        70
+      ],
+      "disease": [
+        71
+      ],
+      "2)": [
+        73
+      ],
+      "were": [
+        74,
+        109
+      ],
+      "submitted": [
+        75
+      ],
+      "to": [
+        76,
+        88,
+        237
+      ],
+      "10": [
+        77
+      ],
+      "different": [
+        78
+      ],
+      "on": [
+        81
+      ],
+      "three": [
+        82,
+        103,
+        112
+      ],
+      "consecutive": [
+        83
+      ],
+      "days.": [
+        84
+      ],
+      "Accuracy": [
+        85
+      ],
+      "(the": [
+        86
+      ],
+      "ability": [
+        87
+      ],
+      "provide": [
+        89
+      ],
+      "aligned": [
+        91
+      ],
+      "guidelines),": [
+        93
+      ],
+      "completeness,": [
+        94
+      ],
+      "reproducibility": [
+        96
+      ],
+      "(replicability": [
+        97
+      ],
+      "information": [
+        100
+      ],
+      "over": [
+        101
+      ],
+      "days)": [
+        104
+      ],
+      "chatbots\u2019": [
+        107
+      ],
+      "responses": [
+        108
+      ],
+      "evaluated": [
+        110,
+        118
+      ],
+      "by": [
+        111,
+        119,
+        125,
+        131,
+        231
+      ],
+      "registered": [
+        113
+      ],
+      "dietitians.": [
+        114,
+        132
+      ],
+      "Nutritional": [
+        115
+      ],
+      "consistency": [
+        116,
+        253
+      ],
+      "was": [
+        117,
+        172,
+        191,
+        200
+      ],
+      "comparing": [
+        120
+      ],
+      "nutrient": [
+        122
+      ],
+      "content": [
+        123
+      ],
+      "provided": [
+        124
+      ],
+      "values": [
+        129
+      ],
+      "calculated": [
+        130
+      ],
+      "Results:": [
+        133
+      ],
+      "Case": [
+        134,
+        187
+      ],
+      "1:": [
+        135
+      ],
+      "ChatGPT": [
+        136,
+        149,
+        152,
+        180,
+        184,
+        203,
+        214
+      ],
+      "3.5": [
+        137,
+        150,
+        185
+      ],
+      "demonstrated": [
+        138
+      ],
+      "highest": [
+        140,
+        156,
+        173,
+        201
+      ],
+      "accuracy": [
+        141,
+        190
+      ],
+      "rate": [
+        142
+      ],
+      "(67.2%)": [
+        143
+      ],
+      "Copilot": [
+        145,
+        163,
+        212
+      ],
+      "lowest": [
+        147,
+        166,
+        178,
+        210,
+        221
+      ],
+      "(21.1%).": [
+        148
+      ],
+      "4.0": [
+        153,
+        181,
+        204,
+        215
+      ],
+      "achieved": [
+        154
+      ],
+      "completeness": [
+        157
+      ],
+      "(both": [
+        158,
+        207
+      ],
+      "87.3%),": [
+        159
+      ],
+      "whereas": [
+        160
+      ],
+      "Gemini": [
+        161
+      ],
+      "recorded": [
+        164
+      ],
+      "scores": [
+        167
+      ],
+      "(55.6%,": [
+        168
+      ],
+      "42.9%,": [
+        169
+      ],
+      "respectively).": [
+        170
+      ],
+      "Reproducibility": [
+        171
+      ],
+      "Chatsonic": [
+        175
+      ],
+      "(86.1%)": [
+        176
+      ],
+      "(50%)": [
+        182
+      ],
+      "(52.8%).": [
+        186
+      ],
+      "2:": [
+        188
+      ],
+      "Overall": [
+        189
+      ],
+      "low,": [
+        192
+      ],
+      "no": [
+        194
+      ],
+      "chatbot": [
+        195
+      ],
+      "achieving": [
+        196
+      ],
+      "50%": [
+        197
+      ],
+      "accuracy.": [
+        198
+      ],
+      "Completeness": [
+        199
+      ],
+      "Claude": [
+        206
+      ],
+      "77.8%),": [
+        208
+      ],
+      "(23.3%).": [
+        213
+      ],
+      "Pi": [
+        217
+      ],
+      "Ai": [
+        218
+      ],
+      "showed": [
+        219
+      ],
+      "reproducibility.": [
+        222
+      ],
+      "Major": [
+        223
+      ],
+      "inconsistencies": [
+        224
+      ],
+      "regarded": [
+        225
+      ],
+      "amount": [
+        227
+      ],
+      "protein": [
+        229,
+        242
+      ],
+      "recommended": [
+        230
+      ],
+      "most": [
+        232
+      ],
+      "chatbots,": [
+        233
+      ],
+      "which": [
+        234
+      ],
+      "suggested": [
+        235
+      ],
+      "simultaneously": [
+        236
+      ],
+      "both": [
+        238
+      ],
+      "reduce": [
+        239
+      ],
+      "increase": [
+        241
+      ],
+      "intake.": [
+        243
+      ],
+      "Conclusions:": [
+        244
+      ],
+      "General-purpose": [
+        245
+      ],
+      "exhibited": [
+        248
+      ],
+      "limited": [
+        249
+      ],
+      "accuracy,": [
+        250
+      ],
+      "reproducibility,": [
+        251
+      ],
+      "dietary": [
+        256
+      ],
+      "complex": [
+        259
+      ],
+      "clinical": [
+        260
+      ],
+      "scenarios": [
+        261
+      ],
+      "cannot": [
+        263
+      ],
+      "replace": [
+        264
+      ],
+      "work": [
+        266
+      ],
+      "an": [
+        268
+      ],
+      "expert": [
+        269
+      ],
+      "dietitian.": [
+        270
+      ]
+    },
+    "citations": 24,
+    "concepts": [
+      "Medicine",
+      "Reproducibility",
+      "Obesity",
+      "Population",
+      "Internal medicine"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4416338787",
+    "doi": "https://doi.org/10.1111/jhn.70162",
+    "title": "Large Language Models for Dietary Advice to Patients With Irritable Bowel Syndrome: ChatGPT vs. Google Gemini",
+    "authors": [
+      "Merve Kip",
+      "Gaye Saban Bozan",
+      "Gizem Aytekin \u015eahin"
+    ],
+    "year": 2025,
+    "journal": "Journal of Human Nutrition and Dietetics",
+    "abstract": {
+      "ABSTRACT": [
+        0
+      ],
+      "Objectives": [
+        1
+      ],
+      "Large": [
+        2
+      ],
+      "Language": [
+        3
+      ],
+      "Models": [
+        4
+      ],
+      "(LLM)": [
+        5
+      ],
+      "like": [
+        6
+      ],
+      "ChatGPT": [
+        7,
+        37,
+        115,
+        140
+      ],
+      "and": [
+        8,
+        38,
+        89,
+        100,
+        116,
+        126,
+        142,
+        187,
+        212,
+        270,
+        276
+      ],
+      "Gemini": [
+        9,
+        143
+      ],
+      "have": [
+        10
+      ],
+      "potential": [
+        11
+      ],
+      "in": [
+        12,
+        61,
+        156,
+        260
+      ],
+      "nutrition": [
+        13,
+        262
+      ],
+      "applications,": [
+        14
+      ],
+      "but": [
+        15,
+        150
+      ],
+      "recent": [
+        16
+      ],
+      "studies": [
+        17
+      ],
+      "suggest": [
+        18
+      ],
+      "they": [
+        19
+      ],
+      "provide": [
+        20
+      ],
+      "inaccurate": [
+        21
+      ],
+      "dietary": [
+        22,
+        41
+      ],
+      "advice.": [
+        23
+      ],
+      "The": [
+        24,
+        64,
+        73,
+        84,
+        112,
+        169,
+        246
+      ],
+      "aim": [
+        25
+      ],
+      "of": [
+        26,
+        59,
+        75,
+        92,
+        114,
+        267
+      ],
+      "this": [
+        27,
+        62
+      ],
+      "study": [
+        28,
+        134,
+        247
+      ],
+      "was": [
+        29,
+        68,
+        81,
+        119,
+        152
+      ],
+      "to": [
+        30,
+        55
+      ],
+      "evaluate": [
+        31
+      ],
+      "the": [
+        32,
+        57,
+        76,
+        105,
+        148,
+        227,
+        249,
+        265,
+        271
+      ],
+      "most": [
+        33,
+        137
+      ],
+      "commonly": [
+        34
+      ],
+      "used": [
+        35,
+        54
+      ],
+      "LLMs,": [
+        36
+      ],
+      "Gemini,": [
+        39
+      ],
+      "for": [
+        40,
+        43,
+        251
+      ],
+      "recommendations": [
+        42,
+        269
+      ],
+      "patients": [
+        44
+      ],
+      "with": [
+        45,
+        147,
+        177,
+        200,
+        236
+      ],
+      "irritable": [
+        46
+      ],
+      "bowel": [
+        47
+      ],
+      "syndrome": [
+        48
+      ],
+      "(IBS).": [
+        49
+      ],
+      "Methods": [
+        50
+      ],
+      "Various": [
+        51
+      ],
+      "tools": [
+        52
+      ],
+      "were": [
+        53,
+        102,
+        145
+      ],
+      "assess": [
+        56
+      ],
+      "responses": [
+        58,
+        77,
+        118,
+        138
+      ],
+      "LLMs": [
+        60,
+        80,
+        259
+      ],
+      "study.": [
+        63
+      ],
+      "Guideline": [
+        65,
+        228
+      ],
+      "Compliance": [
+        66,
+        229
+      ],
+      "Score": [
+        67,
+        87,
+        230
+      ],
+      "created": [
+        69
+      ],
+      "using": [
+        70,
+        83,
+        104,
+        121
+      ],
+      "IBS": [
+        71
+      ],
+      "guidelines.": [
+        72
+      ],
+      "quality": [
+        74
+      ],
+      "provided": [
+        78
+      ],
+      "by": [
+        79
+      ],
+      "assessed": [
+        82,
+        103
+      ],
+      "Global": [
+        85
+      ],
+      "Quality": [
+        86
+      ],
+      "(GQS)": [
+        88
+      ],
+      "Completeness,": [
+        90
+      ],
+      "Lack": [
+        91
+      ],
+      "Misinformation,": [
+        93
+      ],
+      "Evidence,": [
+        94
+      ],
+      "Appropriateness,": [
+        95
+      ],
+      "Relevance": [
+        96
+      ],
+      "(CLEAR)": [
+        97
+      ],
+      "tool.": [
+        98
+      ],
+      "Understandability": [
+        99
+      ],
+      "actionability": [
+        101,
+        179
+      ],
+      "Patient": [
+        106
+      ],
+      "Education": [
+        107
+      ],
+      "Materials": [
+        108
+      ],
+      "Assessment": [
+        109
+      ],
+      "Tool": [
+        110
+      ],
+      "(PEMAT).": [
+        111
+      ],
+      "readability": [
+        113,
+        163
+      ],
+      "Gemini's": [
+        117
+      ],
+      "evaluated": [
+        120
+      ],
+      "Flesch": [
+        122,
+        127
+      ],
+      "Reading": [
+        123
+      ],
+      "Ease": [
+        124
+      ],
+      "(FRE)": [
+        125
+      ],
+      "Kincaid": [
+        128
+      ],
+      "Grade": [
+        129
+      ],
+      "Level": [
+        130
+      ],
+      "(FKGL).": [
+        131
+      ],
+      "Results": [
+        132
+      ],
+      "This": [
+        133
+      ],
+      "found": [
+        135
+      ],
+      "that": [
+        136
+      ],
+      "from": [
+        139
+      ],
+      "(70%)": [
+        141
+      ],
+      "(57.5%)": [
+        144
+      ],
+      "compliant": [
+        146
+      ],
+      "guidelines,": [
+        149
+      ],
+      "there": [
+        151
+      ],
+      "no": [
+        153
+      ],
+      "significant": [
+        154
+      ],
+      "difference": [
+        155
+      ],
+      "guideline": [
+        157
+      ],
+      "compliance,": [
+        158
+      ],
+      "quality,": [
+        159
+      ],
+      "understandability,": [
+        160
+      ],
+      "actionability,": [
+        161
+      ],
+      "or": [
+        162
+      ],
+      "scores": [
+        164
+      ],
+      "(": [
+        165,
+        180,
+        189,
+        202,
+        219,
+        238
+      ],
+      "p": [
+        166,
+        184,
+        193,
+        206,
+        223,
+        242
+      ],
+      "&gt;": [
+        167
+      ],
+      "0.05).": [
+        168
+      ],
+      "CLEAR": [
+        170
+      ],
+      "tool": [
+        171
+      ],
+      "showed": [
+        172,
+        231
+      ],
+      "a": [
+        173,
+        196,
+        215,
+        232
+      ],
+      "moderate": [
+        174,
+        233
+      ],
+      "positive": [
+        175,
+        198
+      ],
+      "correlation": [
+        176,
+        199,
+        218,
+        235
+      ],
+      "PEMAT": [
+        178
+      ],
+      "r": [
+        181,
+        190,
+        203,
+        220,
+        239
+      ],
+      "=": [
+        182,
+        185,
+        191,
+        194,
+        204,
+        207,
+        221,
+        240,
+        243
+      ],
+      "0.467,": [
+        183
+      ],
+      "0.038)": [
+        186
+      ],
+      "understandability": [
+        188
+      ],
+      "0.568,": [
+        192
+      ],
+      "0.009),": [
+        195
+      ],
+      "strong": [
+        197,
+        216
+      ],
+      "GQS": [
+        201
+      ],
+      "0.611,": [
+        205
+      ],
+      "0.004).": [
+        208
+      ],
+      "In": [
+        209
+      ],
+      "addition,": [
+        210
+      ],
+      "FRE": [
+        211,
+        237
+      ],
+      "FKGL": [
+        213
+      ],
+      "had": [
+        214
+      ],
+      "negative": [
+        217,
+        234
+      ],
+      "\u22120.784,": [
+        222
+      ],
+      "&lt;": [
+        224
+      ],
+      "0.001),": [
+        225
+      ],
+      "while": [
+        226
+      ],
+      "\u22120.537,": [
+        241
+      ],
+      "0.015).": [
+        244
+      ],
+      "Conclusions": [
+        245
+      ],
+      "emphasizes": [
+        248
+      ],
+      "need": [
+        250
+      ],
+      "further": [
+        252
+      ],
+      "model": [
+        253
+      ],
+      "improvements": [
+        254
+      ],
+      "before": [
+        255
+      ],
+      "relying": [
+        256
+      ],
+      "solely": [
+        257
+      ],
+      "on": [
+        258
+      ],
+      "clinical": [
+        261
+      ],
+      "practice,": [
+        263
+      ],
+      "emphasizing": [
+        264
+      ],
+      "importance": [
+        266
+      ],
+      "dietitians'": [
+        268
+      ],
+      "collaboration": [
+        272
+      ],
+      "between": [
+        273
+      ],
+      "AI": [
+        274
+      ],
+      "models": [
+        275
+      ],
+      "healthcare": [
+        277
+      ],
+      "teams.": [
+        278
+      ]
+    },
+    "citations": 1,
+    "concepts": []
+  },
+  {
+    "id": "https://openalex.org/W4413285501",
+    "doi": "https://doi.org/10.18621/eurj.1684936",
+    "title": "Assessing AI-based chatbots accuracy in caloric estimation: A focus on traditional Turkish foods",
+    "authors": [
+      "H\u00fcsna Kaya Ka\u00e7ar",
+      "Buse Sar\u0131kaya"
+    ],
+    "year": 2025,
+    "journal": "The European Research Journal",
+    "abstract": {
+      "Objectives:": [
+        0
+      ],
+      "To": [
+        1
+      ],
+      "evaluate": [
+        2
+      ],
+      "the": [
+        3,
+        21,
+        36,
+        45,
+        60,
+        65,
+        127,
+        135,
+        141,
+        168,
+        173,
+        204,
+        223,
+        242,
+        254,
+        258,
+        276,
+        279,
+        290,
+        303
+      ],
+      "accuracy": [
+        4,
+        30,
+        108,
+        114,
+        129,
+        144,
+        156,
+        170,
+        192,
+        291
+      ],
+      "of": [
+        5,
+        24,
+        31,
+        68,
+        211,
+        294,
+        306
+      ],
+      "three": [
+        6,
+        195
+      ],
+      "widely": [
+        7
+      ],
+      "used": [
+        8
+      ],
+      "AI-based": [
+        9,
+        239
+      ],
+      "chatbots": [
+        10,
+        37,
+        174,
+        240,
+        295
+      ],
+      "-": [
+        11,
+        18
+      ],
+      "ChatGPT": [
+        12,
+        138,
+        267
+      ],
+      "4.0,": [
+        13
+      ],
+      "Microsoft": [
+        14,
+        149,
+        270
+      ],
+      "Copilot,": [
+        15
+      ],
+      "and": [
+        16,
+        100,
+        110,
+        131,
+        184,
+        203,
+        231,
+        263,
+        269,
+        284,
+        292,
+        313,
+        342
+      ],
+      "Gemini": [
+        17,
+        153
+      ],
+      "in": [
+        19,
+        57,
+        167,
+        199,
+        217,
+        229,
+        296,
+        311
+      ],
+      "estimating": [
+        20
+      ],
+      "caloric": [
+        22,
+        32,
+        66,
+        218
+      ],
+      "values": [
+        23
+      ],
+      "traditional": [
+        25,
+        40
+      ],
+      "Turkish": [
+        26,
+        41,
+        58
+      ],
+      "foods.": [
+        27,
+        213
+      ],
+      "Methods:": [
+        28
+      ],
+      "The": [
+        29,
+        235
+      ],
+      "information": [
+        33
+      ],
+      "provided": [
+        34
+      ],
+      "by": [
+        35,
+        92,
+        148,
+        193
+      ],
+      "for": [
+        38,
+        118,
+        250,
+        260,
+        281,
+        330
+      ],
+      "71": [
+        39
+      ],
+      "foods": [
+        42
+      ],
+      "selected": [
+        43
+      ],
+      "from": [
+        44
+      ],
+      "T\u00fcrkomp": [
+        46,
+        97
+      ],
+      "National": [
+        47
+      ],
+      "Food": [
+        48
+      ],
+      "Composition": [
+        49
+      ],
+      "Database": [
+        50
+      ],
+      "was": [
+        51,
+        55,
+        123
+      ],
+      "assessed.": [
+        52
+      ],
+      "Each": [
+        53
+      ],
+      "chatbot": [
+        54,
+        94,
+        328
+      ],
+      "queried": [
+        56
+      ],
+      "using": [
+        59
+      ],
+      "standardised": [
+        61,
+        208
+      ],
+      "prompt:": [
+        62
+      ],
+      "\"What": [
+        63
+      ],
+      "is": [
+        64,
+        320
+      ],
+      "content": [
+        67
+      ],
+      "[food": [
+        69
+      ],
+      "name]": [
+        70
+      ],
+      "per": [
+        71
+      ],
+      "100": [
+        72
+      ],
+      "grams?\"": [
+        73
+      ],
+      "Responses": [
+        74
+      ],
+      "were": [
+        75,
+        90,
+        103,
+        116,
+        187,
+        220
+      ],
+      "recorded": [
+        76
+      ],
+      "and,": [
+        77
+      ],
+      "when": [
+        78
+      ],
+      "necessary,": [
+        79
+      ],
+      "converted": [
+        80
+      ],
+      "to": [
+        81,
+        85,
+        96,
+        105,
+        125,
+        227,
+        244,
+        288,
+        302,
+        322
+      ],
+      "a": [
+        82,
+        163
+      ],
+      "per-100-gram": [
+        83
+      ],
+      "basis": [
+        84
+      ],
+      "ensure": [
+        86,
+        323
+      ],
+      "consistency.": [
+        87
+      ],
+      "Accuracy": [
+        88
+      ],
+      "percentages": [
+        89,
+        130,
+        171
+      ],
+      "calculated": [
+        91
+      ],
+      "comparing": [
+        93
+      ],
+      "responses": [
+        95
+      ],
+      "reference": [
+        98
+      ],
+      "values,": [
+        99
+      ],
+      "extreme": [
+        101
+      ],
+      "deviations": [
+        102
+      ],
+      "adjusted": [
+        104
+      ],
+      "0%.": [
+        106
+      ],
+      "Mean": [
+        107
+      ],
+      "scores": [
+        109
+      ],
+      "distribution": [
+        111
+      ],
+      "across": [
+        112,
+        222
+      ],
+      "predefined": [
+        113
+      ],
+      "intervals": [
+        115
+      ],
+      "analysed": [
+        117
+      ],
+      "each": [
+        119
+      ],
+      "chatbot.": [
+        120
+      ],
+      "Statistical": [
+        121
+      ],
+      "analysis": [
+        122
+      ],
+      "conducted": [
+        124
+      ],
+      "determine": [
+        126
+      ],
+      "mean": [
+        128,
+        143,
+        169
+      ],
+      "identify": [
+        132
+      ],
+      "differences": [
+        133,
+        228
+      ],
+      "among": [
+        134,
+        172,
+        337
+      ],
+      "chatbots.": [
+        136
+      ],
+      "Results:": [
+        137
+      ],
+      "4.0": [
+        139,
+        268
+      ],
+      "achieved": [
+        140
+      ],
+      "highest": [
+        142
+      ],
+      "(81.62%\u00b120.6%),": [
+        145
+      ],
+      "followed": [
+        146
+      ],
+      "closely": [
+        147
+      ],
+      "Copilot": [
+        150,
+        271
+      ],
+      "(81.23%\u00b120.7%),": [
+        151
+      ],
+      "while": [
+        152
+      ],
+      "demonstrated": [
+        154
+      ],
+      "lower": [
+        155
+      ],
+      "(70.99%\u00b130.2)": [
+        157
+      ],
+      "(P&amp;lt;0.05).": [
+        158
+      ],
+      "A": [
+        159
+      ],
+      "one-way": [
+        160
+      ],
+      "ANOVA": [
+        161
+      ],
+      "showed": [
+        162
+      ],
+      "statistically": [
+        164
+      ],
+      "significant": [
+        165,
+        215
+      ],
+      "difference": [
+        166
+      ],
+      "(F(2,": [
+        175
+      ],
+      "210)=4.39,": [
+        176
+      ],
+      "P=0.0136).": [
+        177
+      ],
+      "Foods": [
+        178
+      ],
+      "such": [
+        179
+      ],
+      "as": [
+        180,
+        246
+      ],
+      "kefir,": [
+        181
+      ],
+      "tahini": [
+        182
+      ],
+      "halva,": [
+        183
+      ],
+      "walnut": [
+        185
+      ],
+      "baklava": [
+        186
+      ],
+      "estimated": [
+        188
+      ],
+      "with": [
+        189
+      ],
+      "over": [
+        190
+      ],
+      "90%": [
+        191
+      ],
+      "all": [
+        194
+      ],
+      "chatbots,": [
+        196,
+        224
+      ],
+      "suggesting": [
+        197
+      ],
+      "strengths": [
+        198
+      ],
+      "their": [
+        200,
+        324
+      ],
+      "training": [
+        201,
+        286
+      ],
+      "datasets": [
+        202,
+        287
+      ],
+      "relatively": [
+        205
+      ],
+      "simple": [
+        206
+      ],
+      "or": [
+        207
+      ],
+      "nutrient": [
+        209
+      ],
+      "composition": [
+        210
+      ],
+      "these": [
+        212,
+        318
+      ],
+      "However,": [
+        214,
+        253
+      ],
+      "discrepancies": [
+        216
+      ],
+      "estimations": [
+        219
+      ],
+      "observed": [
+        221
+      ],
+      "likely": [
+        225
+      ],
+      "due": [
+        226
+      ],
+      "algorithms": [
+        230,
+        283
+      ],
+      "database": [
+        232
+      ],
+      "integrations.": [
+        233
+      ],
+      "Conclusions:": [
+        234
+      ],
+      "findings": [
+        236
+      ],
+      "suggest": [
+        237
+      ],
+      "that": [
+        238
+      ],
+      "have": [
+        241
+      ],
+      "potential": [
+        243
+      ],
+      "serve": [
+        245
+      ],
+      "culturally": [
+        247
+      ],
+      "relevant": [
+        248
+      ],
+      "tools": [
+        249
+      ],
+      "dietary": [
+        251
+      ],
+      "assessment.": [
+        252
+      ],
+      "results": [
+        255
+      ],
+      "also": [
+        256
+      ],
+      "emphasise": [
+        257
+      ],
+      "need": [
+        259,
+        280
+      ],
+      "careful": [
+        261
+      ],
+      "use": [
+        262,
+        332
+      ],
+      "further": [
+        264
+      ],
+      "development.": [
+        265
+      ],
+      "While": [
+        266
+      ],
+      "performed": [
+        272
+      ],
+      "better": [
+        273
+      ],
+      "than": [
+        274
+      ],
+      "Gemini,": [
+        275
+      ],
+      "study": [
+        277,
+        300
+      ],
+      "shows": [
+        278
+      ],
+      "improved": [
+        282
+      ],
+      "expanded": [
+        285
+      ],
+      "enhance": [
+        289
+      ],
+      "reliability": [
+        293
+      ],
+      "nutritional": [
+        297,
+        340
+      ],
+      "evaluation.": [
+        298
+      ],
+      "This": [
+        299
+      ],
+      "contributes": [
+        301
+      ],
+      "growing": [
+        304
+      ],
+      "body": [
+        305
+      ],
+      "research": [
+        307
+      ],
+      "on": [
+        308
+      ],
+      "AI": [
+        309,
+        338
+      ],
+      "applications": [
+        310
+      ],
+      "dietetics": [
+        312
+      ],
+      "public": [
+        314
+      ],
+      "health;": [
+        315
+      ],
+      "however,": [
+        316
+      ],
+      "addressing": [
+        317
+      ],
+      "limitations": [
+        319
+      ],
+      "crucial": [
+        321
+      ],
+      "practical": [
+        325
+      ],
+      "utility.": [
+        326
+      ],
+      "Optimising": [
+        327
+      ],
+      "design": [
+        329
+      ],
+      "real-world": [
+        331
+      ],
+      "will": [
+        333
+      ],
+      "require": [
+        334
+      ],
+      "interdisciplinary": [
+        335
+      ],
+      "collaboration": [
+        336
+      ],
+      "developers,": [
+        339
+      ],
+      "scientists,": [
+        341
+      ],
+      "healthcare": [
+        343
+      ],
+      "professionals.": [
+        344
+      ]
+    },
+    "citations": 1,
+    "concepts": [
+      "Medicine",
+      "Turkish",
+      "Caloric theory",
+      "Focus (optics)",
+      "Estimation"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4414107217",
+    "doi": "https://doi.org/10.1507/endocrj.ej25-0201",
+    "title": "Performance of GPT-4o combined with retrieval-augmented generation on nutritionist licensing exam questions",
+    "authors": [
+      "Yukio Ishikawa",
+      "A Higashi",
+      "N. Arai",
+      "Daisuke Ozo",
+      "Wataru Hasegawa",
+      "Takashi Imamura",
+      "Zenbei Matsumoto",
+      "Hidetaka Nambo",
+      "Shigehiro Karashima"
+    ],
+    "year": 2025,
+    "journal": "Endocrine Journal",
+    "abstract": {
+      "GPT-4o,": [
+        0
+      ],
+      "a": [
+        1,
+        7,
+        41
+      ],
+      "general-purpose": [
+        2
+      ],
+      "large": [
+        3
+      ],
+      "language": [
+        4,
+        47
+      ],
+      "model,": [
+        5,
+        66
+      ],
+      "has": [
+        6
+      ],
+      "Retrieval-Augmented": [
+        8
+      ],
+      "Variant": [
+        9
+      ],
+      "(GPT-4o-RAG)": [
+        10
+      ],
+      "that": [
+        11,
+        212
+      ],
+      "can": [
+        12
+      ],
+      "assist": [
+        13
+      ],
+      "in": [
+        14,
+        22,
+        124,
+        193,
+        231,
+        236
+      ],
+      "dietary": [
+        15
+      ],
+      "counseling.": [
+        16
+      ],
+      "However,": [
+        17,
+        234
+      ],
+      "research": [
+        18
+      ],
+      "on": [
+        19,
+        79,
+        203
+      ],
+      "its": [
+        20
+      ],
+      "application": [
+        21
+      ],
+      "this": [
+        23,
+        29
+      ],
+      "field": [
+        24
+      ],
+      "remains": [
+        25
+      ],
+      "lacking.": [
+        26
+      ],
+      "To": [
+        27
+      ],
+      "bridge": [
+        28
+      ],
+      "gap,": [
+        30
+      ],
+      "we": [
+        31,
+        67
+      ],
+      "used": [
+        32
+      ],
+      "the": [
+        33,
+        60,
+        137,
+        142,
+        160
+      ],
+      "Japanese": [
+        34
+      ],
+      "National": [
+        35
+      ],
+      "Examination": [
+        36
+      ],
+      "for": [
+        37,
+        44,
+        94,
+        100
+      ],
+      "Registered": [
+        38
+      ],
+      "Dietitians": [
+        39
+      ],
+      "as": [
+        40
+      ],
+      "standardized": [
+        42
+      ],
+      "benchmark": [
+        43
+      ],
+      "evaluation.": [
+        45
+      ],
+      "Three": [
+        46
+      ],
+      "models-GPT-4o,": [
+        48
+      ],
+      "GPT-4o-mini,": [
+        49
+      ],
+      "and": [
+        50,
+        75,
+        87,
+        108,
+        126,
+        154,
+        179,
+        195,
+        226,
+        239,
+        245
+      ],
+      "GPT-4o-RAG-were": [
+        51
+      ],
+      "assessed": [
+        52
+      ],
+      "using": [
+        53
+      ],
+      "599": [
+        54
+      ],
+      "publicly": [
+        55
+      ],
+      "available": [
+        56
+      ],
+      "multiple-choice": [
+        57
+      ],
+      "questions": [
+        58
+      ],
+      "from": [
+        59
+      ],
+      "2022-2024": [
+        61
+      ],
+      "national": [
+        62
+      ],
+      "examinations.": [
+        63
+      ],
+      "For": [
+        64
+      ],
+      "each": [
+        65,
+        71
+      ],
+      "generated": [
+        68
+      ],
+      "answers": [
+        69,
+        214
+      ],
+      "to": [
+        70,
+        83,
+        96,
+        120
+      ],
+      "question": [
+        72
+      ],
+      "five": [
+        73
+      ],
+      "times": [
+        74
+      ],
+      "based": [
+        76
+      ],
+      "our": [
+        77
+      ],
+      "evaluation": [
+        78
+      ],
+      "these": [
+        80
+      ],
+      "multiple": [
+        81
+      ],
+      "outputs": [
+        82
+      ],
+      "assess": [
+        84
+      ],
+      "response": [
+        85,
+        109,
+        181,
+        224
+      ],
+      "variability": [
+        86
+      ],
+      "robustness.": [
+        88
+      ],
+      "A": [
+        89
+      ],
+      "custom": [
+        90
+      ],
+      "pipeline": [
+        91
+      ],
+      "was": [
+        92,
+        118,
+        167
+      ],
+      "implemented": [
+        93
+      ],
+      "GPT-4o-RAG": [
+        95,
+        140,
+        164,
+        189,
+        222
+      ],
+      "retrieve": [
+        97
+      ],
+      "guideline-based": [
+        98
+      ],
+      "documents": [
+        99
+      ],
+      "integration": [
+        101
+      ],
+      "with": [
+        102,
+        219
+      ],
+      "GPT-generated": [
+        103
+      ],
+      "responses.": [
+        104
+      ],
+      "Accuracy": [
+        105
+      ],
+      "rates,": [
+        106
+      ],
+      "variance,": [
+        107
+      ],
+      "consistency": [
+        110,
+        182,
+        225
+      ],
+      "were": [
+        111,
+        215
+      ],
+      "evaluated.": [
+        112
+      ],
+      "Term": [
+        113,
+        206
+      ],
+      "Frequency-Inverse": [
+        114,
+        207
+      ],
+      "Document": [
+        115,
+        208
+      ],
+      "Frequency": [
+        116,
+        209
+      ],
+      "analysis": [
+        117,
+        210
+      ],
+      "conducted": [
+        119
+      ],
+      "compare": [
+        121
+      ],
+      "word": [
+        122
+      ],
+      "characteristics": [
+        123
+      ],
+      "correctly": [
+        125
+      ],
+      "incorrectly": [
+        127
+      ],
+      "answered": [
+        128
+      ],
+      "questions.": [
+        129,
+        205
+      ],
+      "All": [
+        130
+      ],
+      "three": [
+        131
+      ],
+      "models": [
+        132,
+        192
+      ],
+      "achieved": [
+        133
+      ],
+      "accuracy": [
+        134,
+        144,
+        161
+      ],
+      "rates": [
+        135
+      ],
+      ">60%,": [
+        136
+      ],
+      "passing": [
+        138
+      ],
+      "threshold.": [
+        139
+      ],
+      "demonstrated": [
+        141
+      ],
+      "highest": [
+        143
+      ],
+      "(83.5%": [
+        145
+      ],
+      "\u00b1": [
+        146,
+        152,
+        157
+      ],
+      "0.3%),": [
+        147
+      ],
+      "followed": [
+        148
+      ],
+      "by": [
+        149
+      ],
+      "GPT-4o": [
+        150,
+        166
+      ],
+      "(82.1%": [
+        151
+      ],
+      "1.0%),": [
+        153
+      ],
+      "GPT-4o-mini": [
+        155
+      ],
+      "(70.0%": [
+        156
+      ],
+      "1.4%).": [
+        158
+      ],
+      "While": [
+        159
+      ],
+      "improvement": [
+        162
+      ],
+      "of": [
+        163
+      ],
+      "over": [
+        165
+      ],
+      "not": [
+        168
+      ],
+      "statistically": [
+        169
+      ],
+      "significant": [
+        170
+      ],
+      "(p": [
+        171
+      ],
+      "=": [
+        172
+      ],
+      "0.12),": [
+        173
+      ],
+      "it": [
+        174
+      ],
+      "exhibited": [
+        175
+      ],
+      "significantly": [
+        176
+      ],
+      "lower": [
+        177
+      ],
+      "variance": [
+        178
+      ],
+      "higher": [
+        180
+      ],
+      "(97.3%": [
+        183
+      ],
+      "vs.": [
+        184
+      ],
+      "91.2-95.2%,": [
+        185
+      ],
+      "p": [
+        186
+      ],
+      "<": [
+        187
+      ],
+      "0.001).": [
+        188
+      ],
+      "outperformed": [
+        190
+      ],
+      "other": [
+        191
+      ],
+      "applied": [
+        194
+      ],
+      "clinical": [
+        196,
+        232
+      ],
+      "nutrition": [
+        197
+      ],
+      "categories": [
+        198
+      ],
+      "but": [
+        199
+      ],
+      "showed": [
+        200
+      ],
+      "limited": [
+        201
+      ],
+      "performance": [
+        202
+      ],
+      "numerical": [
+        204,
+        220,
+        237
+      ],
+      "suggested": [
+        211
+      ],
+      "incorrect": [
+        213
+      ],
+      "more": [
+        216
+      ],
+      "frequently": [
+        217
+      ],
+      "associated": [
+        218
+      ],
+      "terms.": [
+        221
+      ],
+      "improved": [
+        223
+      ],
+      "domain-specific": [
+        227
+      ],
+      "performance,": [
+        228
+      ],
+      "suggesting": [
+        229
+      ],
+      "utility": [
+        230
+      ],
+      "nutrition.": [
+        233
+      ],
+      "limitations": [
+        235
+      ],
+      "reasoning": [
+        238
+      ],
+      "individualized": [
+        240
+      ],
+      "guidance": [
+        241
+      ],
+      "warrant": [
+        242
+      ],
+      "further": [
+        243
+      ],
+      "development": [
+        244
+      ],
+      "validation.": [
+        246
+      ]
+    },
+    "citations": 0,
+    "concepts": []
+  },
+  {
+    "id": "https://openalex.org/W4413399739",
+    "doi": "https://doi.org/10.46632/jdaai/4/3/8",
+    "title": "Sustainable Bites Leveraging AI to Decode Food Emissions and Nutrition for Conscious Consumption",
+    "authors": [
+      "Hari Sannamuri",
+      "J Poore",
+      "T Nemecek",
+      "T Nemecek",
+      "C Jungbluth",
+      "K.-H Eschmann",
+      "M Schmatz",
+      "M Stucki",
+      "C Potter",
+      "M Clark",
+      "M Springmann",
+      "M Clark",
+      "M Springmann",
+      "J Hill",
+      "D Tilman",
+      "H Touvron",
+      "L Martin",
+      "K Stone",
+      "P Albert",
+      "A Almahairi",
+      "B Sarda",
+      "S Hercberg",
+      "P Galan",
+      "K Stylianou",
+      "V Fulgoni",
+      "O Jolliet",
+      "L Muzzioli",
+      "C Truzzi",
+      "E Finardi",
+      "G Grosso",
+      "F Galvano",
+      "T Brown",
+      "B Mann",
+      "N Ryder",
+      "M Subbiah",
+      "H Ritchie",
+      "M Roser",
+      "N Reimers",
+      "I Gurevych",
+      "A Drewnowski",
+      "Y Han",
+      "Y Gong",
+      "Y Wang",
+      "M Zhang"
+    ],
+    "year": 2025,
+    "journal": "REST Journal on Data Analytics and Artificial Intelligence",
+    "abstract": {
+      "The": [
+        0,
+        101
+      ],
+      "environmental": [
+        1,
+        32
+      ],
+      "footprint": [
+        2
+      ],
+      "of": [
+        3,
+        13,
+        36,
+        69,
+        126
+      ],
+      "global": [
+        4
+      ],
+      "food": [
+        5,
+        38,
+        71,
+        133
+      ],
+      "produc-": [
+        6
+      ],
+      "tion": [
+        7
+      ],
+      "accounts": [
+        8
+      ],
+      "for": [
+        9,
+        98,
+        141
+      ],
+      "approximately": [
+        10
+      ],
+      "26": [
+        11
+      ],
+      "percent": [
+        12
+      ],
+      "total": [
+        14
+      ],
+      "greenhouse": [
+        15
+      ],
+      "gas": [
+        16
+      ],
+      "(GHG)": [
+        17
+      ],
+      "emissions,": [
+        18
+      ],
+      "making": [
+        19,
+        142
+      ],
+      "dietary": [
+        20,
+        147
+      ],
+      "choices": [
+        21
+      ],
+      "a": [
+        22,
+        41,
+        87,
+        106
+      ],
+      "critical": [
+        23
+      ],
+      "factor": [
+        24
+      ],
+      "in": [
+        25,
+        105,
+        118,
+        132
+      ],
+      "climate": [
+        26
+      ],
+      "change": [
+        27
+      ],
+      "mitigation.": [
+        28
+      ],
+      "However,": [
+        29
+      ],
+      "assessing": [
+        30
+      ],
+      "the": [
+        31,
+        124
+      ],
+      "and": [
+        33,
+        48,
+        80,
+        95,
+        135,
+        145
+      ],
+      "nutritional": [
+        34,
+        96
+      ],
+      "impact": [
+        35,
+        94
+      ],
+      "processed": [
+        37
+      ],
+      "products": [
+        39
+      ],
+      "remains": [
+        40
+      ],
+      "challenge": [
+        42
+      ],
+      "due": [
+        43
+      ],
+      "to": [
+        44,
+        65,
+        112,
+        128
+      ],
+      "proprietary": [
+        45
+      ],
+      "recipe": [
+        46
+      ],
+      "information": [
+        47
+      ],
+      "complex": [
+        49
+      ],
+      "supply": [
+        50
+      ],
+      "chains.": [
+        51
+      ],
+      "This": [
+        52,
+        121
+      ],
+      "study": [
+        53
+      ],
+      "presents": [
+        54
+      ],
+      "an": [
+        55,
+        81
+      ],
+      "AI-driven": [
+        56
+      ],
+      "framework": [
+        57
+      ],
+      "that": [
+        58,
+        90
+      ],
+      "utilizes": [
+        59
+      ],
+      "open-source": [
+        60
+      ],
+      "large": [
+        61
+      ],
+      "language": [
+        62
+      ],
+      "models": [
+        63
+      ],
+      "(LLMs)": [
+        64
+      ],
+      "approximate": [
+        66
+      ],
+      "ingredient": [
+        67
+      ],
+      "compositions": [
+        68
+      ],
+      "various": [
+        70
+      ],
+      "products.": [
+        72
+      ],
+      "By": [
+        73
+      ],
+      "integrating": [
+        74
+      ],
+      "these": [
+        75
+      ],
+      "approximations": [
+        76
+      ],
+      "with": [
+        77,
+        138
+      ],
+      "emissions": [
+        78
+      ],
+      "databases": [
+        79
+      ],
+      "updated": [
+        82
+      ],
+      "NutriScore": [
+        83
+      ],
+      "system,": [
+        84
+      ],
+      "we": [
+        85
+      ],
+      "develop": [
+        86
+      ],
+      "comprehensive": [
+        88
+      ],
+      "dataset": [
+        89
+      ],
+      "provides": [
+        91
+      ],
+      "both": [
+        92
+      ],
+      "GHG": [
+        93
+      ],
+      "value": [
+        97
+      ],
+      "each": [
+        99
+      ],
+      "product.": [
+        100
+      ],
+      "data": [
+        102
+      ],
+      "is": [
+        103
+      ],
+      "stored": [
+        104
+      ],
+      "queryable": [
+        107
+      ],
+      "vector": [
+        108
+      ],
+      "database,": [
+        109
+      ],
+      "allowing": [
+        110
+      ],
+      "consumers": [
+        111,
+        137
+      ],
+      "identify": [
+        113
+      ],
+      "lower-impact,": [
+        114
+      ],
+      "healthier": [
+        115
+      ],
+      "alterna-": [
+        116
+      ],
+      "tives": [
+        117
+      ],
+      "real": [
+        119
+      ],
+      "time.": [
+        120
+      ],
+      "research": [
+        122
+      ],
+      "demonstrates": [
+        123
+      ],
+      "potential": [
+        125
+      ],
+      "AI": [
+        127
+      ],
+      "bridge": [
+        129
+      ],
+      "knowledge": [
+        130
+      ],
+      "gaps": [
+        131
+      ],
+      "sustainability": [
+        134
+      ],
+      "empower": [
+        136
+      ],
+      "data-driven": [
+        139
+      ],
+      "insights": [
+        140
+      ],
+      "environmentally": [
+        143
+      ],
+      "responsible": [
+        144
+      ],
+      "health-conscious": [
+        146
+      ],
+      "decisions.": [
+        148
+      ]
+    },
+    "citations": 0,
+    "concepts": [
+      "Consumption (sociology)",
+      "Food consumption",
+      "Environmental science",
+      "Agricultural economics",
+      "Economics"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4415982355",
+    "doi": "https://doi.org/10.1002/ncp.70062",
+    "title": "Artificial intelligence (AI) in nutrition: A case\u2010based comparison of generative AI models",
+    "authors": [
+      "Ryan T. Hurt",
+      "Manpreet S. Mundi",
+      "Sara L. Bonnes",
+      "Bradley R. Salonen",
+      "Kalpana Muthusamy",
+      "Chris R. Stephenson",
+      "Ivana T. Croghan",
+      "Shawn C. Fokken",
+      "Jithinraj Edakkanambeth Varayil"
+    ],
+    "year": 2025,
+    "journal": "Nutrition in Clinical Practice",
+    "abstract": {
+      "Abstract": [
+        0
+      ],
+      "Background": [
+        1
+      ],
+      "Clinical": [
+        2
+      ],
+      "nutrition": [
+        3,
+        33,
+        90,
+        221
+      ],
+      "(CN)": [
+        4
+      ],
+      "is": [
+        5
+      ],
+      "becoming": [
+        6
+      ],
+      "increasingly": [
+        7
+      ],
+      "complex": [
+        8,
+        55,
+        85
+      ],
+      "because": [
+        9
+      ],
+      "of": [
+        10,
+        14,
+        154,
+        192,
+        199
+      ],
+      "the": [
+        11,
+        170,
+        174,
+        196,
+        237
+      ],
+      "rising": [
+        12
+      ],
+      "prevalence": [
+        13
+      ],
+      "chronic": [
+        15
+      ],
+      "illness,": [
+        16
+      ],
+      "cancer,": [
+        17
+      ],
+      "and": [
+        18,
+        26,
+        80,
+        104,
+        120,
+        137,
+        152,
+        157,
+        161
+      ],
+      "malnutrition\u2010related": [
+        19
+      ],
+      "conditions": [
+        20
+      ],
+      "such": [
+        21
+      ],
+      "as": [
+        22,
+        51,
+        227
+      ],
+      "short": [
+        23
+      ],
+      "bowel": [
+        24
+      ],
+      "syndrome": [
+        25
+      ],
+      "refeeding": [
+        27
+      ],
+      "syndrome.": [
+        28
+      ],
+      "Despite": [
+        29
+      ],
+      "its": [
+        30,
+        205
+      ],
+      "clinical": [
+        31,
+        56,
+        121,
+        194,
+        225
+      ],
+      "significance,": [
+        32
+      ],
+      "education": [
+        34
+      ],
+      "among": [
+        35,
+        173,
+        207
+      ],
+      "US": [
+        36
+      ],
+      "physicians": [
+        37,
+        208
+      ],
+      "remains": [
+        38
+      ],
+      "limited.": [
+        39
+      ],
+      "Simultaneously,": [
+        40
+      ],
+      "large": [
+        41
+      ],
+      "language": [
+        42
+      ],
+      "model": [
+        43
+      ],
+      "(LLM)\u2013based": [
+        44
+      ],
+      "artificial": [
+        45
+      ],
+      "intelligence": [
+        46
+      ],
+      "assistants": [
+        47
+      ],
+      "(AIAs)": [
+        48
+      ],
+      "have": [
+        49
+      ],
+      "emerged": [
+        50
+      ],
+      "tools": [
+        52
+      ],
+      "to": [
+        53,
+        147,
+        215
+      ],
+      "support": [
+        54,
+        91,
+        233
+      ],
+      "decision\u2010making": [
+        57
+      ],
+      "but": [
+        58
+      ],
+      "remain": [
+        59
+      ],
+      "largely": [
+        60
+      ],
+      "untested": [
+        61
+      ],
+      "in": [
+        62,
+        134,
+        165,
+        185,
+        204,
+        212,
+        220,
+        229,
+        236,
+        242
+      ],
+      "CN.": [
+        63,
+        186
+      ],
+      "Methods": [
+        64
+      ],
+      "This": [
+        65
+      ],
+      "retrospective": [
+        66
+      ],
+      "study": [
+        67
+      ],
+      "evaluated": [
+        68
+      ],
+      "four": [
+        69,
+        175
+      ],
+      "LLM\u2010based": [
+        70,
+        178
+      ],
+      "AIAs\u2014ChatGPT": [
+        71
+      ],
+      "(OpenAI),": [
+        72
+      ],
+      "OpenEvidence": [
+        73
+      ],
+      "(OpenEvidence": [
+        74
+      ],
+      "Inc),": [
+        75
+      ],
+      "Gemini": [
+        76,
+        131
+      ],
+      "(Google,": [
+        77
+      ],
+      "Google": [
+        78
+      ],
+      "DeepMind),": [
+        79
+      ],
+      "Copilot": [
+        81
+      ],
+      "(Microsoft": [
+        82
+      ],
+      "Corporation)\u2014using": [
+        83
+      ],
+      "five": [
+        84,
+        107,
+        171
+      ],
+      "CN": [
+        86,
+        99,
+        109,
+        243
+      ],
+      "cases": [
+        87,
+        172
+      ],
+      "from": [
+        88,
+        144
+      ],
+      "our": [
+        89
+      ],
+      "service.": [
+        92
+      ],
+      "Each": [
+        93
+      ],
+      "AIA": [
+        94
+      ],
+      "was": [
+        95
+      ],
+      "queried": [
+        96
+      ],
+      "with": [
+        97,
+        130
+      ],
+      "patient\u2010specific": [
+        98
+      ],
+      "questions.": [
+        100
+      ],
+      "Responses": [
+        101
+      ],
+      "were": [
+        102,
+        158,
+        167
+      ],
+      "blinded": [
+        103
+      ],
+      "reviewed": [
+        105
+      ],
+      "by": [
+        106
+      ],
+      "physician": [
+        108
+      ],
+      "experts": [
+        110
+      ],
+      "using": [
+        111
+      ],
+      "an": [
+        112
+      ],
+      "eight\u2010item": [
+        113
+      ],
+      "assessment": [
+        114
+      ],
+      "tool": [
+        115
+      ],
+      "evaluating": [
+        116
+      ],
+      "clarity,": [
+        117
+      ],
+      "relevance,": [
+        118
+      ],
+      "evidence,": [
+        119
+      ],
+      "utility.": [
+        122
+      ],
+      "Results": [
+        123
+      ],
+      "All": [
+        124
+      ],
+      "AIAs": [
+        125,
+        179
+      ],
+      "produced": [
+        126
+      ],
+      "clinically": [
+        127
+      ],
+      "appropriate": [
+        128
+      ],
+      "responses,": [
+        129
+      ],
+      "scoring": [
+        132
+      ],
+      "highest": [
+        133
+      ],
+      "relevance": [
+        135
+      ],
+      "(4.04)": [
+        136
+      ],
+      "clarity": [
+        138
+      ],
+      "(4.16).": [
+        139
+      ],
+      "Overall": [
+        140
+      ],
+      "satisfaction": [
+        141
+      ],
+      "scores": [
+        142
+      ],
+      "ranged": [
+        143
+      ],
+      "3.08": [
+        145
+      ],
+      "(Copilot)": [
+        146
+      ],
+      "3.84": [
+        148
+      ],
+      "(Gemini).": [
+        149
+      ],
+      "Citation": [
+        150
+      ],
+      "quality": [
+        151
+      ],
+      "originality": [
+        153
+      ],
+      "insights": [
+        155
+      ],
+      "varied": [
+        156
+      ],
+      "generally": [
+        159
+      ],
+      "limited,": [
+        160
+      ],
+      "no": [
+        162
+      ],
+      "consistent": [
+        163
+      ],
+      "differences": [
+        164
+      ],
+      "performance": [
+        166
+      ],
+      "observed": [
+        168
+      ],
+      "across": [
+        169
+      ],
+      "AIAs.": [
+        176
+      ],
+      "Conclusion": [
+        177
+      ],
+      "can": [
+        180
+      ],
+      "reliably": [
+        181
+      ],
+      "replicate": [
+        182
+      ],
+      "expert": [
+        183
+      ],
+      "reasoning": [
+        184
+      ],
+      "Although": [
+        187
+      ],
+      "not": [
+        188
+      ],
+      "yet": [
+        189
+      ],
+      "a": [
+        190
+      ],
+      "source": [
+        191
+      ],
+      "novel": [
+        193
+      ],
+      "insights,": [
+        195
+      ],
+      "true": [
+        197
+      ],
+      "potential": [
+        198
+      ],
+      "this": [
+        200,
+        230
+      ],
+      "approach": [
+        201
+      ],
+      "may": [
+        202
+      ],
+      "lie": [
+        203
+      ],
+      "application": [
+        206
+      ],
+      "without": [
+        209
+      ],
+      "specialized": [
+        210
+      ],
+      "expertise": [
+        211
+      ],
+      "CN,": [
+        213
+      ],
+      "helping": [
+        214
+      ],
+      "bridge": [
+        216
+      ],
+      "existing": [
+        217
+      ],
+      "knowledge": [
+        218
+      ],
+      "gaps": [
+        219,
+        241
+      ],
+      "care.": [
+        222
+      ],
+      "Presenting": [
+        223
+      ],
+      "full": [
+        224
+      ],
+      "cases,": [
+        226
+      ],
+      "shown": [
+        228
+      ],
+      "study,": [
+        231
+      ],
+      "could": [
+        232
+      ],
+      "AIA\u2010enabled": [
+        234
+      ],
+      "e\u2010consultation": [
+        235
+      ],
+      "future,": [
+        238
+      ],
+      "thereby": [
+        239
+      ],
+      "addressing": [
+        240
+      ],
+      "education.": [
+        244
+      ]
+    },
+    "citations": 0,
+    "concepts": []
+  },
+  {
+    "id": "https://openalex.org/W4413432555",
+    "doi": "https://doi.org/10.12688/f1000research.167902.1",
+    "title": "Artificial Intelligence in Dietary Recommendations for Type 1 Diabetes: Evaluating the Performance of ChatGPT-4o, Bing AI, and Bard AI",
+    "authors": [
+      "Nasser Salem Alqahtani"
+    ],
+    "year": 2025,
+    "journal": "F1000Research",
+    "abstract": {
+      "<ns3:p>Background": [
+        0
+      ],
+      "Effective": [
+        1
+      ],
+      "dietary": [
+        2,
+        48,
+        192
+      ],
+      "management": [
+        3
+      ],
+      "is": [
+        4
+      ],
+      "essential": [
+        5
+      ],
+      "for": [
+        6
+      ],
+      "individuals": [
+        7
+      ],
+      "with": [
+        8,
+        166
+      ],
+      "type": [
+        9
+      ],
+      "1": [
+        10
+      ],
+      "diabetes": [
+        11,
+        226
+      ],
+      "(T1D).": [
+        12
+      ],
+      "Artificial": [
+        13
+      ],
+      "intelligence": [
+        14
+      ],
+      "(AI)": [
+        15
+      ],
+      "tools": [
+        16,
+        205
+      ],
+      "such": [
+        17
+      ],
+      "as": [
+        18,
+        78
+      ],
+      "ChatGPT-4o,": [
+        19,
+        67
+      ],
+      "Bard": [
+        20,
+        68,
+        111,
+        136,
+        201
+      ],
+      "AI,": [
+        21,
+        69
+      ],
+      "and": [
+        22,
+        70,
+        89,
+        114,
+        135,
+        161,
+        174,
+        197,
+        214
+      ],
+      "Bing": [
+        23,
+        71,
+        115,
+        125,
+        195
+      ],
+      "AI": [
+        24,
+        44,
+        112,
+        116,
+        126,
+        137,
+        196,
+        204
+      ],
+      "are": [
+        25
+      ],
+      "increasingly": [
+        26
+      ],
+      "being": [
+        27
+      ],
+      "used": [
+        28,
+        93,
+        217
+      ],
+      "to": [
+        29,
+        52,
+        66,
+        84,
+        94,
+        200,
+        218
+      ],
+      "assist": [
+        30
+      ],
+      "in": [
+        31,
+        46,
+        105,
+        225
+      ],
+      "healthcare": [
+        32
+      ],
+      "tasks,": [
+        33
+      ],
+      "including": [
+        34
+      ],
+      "nutrition": [
+        35
+      ],
+      "advice.": [
+        36
+      ],
+      "This": [
+        37,
+        169
+      ],
+      "study": [
+        38
+      ],
+      "evaluates": [
+        39
+      ],
+      "the": [
+        40,
+        154,
+        180,
+        208
+      ],
+      "performance": [
+        41,
+        97,
+        131
+      ],
+      "of": [
+        42,
+        107,
+        157,
+        179,
+        211
+      ],
+      "these": [
+        43
+      ],
+      "models": [
+        45
+      ],
+      "generating": [
+        47
+      ],
+      "recommendations": [
+        49,
+        104
+      ],
+      "when": [
+        50
+      ],
+      "compared": [
+        51
+      ],
+      "input": [
+        53
+      ],
+      "from": [
+        54
+      ],
+      "human": [
+        55,
+        212
+      ],
+      "dietitians.": [
+        56
+      ],
+      "Methods": [
+        57
+      ],
+      "Sixty": [
+        58
+      ],
+      "expert-written,": [
+        59
+      ],
+      "hypothetical": [
+        60
+      ],
+      "T1D": [
+        61
+      ],
+      "patient": [
+        62
+      ],
+      "cases": [
+        63
+      ],
+      "were": [
+        64,
+        76,
+        92,
+        138
+      ],
+      "submitted": [
+        65
+      ],
+      "AI.": [
+        72,
+        202
+      ],
+      "Each": [
+        73
+      ],
+      "model\u2019s": [
+        74
+      ],
+      "responses": [
+        75
+      ],
+      "assessed": [
+        77
+      ],
+      "either": [
+        79
+      ],
+      "\u201cCorrect\u201d": [
+        80
+      ],
+      "or": [
+        81
+      ],
+      "\u201cIncomplete\u201d": [
+        82
+      ],
+      "relative": [
+        83,
+        172
+      ],
+      "dietitian": [
+        85
+      ],
+      "recommendations.": [
+        86
+      ],
+      "Descriptive": [
+        87
+      ],
+      "statistics": [
+        88
+      ],
+      "McNemar\u2019s": [
+        90,
+        118
+      ],
+      "test": [
+        91,
+        119
+      ],
+      "compare": [
+        95
+      ],
+      "pairwise": [
+        96
+      ],
+      "across": [
+        98,
+        149
+      ],
+      "models.": [
+        99,
+        168
+      ],
+      "Results": [
+        100
+      ],
+      "ChatGPT-4o": [
+        101,
+        122,
+        134,
+        145,
+        188
+      ],
+      "provided": [
+        102
+      ],
+      "correct": [
+        103,
+        159
+      ],
+      "60%": [
+        106
+      ],
+      "cases,": [
+        108
+      ],
+      "followed": [
+        109
+      ],
+      "by": [
+        110
+      ],
+      "(50%)": [
+        113
+      ],
+      "(26.7%).": [
+        117
+      ],
+      "showed": [
+        120,
+        153
+      ],
+      "that": [
+        121
+      ],
+      "significantly": [
+        123
+      ],
+      "outperformed": [
+        124
+      ],
+      "(p": [
+        127,
+        142
+      ],
+      "&lt;": [
+        128
+      ],
+      "0.05),": [
+        129
+      ],
+      "while": [
+        130
+      ],
+      "differences": [
+        132
+      ],
+      "between": [
+        133
+      ],
+      "not": [
+        139
+      ],
+      "statistically": [
+        140
+      ],
+      "significant": [
+        141
+      ],
+      "&gt;": [
+        143
+      ],
+      "0.05).": [
+        144
+      ],
+      "demonstrated": [
+        146
+      ],
+      "superior": [
+        147
+      ],
+      "resilience": [
+        148
+      ],
+      "case": [
+        150
+      ],
+      "complexity": [
+        151
+      ],
+      "levels,": [
+        152
+      ],
+      "highest": [
+        155
+      ],
+      "rate": [
+        156
+      ],
+      "unique": [
+        158
+      ],
+      "answers,": [
+        160
+      ],
+      "exhibited": [
+        162
+      ],
+      "only": [
+        163
+      ],
+      "modest": [
+        164
+      ],
+      "agreement": [
+        165
+      ],
+      "other": [
+        167
+      ],
+      "highlights": [
+        170
+      ],
+      "ChatGPT-4o\u2019s": [
+        171
+      ],
+      "independence": [
+        173
+      ],
+      "robustness.": [
+        175
+      ],
+      "An": [
+        176
+      ],
+      "interactive": [
+        177
+      ],
+      "version": [
+        178
+      ],
+      "analysis": [
+        181
+      ],
+      "can": [
+        182
+      ],
+      "be": [
+        183,
+        216
+      ],
+      "accessed": [
+        184
+      ],
+      "here:": [
+        185
+      ],
+      "https://cnpdata.shinyapps.io/ai_diabetes/": [
+        186
+      ],
+      "Conclusions": [
+        187
+      ],
+      "generated": [
+        189
+      ],
+      "more": [
+        190
+      ],
+      "accurate": [
+        191
+      ],
+      "suggestions": [
+        193
+      ],
+      "than": [
+        194,
+        221
+      ],
+      "performed": [
+        198
+      ],
+      "comparably": [
+        199
+      ],
+      "However,": [
+        203
+      ],
+      "still": [
+        206
+      ],
+      "lack": [
+        207
+      ],
+      "contextual": [
+        209
+      ],
+      "nuance": [
+        210
+      ],
+      "dietitians": [
+        213
+      ],
+      "should": [
+        215
+      ],
+      "supplement,": [
+        219
+      ],
+      "rather": [
+        220
+      ],
+      "replace,": [
+        222
+      ],
+      "professional": [
+        223
+      ],
+      "guidance": [
+        224
+      ],
+      "care.</ns3:p>": [
+        227
+      ]
+    },
+    "citations": 0,
+    "concepts": [
+      "Open peer review",
+      "Plant biology",
+      "Type 2 diabetes",
+      "Physiology",
+      "Medicine"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W7115925490",
+    "doi": "https://doi.org/10.3390/nu17243957",
+    "title": "Guideline Compliance of Artificial Intelligence\u2013Generated Diet Plans After Bariatric Surgery: A Cross-Sectional Simulation Comparing ChatGPT-4o, DeepSeek and Grok-3",
+    "authors": [
+      "Aylin Bolat Yilmaz",
+      "Emre Batuhan Kenger",
+      "Tugce Ozlu Karahan",
+      "Duygu Saglam",
+      "Murat Bas"
+    ],
+    "year": 2025,
+    "journal": "Nutrients",
+    "abstract": {
+      "Background/Objectives:": [
+        0
+      ],
+      "Artificial": [
+        1
+      ],
+      "intelligence": [
+        2
+      ],
+      "(AI)-based": [
+        3
+      ],
+      "tools": [
+        4
+      ],
+      "are": [
+        5
+      ],
+      "increasingly": [
+        6
+      ],
+      "being": [
+        7
+      ],
+      "used": [
+        8,
+        240
+      ],
+      "in": [
+        9,
+        21,
+        43,
+        151,
+        170
+      ],
+      "tailored": [
+        10
+      ],
+      "nutrition": [
+        11,
+        55,
+        198,
+        247
+      ],
+      "management,": [
+        12
+      ],
+      "and": [
+        13,
+        74,
+        96,
+        102,
+        127,
+        154,
+        177,
+        212,
+        236
+      ],
+      "evaluating": [
+        14
+      ],
+      "their": [
+        15
+      ],
+      "compliance": [
+        16,
+        117,
+        129,
+        148
+      ],
+      "with": [
+        17,
+        52,
+        118
+      ],
+      "guidelines": [
+        18,
+        56,
+        120
+      ],
+      "is": [
+        19
+      ],
+      "significant": [
+        20
+      ],
+      "clinically": [
+        22
+      ],
+      "sensitive": [
+        23
+      ],
+      "areas,": [
+        24
+      ],
+      "including": [
+        25
+      ],
+      "bariatric": [
+        26,
+        197
+      ],
+      "surgery.": [
+        27
+      ],
+      "This": [
+        28,
+        225
+      ],
+      "study": [
+        29
+      ],
+      "aimed": [
+        30
+      ],
+      "to": [
+        31,
+        35
+      ],
+      "investigate": [
+        32
+      ],
+      "the": [
+        33,
+        44,
+        106,
+        119,
+        145,
+        152,
+        219
+      ],
+      "extent": [
+        34
+      ],
+      "which": [
+        36
+      ],
+      "diet": [
+        37,
+        188,
+        213
+      ],
+      "plans": [
+        38,
+        65
+      ],
+      "recommended": [
+        39
+      ],
+      "by": [
+        40,
+        138
+      ],
+      "AI": [
+        41,
+        70
+      ],
+      "models": [
+        42,
+        166
+      ],
+      "early": [
+        45
+      ],
+      "period": [
+        46
+      ],
+      "following": [
+        47
+      ],
+      "sleeve": [
+        48
+      ],
+      "gastrectomy": [
+        49
+      ],
+      "(SG)": [
+        50
+      ],
+      "align": [
+        51
+      ],
+      "current": [
+        53
+      ],
+      "clinical": [
+        54,
+        230
+      ],
+      "(ASMBS,": [
+        57
+      ],
+      "AACE/TOS).": [
+        58
+      ],
+      "Methods:": [
+        59
+      ],
+      "A": [
+        60
+      ],
+      "total": [
+        61
+      ],
+      "of": [
+        62,
+        105,
+        196,
+        221
+      ],
+      "360": [
+        63
+      ],
+      "menu": [
+        64
+      ],
+      "were": [
+        66,
+        108,
+        131
+      ],
+      "generated": [
+        67
+      ],
+      "using": [
+        68,
+        110,
+        121,
+        133
+      ],
+      "three": [
+        69,
+        87
+      ],
+      "platforms\u2014ChatGPT-4o,": [
+        71
+      ],
+      "DeepSeek": [
+        72,
+        158
+      ],
+      "V3,": [
+        73
+      ],
+      "Grok-3\u2014for": [
+        75
+      ],
+      "40": [
+        76
+      ],
+      "simulated": [
+        77
+      ],
+      "patients": [
+        78
+      ],
+      "(20": [
+        79
+      ],
+      "females,": [
+        80
+      ],
+      "20": [
+        81
+      ],
+      "males;": [
+        82
+      ],
+      "BMI": [
+        83
+      ],
+      "32\u201345": [
+        84
+      ],
+      "kg/m2)": [
+        85
+      ],
+      "across": [
+        86
+      ],
+      "postoperative": [
+        88,
+        172,
+        187,
+        246
+      ],
+      "stages:": [
+        89
+      ],
+      "liquid": [
+        90,
+        153
+      ],
+      "(day": [
+        91,
+        94,
+        98
+      ],
+      "5),": [
+        92
+      ],
+      "puree": [
+        93
+      ],
+      "16),": [
+        95
+      ],
+      "solid": [
+        97
+      ],
+      "35).": [
+        99
+      ],
+      "The": [
+        100
+      ],
+      "energy": [
+        101
+      ],
+      "nutrient": [
+        103
+      ],
+      "contents": [
+        104
+      ],
+      "menus": [
+        107,
+        205
+      ],
+      "analyzed": [
+        109
+      ],
+      "BeBiS": [
+        111
+      ],
+      "8.1;": [
+        112
+      ],
+      "an": [
+        113
+      ],
+      "experienced": [
+        114
+      ],
+      "dietitian": [
+        115
+      ],
+      "assessed": [
+        116
+      ],
+      "a": [
+        122,
+        222,
+        242
+      ],
+      "structured": [
+        123
+      ],
+      "checklist.": [
+        124
+      ],
+      "Nutrient": [
+        125
+      ],
+      "intakes": [
+        126
+      ],
+      "guideline": [
+        128
+      ],
+      "scores": [
+        130
+      ],
+      "examined": [
+        132
+      ],
+      "within-patient": [
+        134
+      ],
+      "Friedman": [
+        135
+      ],
+      "tests": [
+        136
+      ],
+      "followed": [
+        137
+      ],
+      "Bonferroni-adjusted": [
+        139
+      ],
+      "pairwise": [
+        140
+      ],
+      "comparisons.": [
+        141
+      ],
+      "Results:": [
+        142
+      ],
+      "ChatGPT-4o": [
+        143
+      ],
+      "demonstrated": [
+        144
+      ],
+      "highest": [
+        146
+      ],
+      "overall": [
+        147
+      ],
+      "scores,": [
+        149
+      ],
+      "particularly": [
+        150
+      ],
+      "pur\u00e9ed": [
+        155
+      ],
+      "phases,": [
+        156
+      ],
+      "while": [
+        157
+      ],
+      "produced": [
+        159
+      ],
+      "higher": [
+        160
+      ],
+      "values": [
+        161
+      ],
+      "for": [
+        162,
+        244
+      ],
+      "several": [
+        163,
+        193
+      ],
+      "micronutrients.": [
+        164
+      ],
+      "All": [
+        165
+      ],
+      "showed": [
+        167
+      ],
+      "substantial": [
+        168
+      ],
+      "gaps": [
+        169
+      ],
+      "essential": [
+        171
+      ],
+      "recommendations,": [
+        173
+      ],
+      "most": [
+        174
+      ],
+      "notably": [
+        175
+      ],
+      "thiamine": [
+        176
+      ],
+      "multivitamin": [
+        178
+      ],
+      "supplementation.": [
+        179
+      ],
+      "Conclusions:": [
+        180
+      ],
+      "Although": [
+        181
+      ],
+      "LLMs": [
+        182
+      ],
+      "can": [
+        183
+      ],
+      "generate": [
+        184
+      ],
+      "partially": [
+        185
+      ],
+      "guideline-concordant": [
+        186
+      ],
+      "plans,": [
+        189
+      ],
+      "they": [
+        190
+      ],
+      "consistently": [
+        191
+      ],
+      "omit": [
+        192
+      ],
+      "critical": [
+        194
+      ],
+      "elements": [
+        195
+      ],
+      "care.": [
+        199,
+        248
+      ],
+      "These": [
+        200
+      ],
+      "findings": [
+        201
+      ],
+      "indicate": [
+        202
+      ],
+      "that": [
+        203
+      ],
+      "LLM-generated": [
+        204
+      ],
+      "may": [
+        206
+      ],
+      "serve": [
+        207
+      ],
+      "as": [
+        208,
+        241
+      ],
+      "supportive": [
+        209
+      ],
+      "educational": [
+        210
+      ],
+      "tools,": [
+        211
+      ],
+      "planning": [
+        214
+      ],
+      "must": [
+        215
+      ],
+      "be": [
+        216,
+        239
+      ],
+      "performed": [
+        217
+      ],
+      "under": [
+        218
+      ],
+      "guidance": [
+        220
+      ],
+      "specialist": [
+        223
+      ],
+      "dietitian.": [
+        224
+      ],
+      "simulation": [
+        226
+      ],
+      "does": [
+        227
+      ],
+      "not": [
+        228,
+        238
+      ],
+      "assess": [
+        229
+      ],
+      "safety,": [
+        231
+      ],
+      "efficacy,": [
+        232
+      ],
+      "or": [
+        233
+      ],
+      "patient": [
+        234
+      ],
+      "outcomes": [
+        235
+      ],
+      "should": [
+        237
+      ],
+      "substitute": [
+        243
+      ],
+      "dietitian-led": [
+        245
+      ]
+    },
+    "citations": 0,
+    "concepts": [
+      "Medicine",
+      "Multivitamin",
+      "Compliance (psychology)",
+      "Guideline",
+      "Patient compliance"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4385605076",
+    "doi": "https://doi.org/10.1016/j.jand.2023.08.001",
+    "title": "ChatGPT and Future Artificial Intelligence Chatbots: What may be the Influence on Credentialed Nutrition and Dietetics Practitioners?",
+    "authors": [
+      "Ang\u00e9line Chatelan",
+      "Aur\u00e9lien Clerc",
+      "Pierre-Alexandre Fonta"
+    ],
+    "year": 2023,
+    "journal": "Journal of the Academy of Nutrition and Dietetics",
+    "abstract": {
+      "Launched": [
+        0
+      ],
+      "in": [
+        1,
+        26,
+        32,
+        53,
+        63
+      ],
+      "November": [
+        2
+      ],
+      "2022,": [
+        3
+      ],
+      "ChatGPT": [
+        4,
+        42,
+        52
+      ],
+      "is": [
+        5
+      ],
+      "an": [
+        6
+      ],
+      "unprecedented": [
+        7
+      ],
+      "publicly": [
+        8
+      ],
+      "available": [
+        9
+      ],
+      "and": [
+        10,
+        37,
+        43,
+        48,
+        59,
+        69
+      ],
+      "simple": [
+        11
+      ],
+      "web": [
+        12
+      ],
+      "interface": [
+        13
+      ],
+      "that": [
+        14
+      ],
+      "can": [
+        15,
+        23
+      ],
+      "\u201cwrite\u201d": [
+        16
+      ],
+      "human-like": [
+        17
+      ],
+      "texts.": [
+        18
+      ],
+      "This": [
+        19,
+        39
+      ],
+      "artificial": [
+        20
+      ],
+      "intelligence": [
+        21
+      ],
+      "chatbot": [
+        22
+      ],
+      "be": [
+        24
+      ],
+      "used": [
+        25
+      ],
+      "a": [
+        27
+      ],
+      "variety": [
+        28
+      ],
+      "of": [
+        29,
+        35,
+        50,
+        56
+      ],
+      "settings,": [
+        30,
+        67
+      ],
+      "including": [
+        31
+      ],
+      "the": [
+        33,
+        45,
+        54
+      ],
+      "field": [
+        34
+      ],
+      "nutrition": [
+        36,
+        58
+      ],
+      "dietetics.": [
+        38
+      ],
+      "article": [
+        40
+      ],
+      "describes": [
+        41
+      ],
+      "discusses": [
+        44
+      ],
+      "possible": [
+        46
+      ],
+      "opportunities": [
+        47
+      ],
+      "risks": [
+        49
+      ],
+      "using": [
+        51
+      ],
+      "practice": [
+        55
+      ],
+      "credentialed": [
+        57
+      ],
+      "dietetics": [
+        60
+      ],
+      "practitioners": [
+        61
+      ],
+      "working": [
+        62
+      ],
+      "public": [
+        64
+      ],
+      "health,": [
+        65
+      ],
+      "clinical": [
+        66
+      ],
+      "academia,": [
+        68
+      ],
+      "other": [
+        70
+      ],
+      "settings.": [
+        71
+      ]
+    },
+    "citations": 73,
+    "concepts": [
+      "Psychology"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4387047777",
+    "doi": "https://doi.org/10.3390/clinpract13050104",
+    "title": "AI-Powered Renal Diet Support: Performance of ChatGPT, Bard AI, and Bing Chat",
+    "authors": [
+      "Ahmad Qarajeh",
+      "Supawit Tangpanithandee",
+      "Charat Thongprayoon",
+      "Supawadee Suppadungsuk",
+      "Pajaree Krisanapan",
+      "Noppawit Aiumtrakul",
+      "Oscar A. Garcia Valencia",
+      "Jing Miao",
+      "Fawad Qureshi",
+      "Wisit Cheungpasitporn"
+    ],
+    "year": 2023,
+    "journal": "Clinics and Practice",
+    "abstract": {
+      "Patients": [
+        0
+      ],
+      "with": [
+        1,
+        140,
+        223
+      ],
+      "chronic": [
+        2
+      ],
+      "kidney": [
+        3
+      ],
+      "disease": [
+        4
+      ],
+      "(CKD)": [
+        5
+      ],
+      "necessitate": [
+        6
+      ],
+      "specialized": [
+        7
+      ],
+      "renal": [
+        8,
+        311
+      ],
+      "diets": [
+        9
+      ],
+      "to": [
+        10,
+        123,
+        156
+      ],
+      "prevent": [
+        11
+      ],
+      "complications": [
+        12
+      ],
+      "such": [
+        13,
+        38
+      ],
+      "as": [
+        14,
+        39,
+        307
+      ],
+      "hyperkalemia": [
+        15
+      ],
+      "and": [
+        16,
+        43,
+        52,
+        66,
+        79,
+        114,
+        132,
+        186,
+        203,
+        213,
+        231,
+        236,
+        264
+      ],
+      "hyperphosphatemia.": [
+        17
+      ],
+      "A": [
+        18,
+        83
+      ],
+      "comprehensive": [
+        19
+      ],
+      "assessment": [
+        20
+      ],
+      "of": [
+        21,
+        59,
+        85,
+        176,
+        183,
+        188,
+        211,
+        238,
+        259,
+        304
+      ],
+      "food": [
+        22,
+        87
+      ],
+      "components": [
+        23
+      ],
+      "is": [
+        24
+      ],
+      "pivotal,": [
+        25
+      ],
+      "yet": [
+        26
+      ],
+      "burdensome": [
+        27
+      ],
+      "for": [
+        28,
+        97,
+        270,
+        296,
+        318
+      ],
+      "healthcare": [
+        29
+      ],
+      "providers.": [
+        30
+      ],
+      "With": [
+        31
+      ],
+      "evolving": [
+        32
+      ],
+      "artificial": [
+        33
+      ],
+      "intelligence": [
+        34
+      ],
+      "(AI)": [
+        35
+      ],
+      "technology,": [
+        36
+      ],
+      "models": [
+        37,
+        62,
+        162,
+        206,
+        254,
+        306
+      ],
+      "ChatGPT,": [
+        40
+      ],
+      "Bard": [
+        41,
+        77,
+        201,
+        219,
+        290
+      ],
+      "AI,": [
+        42,
+        78
+      ],
+      "Bing": [
+        44,
+        80,
+        204,
+        232
+      ],
+      "Chat": [
+        45,
+        205,
+        233
+      ],
+      "can": [
+        46
+      ],
+      "be": [
+        47
+      ],
+      "instrumental": [
+        48
+      ],
+      "in": [
+        49,
+        63,
+        69,
+        169,
+        261,
+        267,
+        275,
+        285,
+        310
+      ],
+      "educating": [
+        50
+      ],
+      "patients": [
+        51
+      ],
+      "assisting": [
+        53
+      ],
+      "professionals.": [
+        54
+      ],
+      "To": [
+        55
+      ],
+      "gauge": [
+        56
+      ],
+      "the": [
+        57,
+        91,
+        125,
+        141,
+        161,
+        177,
+        239,
+        302
+      ],
+      "efficacy": [
+        58
+      ],
+      "different": [
+        60
+      ],
+      "AI": [
+        61,
+        72,
+        202,
+        220,
+        253,
+        291,
+        305
+      ],
+      "discerning": [
+        64,
+        262
+      ],
+      "potassium": [
+        65,
+        111,
+        131,
+        171,
+        185,
+        190,
+        263,
+        287
+      ],
+      "phosphorus": [
+        67,
+        115,
+        134,
+        217,
+        241,
+        265,
+        297
+      ],
+      "content": [
+        68,
+        266
+      ],
+      "foods,": [
+        70
+      ],
+      "four": [
+        71
+      ],
+      "models\u2014ChatGPT": [
+        73
+      ],
+      "3.5,": [
+        74
+      ],
+      "ChatGPT": [
+        75,
+        164,
+        194,
+        229,
+        245,
+        273
+      ],
+      "4,": [
+        76,
+        274
+      ],
+      "Chat\u2014were": [
+        81
+      ],
+      "evaluated.": [
+        82
+      ],
+      "total": [
+        84
+      ],
+      "240": [
+        86
+      ],
+      "items,": [
+        88
+      ],
+      "curated": [
+        89
+      ],
+      "from": [
+        90
+      ],
+      "Mayo": [
+        92,
+        142
+      ],
+      "Clinic": [
+        93,
+        143
+      ],
+      "Renal": [
+        94,
+        144
+      ],
+      "Diet": [
+        95,
+        145
+      ],
+      "Handbook": [
+        96
+      ],
+      "CKD": [
+        98,
+        271
+      ],
+      "patients,": [
+        99
+      ],
+      "were": [
+        100,
+        107,
+        138
+      ],
+      "input": [
+        101
+      ],
+      "into": [
+        102,
+        127
+      ],
+      "each": [
+        103
+      ],
+      "model.": [
+        104
+      ],
+      "These": [
+        105
+      ],
+      "items": [
+        106,
+        126
+      ],
+      "characterized": [
+        108
+      ],
+      "by": [
+        109
+      ],
+      "their": [
+        110
+      ],
+      "(149": [
+        112
+      ],
+      "items)": [
+        113,
+        117
+      ],
+      "(91": [
+        116
+      ],
+      "content.": [
+        118,
+        135,
+        288
+      ],
+      "Each": [
+        119
+      ],
+      "model": [
+        120,
+        158,
+        292
+      ],
+      "was": [
+        121,
+        153
+      ],
+      "tasked": [
+        122
+      ],
+      "categorize": [
+        124
+      ],
+      "high": [
+        128,
+        133,
+        189,
+        240
+      ],
+      "or": [
+        129
+      ],
+      "low": [
+        130,
+        184
+      ],
+      "The": [
+        136,
+        148,
+        289
+      ],
+      "results": [
+        137
+      ],
+      "juxtaposed": [
+        139
+      ],
+      "Handbook\u2019s": [
+        146
+      ],
+      "recommendations.": [
+        147
+      ],
+      "concordance": [
+        149
+      ],
+      "between": [
+        150
+      ],
+      "repeated": [
+        151
+      ],
+      "sessions": [
+        152
+      ],
+      "also": [
+        154
+      ],
+      "evaluated": [
+        155
+      ],
+      "assess": [
+        157
+      ],
+      "consistency.": [
+        159
+      ],
+      "Among": [
+        160
+      ],
+      "tested,": [
+        163
+      ],
+      "4": [
+        165,
+        246
+      ],
+      "displayed": [
+        166
+      ],
+      "superior": [
+        167
+      ],
+      "performance": [
+        168
+      ],
+      "identifying": [
+        170
+      ],
+      "content,": [
+        172,
+        218
+      ],
+      "correctly": [
+        173
+      ],
+      "classifying": [
+        174
+      ],
+      "81%": [
+        175
+      ],
+      "foods.": [
+        178,
+        191
+      ],
+      "It": [
+        179
+      ],
+      "accurately": [
+        180
+      ],
+      "discerned": [
+        181
+      ],
+      "60%": [
+        182
+      ],
+      "99%": [
+        187
+      ],
+      "In": [
+        192
+      ],
+      "comparison,": [
+        193
+      ],
+      "3.5": [
+        195,
+        230
+      ],
+      "exhibited": [
+        196,
+        293
+      ],
+      "a": [
+        197,
+        224,
+        248,
+        256,
+        278
+      ],
+      "66%": [
+        198
+      ],
+      "accuracy": [
+        199,
+        209,
+        227,
+        250,
+        260
+      ],
+      "rate.": [
+        200,
+        228,
+        251
+      ],
+      "had": [
+        207
+      ],
+      "an": [
+        208
+      ],
+      "rate": [
+        210
+      ],
+      "79%": [
+        212
+      ],
+      "81%,": [
+        214
+      ],
+      "respectively.": [
+        215
+      ],
+      "Regarding": [
+        216
+      ],
+      "stood": [
+        221
+      ],
+      "out": [
+        222
+      ],
+      "flawless": [
+        225
+      ],
+      "100%": [
+        226
+      ],
+      "recognized": [
+        234
+      ],
+      "85%": [
+        235
+      ],
+      "89%": [
+        237
+      ],
+      "foods": [
+        242,
+        268
+      ],
+      "correctly,": [
+        243
+      ],
+      "while": [
+        244
+      ],
+      "registered": [
+        247
+      ],
+      "77%": [
+        249
+      ],
+      "Emerging": [
+        252
+      ],
+      "manifest": [
+        255
+      ],
+      "diverse": [
+        257
+      ],
+      "range": [
+        258
+      ],
+      "suitable": [
+        269
+      ],
+      "patients.": [
+        272
+      ],
+      "particular,": [
+        276
+      ],
+      "showed": [
+        277
+      ],
+      "marked": [
+        279
+      ],
+      "improvement": [
+        280
+      ],
+      "over": [
+        281
+      ],
+      "its": [
+        282
+      ],
+      "predecessor,": [
+        283
+      ],
+      "especially": [
+        284
+      ],
+      "detecting": [
+        286
+      ],
+      "exceptional": [
+        294
+      ],
+      "precision": [
+        295
+      ],
+      "identification.": [
+        298
+      ],
+      "This": [
+        299
+      ],
+      "study": [
+        300
+      ],
+      "underscores": [
+        301
+      ],
+      "potential": [
+        303
+      ],
+      "efficient": [
+        308
+      ],
+      "tools": [
+        309
+      ],
+      "dietary": [
+        312
+      ],
+      "planning,": [
+        313
+      ],
+      "though": [
+        314
+      ],
+      "refinements": [
+        315
+      ],
+      "are": [
+        316
+      ],
+      "warranted": [
+        317
+      ],
+      "optimal": [
+        319
+      ],
+      "utility.": [
+        320
+      ]
+    },
+    "citations": 73,
+    "concepts": [
+      "Medicine",
+      "Hyperkalemia",
+      "Potassium",
+      "Concordance",
+      "Phosphorus"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4387880441",
+    "doi": "https://doi.org/10.3390/asi6050096",
+    "title": "ChatGPT as a Virtual Dietitian: Exploring Its Potential as a Tool for Improving Nutrition Knowledge",
+    "authors": [
+      "Manuel B. Garcia"
+    ],
+    "year": 2023,
+    "journal": "Applied System Innovation",
+    "abstract": {
+      "The": [
+        0
+      ],
+      "field": [
+        1
+      ],
+      "of": [
+        2,
+        11,
+        17,
+        24,
+        35,
+        41,
+        53,
+        57,
+        65,
+        107,
+        113,
+        122,
+        138
+      ],
+      "health": [
+        3
+      ],
+      "and": [
+        4,
+        30,
+        87,
+        94,
+        141,
+        159,
+        163,
+        168,
+        173,
+        175,
+        197
+      ],
+      "medical": [
+        5
+      ],
+      "sciences": [
+        6
+      ],
+      "has": [
+        7
+      ],
+      "witnessed": [
+        8
+      ],
+      "a": [
+        9,
+        22,
+        46,
+        54,
+        68,
+        187
+      ],
+      "surge": [
+        10
+      ],
+      "published": [
+        12
+      ],
+      "research": [
+        13,
+        196
+      ],
+      "exploring": [
+        14
+      ],
+      "the": [
+        15,
+        33,
+        38,
+        51,
+        62,
+        105,
+        114,
+        119,
+        136
+      ],
+      "applications": [
+        16
+      ],
+      "ChatGPT.": [
+        18
+      ],
+      "However,": [
+        19
+      ],
+      "there": [
+        20,
+        44
+      ],
+      "remains": [
+        21
+      ],
+      "dearth": [
+        23
+      ],
+      "knowledge": [
+        25
+      ],
+      "regarding": [
+        26
+      ],
+      "its": [
+        27,
+        77,
+        132,
+        203
+      ],
+      "specific": [
+        28
+      ],
+      "potential": [
+        29,
+        63,
+        106
+      ],
+      "limitations": [
+        31,
+        134,
+        144
+      ],
+      "within": [
+        32,
+        135
+      ],
+      "domain": [
+        34
+      ],
+      "nutrition.": [
+        36,
+        58
+      ],
+      "Given": [
+        37
+      ],
+      "increasing": [
+        39
+      ],
+      "prevalence": [
+        40
+      ],
+      "nutrition-related": [
+        42
+      ],
+      "diseases,": [
+        43
+      ],
+      "is": [
+        45
+      ],
+      "critical": [
+        47
+      ],
+      "need": [
+        48
+      ],
+      "to": [
+        49,
+        81,
+        109,
+        201
+      ],
+      "prioritize": [
+        50
+      ],
+      "promotion": [
+        52
+      ],
+      "comprehensive": [
+        55
+      ],
+      "understanding": [
+        56
+      ],
+      "This": [
+        59
+      ],
+      "paper": [
+        60,
+        130
+      ],
+      "examines": [
+        61
+      ],
+      "utility": [
+        64
+      ],
+      "ChatGPT": [
+        66,
+        108,
+        124,
+        183
+      ],
+      "as": [
+        67,
+        148,
+        186
+      ],
+      "tool": [
+        69,
+        189
+      ],
+      "for": [
+        70,
+        190
+      ],
+      "improving": [
+        71
+      ],
+      "nutrition": [
+        72,
+        100,
+        139,
+        152,
+        192
+      ],
+      "knowledge.": [
+        73
+      ],
+      "Specifically,": [
+        74
+      ],
+      "it": [
+        75,
+        103
+      ],
+      "scrutinizes": [
+        76
+      ],
+      "characteristics": [
+        78
+      ],
+      "in": [
+        79,
+        99,
+        205
+      ],
+      "relation": [
+        80
+      ],
+      "personalized": [
+        82
+      ],
+      "meal": [
+        83
+      ],
+      "planning,": [
+        84
+      ],
+      "dietary": [
+        85
+      ],
+      "advice": [
+        86
+      ],
+      "guidance,": [
+        88
+      ],
+      "food": [
+        89
+      ],
+      "intake": [
+        90
+      ],
+      "tracking,": [
+        91
+      ],
+      "educational": [
+        92
+      ],
+      "materials,": [
+        93
+      ],
+      "other": [
+        95
+      ],
+      "commonly": [
+        96
+      ],
+      "found": [
+        97
+      ],
+      "features": [
+        98
+      ],
+      "applications.": [
+        101
+      ],
+      "Additionally,": [
+        102
+      ],
+      "explores": [
+        104
+      ],
+      "support": [
+        110
+      ],
+      "each": [
+        111
+      ],
+      "stage": [
+        112
+      ],
+      "Nutrition": [
+        115
+      ],
+      "Care": [
+        116
+      ],
+      "Process.": [
+        117
+      ],
+      "Addressing": [
+        118
+      ],
+      "prevailing": [
+        120
+      ],
+      "question": [
+        121
+      ],
+      "whether": [
+        123
+      ],
+      "can": [
+        125
+      ],
+      "replace": [
+        126
+      ],
+      "healthcare": [
+        127
+      ],
+      "professionals,": [
+        128
+      ],
+      "this": [
+        129,
+        206
+      ],
+      "elucidates": [
+        131
+      ],
+      "substantial": [
+        133
+      ],
+      "context": [
+        137
+      ],
+      "practice": [
+        140
+      ],
+      "education.": [
+        142
+      ],
+      "These": [
+        143
+      ],
+      "encompass": [
+        145
+      ],
+      "factors": [
+        146
+      ],
+      "such": [
+        147
+      ],
+      "incorrect": [
+        149
+      ],
+      "responses,": [
+        150
+      ],
+      "coordinated": [
+        151
+      ],
+      "services,": [
+        153
+      ],
+      "hands-on": [
+        154
+      ],
+      "demonstration,": [
+        155
+      ],
+      "physical": [
+        156
+      ],
+      "examination,": [
+        157
+      ],
+      "verbal": [
+        158
+      ],
+      "non-verbal": [
+        160
+      ],
+      "cues,": [
+        161
+      ],
+      "emotional": [
+        162
+      ],
+      "psychological": [
+        164
+      ],
+      "aspects,": [
+        165
+      ],
+      "real-time": [
+        166
+      ],
+      "monitoring": [
+        167
+      ],
+      "feedback,": [
+        169
+      ],
+      "wearable": [
+        170
+      ],
+      "device": [
+        171
+      ],
+      "integration,": [
+        172
+      ],
+      "ethical": [
+        174
+      ],
+      "privacy": [
+        176
+      ],
+      "concerns": [
+        177
+      ],
+      "have": [
+        178
+      ],
+      "been": [
+        179
+      ],
+      "highlighted.": [
+        180
+      ],
+      "In": [
+        181
+      ],
+      "summary,": [
+        182
+      ],
+      "holds": [
+        184
+      ],
+      "promise": [
+        185
+      ],
+      "valuable": [
+        188
+      ],
+      "enhancing": [
+        191
+      ],
+      "knowledge,": [
+        193
+      ],
+      "but": [
+        194
+      ],
+      "further": [
+        195
+      ],
+      "development": [
+        198
+      ],
+      "are": [
+        199
+      ],
+      "needed": [
+        200
+      ],
+      "optimize": [
+        202
+      ],
+      "capabilities": [
+        204
+      ],
+      "domain.": [
+        207
+      ]
+    },
+    "citations": 70,
+    "concepts": [
+      "Context (archaeology)",
+      "Process (computing)",
+      "Promotion (chess)",
+      "Domain (mathematical analysis)",
+      "Health care"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4388453260",
+    "doi": "https://doi.org/10.1155/2023/5548684",
+    "title": "Comparison of Answers between ChatGPT and Human Dieticians to Common Nutrition Questions",
+    "authors": [
+      "Daniel Kirk",
+      "Elise J.M. van Eijnatten",
+      "Guido Camps"
+    ],
+    "year": 2023,
+    "journal": "Journal of Nutrition and Metabolism",
+    "abstract": {
+      "Background.": [
+        0
+      ],
+      "More": [
+        1
+      ],
+      "people": [
+        2
+      ],
+      "than": [
+        3,
+        158,
+        207
+      ],
+      "ever": [
+        4
+      ],
+      "seek": [
+        5
+      ],
+      "nutrition": [
+        6,
+        42,
+        63,
+        75,
+        234,
+        253
+      ],
+      "information": [
+        7,
+        27
+      ],
+      "from": [
+        8,
+        160,
+        199
+      ],
+      "online": [
+        9
+      ],
+      "sources.": [
+        10
+      ],
+      "The": [
+        11,
+        126,
+        151
+      ],
+      "chatbot": [
+        12
+      ],
+      "ChatGPT": [
+        13,
+        34,
+        59,
+        90,
+        155,
+        175,
+        208,
+        228
+      ],
+      "has": [
+        14,
+        43
+      ],
+      "seen": [
+        15
+      ],
+      "staggering": [
+        16
+      ],
+      "popularity": [
+        17
+      ],
+      "since": [
+        18
+      ],
+      "its": [
+        19
+      ],
+      "inception": [
+        20
+      ],
+      "and": [
+        21,
+        77,
+        91,
+        105,
+        124,
+        136,
+        189,
+        216,
+        242
+      ],
+      "may": [
+        22
+      ],
+      "become": [
+        23
+      ],
+      "a": [
+        24,
+        203
+      ],
+      "resource": [
+        25
+      ],
+      "for": [
+        26,
+        154,
+        163,
+        183,
+        187,
+        191,
+        209,
+        217,
+        246
+      ],
+      "in": [
+        28,
+        38,
+        60,
+        107,
+        167,
+        251
+      ],
+      "nutrition.": [
+        29
+      ],
+      "However,": [
+        30
+      ],
+      "the": [
+        31,
+        39,
+        48,
+        56,
+        86,
+        108,
+        140,
+        161,
+        164,
+        170,
+        197,
+        200,
+        212,
+        220,
+        247
+      ],
+      "adequacy": [
+        32
+      ],
+      "of": [
+        33,
+        41,
+        50,
+        58,
+        95,
+        110,
+        139,
+        169,
+        196,
+        211,
+        219,
+        249
+      ],
+      "to": [
+        35,
+        54,
+        69,
+        81,
+        89,
+        97,
+        116,
+        131,
+        142,
+        232,
+        240
+      ],
+      "answer": [
+        36,
+        233
+      ],
+      "questions": [
+        37,
+        76,
+        88,
+        172,
+        235
+      ],
+      "field": [
+        40
+      ],
+      "not": [
+        44
+      ],
+      "been": [
+        45
+      ],
+      "investigated.": [
+        46
+      ],
+      "Thus,": [
+        47
+      ],
+      "aim": [
+        49
+      ],
+      "this": [
+        51
+      ],
+      "research": [
+        52
+      ],
+      "was": [
+        53
+      ],
+      "investigate": [
+        55
+      ],
+      "competency": [
+        57
+      ],
+      "answering": [
+        61
+      ],
+      "common": [
+        62
+      ],
+      "questions.": [
+        64
+      ],
+      "Methods.": [
+        65
+      ],
+      "Dieticians": [
+        66
+      ],
+      "were": [
+        67,
+        128,
+        145,
+        156
+      ],
+      "asked": [
+        68,
+        74,
+        85,
+        239
+      ],
+      "provide": [
+        70,
+        243
+      ],
+      "their": [
+        71,
+        78
+      ],
+      "most": [
+        72
+      ],
+      "commonly": [
+        73
+      ],
+      "own": [
+        79
+      ],
+      "answers": [
+        80,
+        96,
+        141,
+        198
+      ],
+      "them.": [
+        82
+      ],
+      "We": [
+        83
+      ],
+      "then": [
+        84
+      ],
+      "same": [
+        87
+      ],
+      "sent": [
+        92
+      ],
+      "both": [
+        93,
+        214
+      ],
+      "sets": [
+        94
+      ],
+      "other": [
+        98
+      ],
+      "dieticians": [
+        99,
+        162,
+        201,
+        241
+      ],
+      "(N": [
+        100,
+        113
+      ],
+      "=": [
+        101,
+        114
+      ],
+      "18)": [
+        102
+      ],
+      "or": [
+        103
+      ],
+      "nutritionists": [
+        104
+      ],
+      "experts": [
+        106
+      ],
+      "domain": [
+        109
+      ],
+      "each": [
+        111,
+        143,
+        218
+      ],
+      "question": [
+        112,
+        144
+      ],
+      "9)": [
+        115
+      ],
+      "be": [
+        117,
+        230
+      ],
+      "graded": [
+        118
+      ],
+      "based": [
+        119
+      ],
+      "on": [
+        120,
+        180
+      ],
+      "scientific": [
+        121,
+        184
+      ],
+      "correctness,": [
+        122,
+        185
+      ],
+      "actionability,": [
+        123,
+        188
+      ],
+      "comprehensibility.": [
+        125,
+        192
+      ],
+      "grades": [
+        127,
+        153,
+        179
+      ],
+      "also": [
+        129,
+        176
+      ],
+      "averaged": [
+        130
+      ],
+      "give": [
+        132
+      ],
+      "an": [
+        133
+      ],
+      "overall": [
+        134,
+        152,
+        165,
+        215
+      ],
+      "score,": [
+        135
+      ],
+      "group": [
+        137
+      ],
+      "means": [
+        138
+      ],
+      "compared": [
+        146
+      ],
+      "using": [
+        147
+      ],
+      "permutation": [
+        148
+      ],
+      "tests.": [
+        149
+      ],
+      "Results.": [
+        150
+      ],
+      "higher": [
+        157,
+        178,
+        204
+      ],
+      "those": [
+        159
+      ],
+      "scores": [
+        166
+      ],
+      "five": [
+        168,
+        181,
+        190
+      ],
+      "eight": [
+        171
+      ],
+      "we": [
+        173
+      ],
+      "received.": [
+        174
+      ],
+      "had": [
+        177,
+        202
+      ],
+      "occasions": [
+        182
+      ],
+      "four": [
+        186
+      ],
+      "In": [
+        193
+      ],
+      "contrast,": [
+        194
+      ],
+      "none": [
+        195
+      ],
+      "average": [
+        205
+      ],
+      "score": [
+        206
+      ],
+      "any": [
+        210
+      ],
+      "questions,": [
+        213
+      ],
+      "grading": [
+        221
+      ],
+      "components.": [
+        222
+      ],
+      "Conclusions.": [
+        223
+      ],
+      "Our": [
+        224
+      ],
+      "results": [
+        225
+      ],
+      "suggest": [
+        226
+      ],
+      "that": [
+        227,
+        236
+      ],
+      "can": [
+        229
+      ],
+      "used": [
+        231
+      ],
+      "are": [
+        237
+      ],
+      "frequently": [
+        238
+      ],
+      "encouraging": [
+        244
+      ],
+      "support": [
+        245
+      ],
+      "role": [
+        248
+      ],
+      "chatbots": [
+        250
+      ],
+      "offering": [
+        252
+      ],
+      "support.": [
+        254
+      ]
+    },
+    "citations": 55,
+    "concepts": [
+      "Dieticians",
+      "Medicine",
+      "Traditional medicine",
+      "Family medicine"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4406119010",
+    "doi": "https://doi.org/10.3390/nu17020206",
+    "title": "Diet Quality and Caloric Accuracy in AI-Generated Diet Plans: A Comparative Study Across Chatbots",
+    "authors": [
+      "H\u00fcsna Kaya Ka\u00e7ar",
+      "\u00d6mer Furkan Ka\u00e7ar",
+      "Amanda Avery"
+    ],
+    "year": 2025,
+    "journal": "Nutrients",
+    "abstract": {
+      "Background/Objectives:": [
+        0
+      ],
+      "With": [
+        1
+      ],
+      "the": [
+        2,
+        30,
+        56,
+        64,
+        91,
+        146,
+        158,
+        178,
+        210,
+        219,
+        238
+      ],
+      "rise": [
+        3
+      ],
+      "of": [
+        4,
+        32,
+        59,
+        70,
+        95,
+        172,
+        240
+      ],
+      "artificial": [
+        5
+      ],
+      "intelligence": [
+        6
+      ],
+      "(AI)": [
+        7
+      ],
+      "in": [
+        8,
+        152,
+        161,
+        190,
+        201
+      ],
+      "nutrition": [
+        9,
+        224
+      ],
+      "and": [
+        10,
+        38,
+        49,
+        79,
+        99,
+        112,
+        140,
+        194,
+        205,
+        228
+      ],
+      "healthcare,": [
+        11
+      ],
+      "AI-driven": [
+        12,
+        185
+      ],
+      "chatbots": [
+        13,
+        65,
+        120,
+        186
+      ],
+      "are": [
+        14
+      ],
+      "increasingly": [
+        15
+      ],
+      "recognised": [
+        16
+      ],
+      "as": [
+        17
+      ],
+      "potential": [
+        18,
+        220
+      ],
+      "tools": [
+        19,
+        217
+      ],
+      "for": [
+        20,
+        212
+      ],
+      "generating": [
+        21,
+        191
+      ],
+      "personalised": [
+        22,
+        223
+      ],
+      "diet": [
+        23,
+        43,
+        57,
+        132,
+        174,
+        197
+      ],
+      "plans.": [
+        24,
+        198
+      ],
+      "This": [
+        25,
+        52
+      ],
+      "study": [
+        26,
+        54
+      ],
+      "aimed": [
+        27
+      ],
+      "to": [
+        28,
+        77,
+        89,
+        138,
+        221
+      ],
+      "evaluate": [
+        29,
+        90
+      ],
+      "capabilities": [
+        31
+      ],
+      "three": [
+        33
+      ],
+      "popular": [
+        34
+      ],
+      "chatbots\u2014Gemini,": [
+        35
+      ],
+      "Microsoft": [
+        36
+      ],
+      "Copilot,": [
+        37
+      ],
+      "ChatGPT": [
+        39,
+        155
+      ],
+      "4.0\u2014in": [
+        40
+      ],
+      "designing": [
+        41
+      ],
+      "weight-loss": [
+        42,
+        196
+      ],
+      "plans": [
+        44,
+        61,
+        92,
+        175
+      ],
+      "across": [
+        45,
+        66,
+        93
+      ],
+      "varying": [
+        46
+      ],
+      "caloric": [
+        47,
+        162
+      ],
+      "levels": [
+        48
+      ],
+      "genders.": [
+        50
+      ],
+      "Methods:": [
+        51
+      ],
+      "comparative": [
+        53
+      ],
+      "assessed": [
+        55
+      ],
+      "quality": [
+        58
+      ],
+      "meal": [
+        60
+      ],
+      "generated": [
+        62
+      ],
+      "by": [
+        63,
+        105,
+        180,
+        225
+      ],
+      "a": [
+        67,
+        149
+      ],
+      "calorie": [
+        68
+      ],
+      "range": [
+        69
+      ],
+      "1400\u20131800": [
+        71
+      ],
+      "kcal,": [
+        72
+      ],
+      "using": [
+        73
+      ],
+      "identical": [
+        74
+      ],
+      "prompts": [
+        75
+      ],
+      "tailored": [
+        76
+      ],
+      "male": [
+        78
+      ],
+      "female": [
+        80
+      ],
+      "profiles.": [
+        81
+      ],
+      "The": [
+        82
+      ],
+      "Diet": [
+        83
+      ],
+      "Quality": [
+        84
+      ],
+      "Index-International": [
+        85
+      ],
+      "(DQI-I)": [
+        86
+      ],
+      "was": [
+        87,
+        103
+      ],
+      "used": [
+        88
+      ],
+      "dimensions": [
+        94
+      ],
+      "variety,": [
+        96
+      ],
+      "adequacy,": [
+        97
+      ],
+      "moderation,": [
+        98
+      ],
+      "balance.": [
+        100
+      ],
+      "Caloric": [
+        101
+      ],
+      "accuracy": [
+        102
+      ],
+      "analysed": [
+        104
+      ],
+      "calculating": [
+        106
+      ],
+      "percentage": [
+        107
+      ],
+      "deviations": [
+        108
+      ],
+      "from": [
+        109,
+        177
+      ],
+      "requested": [
+        110
+      ],
+      "targets": [
+        111
+      ],
+      "categorising": [
+        113
+      ],
+      "discrepancies": [
+        114
+      ],
+      "into": [
+        115
+      ],
+      "defined": [
+        116
+      ],
+      "ranges.": [
+        117
+      ],
+      "Results:": [
+        118
+      ],
+      "All": [
+        119
+      ],
+      "achieved": [
+        121
+      ],
+      "high": [
+        122
+      ],
+      "total": [
+        123
+      ],
+      "DQI-I": [
+        124
+      ],
+      "scores": [
+        125
+      ],
+      "(DQI-I": [
+        126
+      ],
+      "&gt;": [
+        127
+      ],
+      "70),": [
+        128
+      ],
+      "demonstrating": [
+        129
+      ],
+      "satisfactory": [
+        130
+      ],
+      "overall": [
+        131
+      ],
+      "quality.": [
+        133
+      ],
+      "However,": [
+        134
+      ],
+      "balance": [
+        135
+      ],
+      "sub-scores": [
+        136
+      ],
+      "related": [
+        137
+      ],
+      "macronutrient": [
+        139,
+        204
+      ],
+      "fatty": [
+        141,
+        206
+      ],
+      "acid": [
+        142,
+        207
+      ],
+      "distributions": [
+        143,
+        208
+      ],
+      "were": [
+        144
+      ],
+      "consistently": [
+        145
+      ],
+      "lowest,": [
+        147
+      ],
+      "showing": [
+        148
+      ],
+      "critical": [
+        150
+      ],
+      "limitation": [
+        151
+      ],
+      "AI": [
+        153
+      ],
+      "algorithms.": [
+        154
+      ],
+      "4.0": [
+        156
+      ],
+      "exhibited": [
+        157
+      ],
+      "highest": [
+        159
+      ],
+      "precision": [
+        160
+      ],
+      "adherence,": [
+        163
+      ],
+      "while": [
+        164
+      ],
+      "Gemini": [
+        165
+      ],
+      "showed": [
+        166
+      ],
+      "greater": [
+        167
+      ],
+      "variability,": [
+        168
+      ],
+      "with": [
+        169
+      ],
+      "over": [
+        170
+      ],
+      "50%": [
+        171
+      ],
+      "its": [
+        173
+      ],
+      "deviating": [
+        176
+      ],
+      "target": [
+        179
+      ],
+      "more": [
+        181
+      ],
+      "than": [
+        182,
+        236
+      ],
+      "20%.": [
+        183
+      ],
+      "Conclusions:": [
+        184
+      ],
+      "show": [
+        187
+      ],
+      "significant": [
+        188
+      ],
+      "promise": [
+        189
+      ],
+      "nutritionally": [
+        192
+      ],
+      "adequate": [
+        193
+      ],
+      "diverse": [
+        195
+      ],
+      "Nevertheless,": [
+        199
+      ],
+      "gaps": [
+        200
+      ],
+      "achieving": [
+        202
+      ],
+      "optimal": [
+        203
+      ],
+      "emphasise": [
+        209
+      ],
+      "need": [
+        211
+      ],
+      "algorithmic": [
+        213
+      ],
+      "refinement.": [
+        214
+      ],
+      "While": [
+        215
+      ],
+      "these": [
+        216
+      ],
+      "have": [
+        218
+      ],
+      "revolutionise": [
+        222
+      ],
+      "offering": [
+        226
+      ],
+      "precise": [
+        227
+      ],
+      "inclusive": [
+        229
+      ],
+      "dietary": [
+        230
+      ],
+      "solutions,": [
+        231
+      ],
+      "they": [
+        232
+      ],
+      "should": [
+        233
+      ],
+      "enhance": [
+        234
+      ],
+      "rather": [
+        235
+      ],
+      "replace": [
+        237
+      ],
+      "expertise": [
+        239
+      ],
+      "dietetic": [
+        241
+      ],
+      "professionals.": [
+        242
+      ]
+    },
+    "citations": 17,
+    "concepts": [
+      "Caloric theory",
+      "Quality (philosophy)",
+      "Medicine",
+      "Internal medicine",
+      "Philosophy"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4396833396",
+    "doi": "https://doi.org/10.1145/3613904.3641924",
+    "title": "Integrating Expertise in LLMs: Crafting a Customized Nutrition Assistant with Refined Template Instructions",
+    "authors": [
+      "Annalisa Szymanski",
+      "Brianna L Wimer",
+      "Oghenemaro Anuyah",
+      "Heather A. Eicher\u2010Miller",
+      "Ronald Metoyer"
+    ],
+    "year": 2024,
+    "journal": null,
+    "abstract": {
+      "Large": [
+        0
+      ],
+      "Language": [
+        1
+      ],
+      "Models": [
+        2
+      ],
+      "(LLMs)": [
+        3
+      ],
+      "have": [
+        4
+      ],
+      "the": [
+        5,
+        10,
+        27,
+        48,
+        78,
+        123,
+        131
+      ],
+      "potential": [
+        6
+      ],
+      "to": [
+        7,
+        9,
+        29,
+        77,
+        84
+      ],
+      "contribute": [
+        8
+      ],
+      "fields": [
+        11
+      ],
+      "of": [
+        12,
+        52,
+        72,
+        80,
+        125,
+        133
+      ],
+      "nutrition": [
+        13,
+        59,
+        88,
+        140
+      ],
+      "and": [
+        14,
+        35,
+        50,
+        57,
+        113,
+        138
+      ],
+      "dietetics": [
+        15
+      ],
+      "in": [
+        16,
+        54,
+        115
+      ],
+      "generating": [
+        17
+      ],
+      "food": [
+        18,
+        24,
+        106,
+        135
+      ],
+      "product": [
+        19,
+        107,
+        136
+      ],
+      "explanations": [
+        20
+      ],
+      "that": [
+        21,
+        122
+      ],
+      "facilitate": [
+        22
+      ],
+      "informed": [
+        23
+      ],
+      "selections.": [
+        25
+      ],
+      "However,": [
+        26
+      ],
+      "extent": [
+        28
+      ],
+      "which": [
+        30,
+        75
+      ],
+      "these": [
+        31,
+        92,
+        126
+      ],
+      "models": [
+        32
+      ],
+      "offer": [
+        33
+      ],
+      "effective": [
+        34
+      ],
+      "accurate": [
+        36,
+        56
+      ],
+      "information": [
+        37
+      ],
+      "remains": [
+        38
+      ],
+      "unverified.": [
+        39
+      ],
+      "In": [
+        40
+      ],
+      "collaboration": [
+        41
+      ],
+      "with": [
+        42,
+        118
+      ],
+      "registered": [
+        43
+      ],
+      "dietitians": [
+        44
+      ],
+      "(RDs),": [
+        45
+      ],
+      "we": [
+        46
+      ],
+      "evaluate": [
+        47
+      ],
+      "strengths": [
+        49
+      ],
+      "weaknesses": [
+        51
+      ],
+      "LLMs": [
+        53,
+        86
+      ],
+      "providing": [
+        55
+      ],
+      "personalized": [
+        58
+      ],
+      "information.": [
+        60,
+        89,
+        141
+      ],
+      "Through": [
+        61
+      ],
+      "a": [
+        62,
+        96
+      ],
+      "mixed-methods": [
+        63
+      ],
+      "approach,": [
+        64
+      ],
+      "RDs": [
+        65
+      ],
+      "validated": [
+        66
+      ],
+      "GPT-4": [
+        67
+      ],
+      "outputs": [
+        68
+      ],
+      "at": [
+        69
+      ],
+      "various": [
+        70
+      ],
+      "levels": [
+        71
+      ],
+      "prompt": [
+        73,
+        85
+      ],
+      "specificity,": [
+        74
+      ],
+      "led": [
+        76
+      ],
+      "development": [
+        79
+      ],
+      "design": [
+        81
+      ],
+      "guidelines": [
+        82,
+        93
+      ],
+      "used": [
+        83
+      ],
+      "for": [
+        87,
+        105
+      ],
+      "We": [
+        90,
+        120
+      ],
+      "tested": [
+        91
+      ],
+      "by": [
+        94
+      ],
+      "creating": [
+        95
+      ],
+      "GPT": [
+        97
+      ],
+      "prototype,": [
+        98
+      ],
+      "The": [
+        99
+      ],
+      "Food": [
+        100
+      ],
+      "Product": [
+        101
+      ],
+      "Nutrition": [
+        102
+      ],
+      "Assistant,": [
+        103
+      ],
+      "tailored": [
+        104,
+        139
+      ],
+      "explanations.": [
+        108
+      ],
+      "This": [
+        109
+      ],
+      "prototype": [
+        110
+      ],
+      "was": [
+        111
+      ],
+      "refined": [
+        112
+      ],
+      "evaluated": [
+        114
+      ],
+      "focus": [
+        116
+      ],
+      "groups": [
+        117
+      ],
+      "RDs.": [
+        119
+      ],
+      "find": [
+        121
+      ],
+      "implementation": [
+        124
+      ],
+      "dietitian-reviewed": [
+        127
+      ],
+      "template": [
+        128
+      ],
+      "instructions": [
+        129
+      ],
+      "enhance": [
+        130
+      ],
+      "generation": [
+        132
+      ],
+      "detailed": [
+        134
+      ],
+      "descriptions": [
+        137
+      ]
+    },
+    "citations": 16,
+    "concepts": [
+      "Product (mathematics)",
+      "Computer science",
+      "Strengths and weaknesses",
+      "Medicine",
+      "Psychology"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4393094163",
+    "doi": "https://doi.org/10.3390/nu16070914",
+    "title": "Generative Artificial Intelligence as a Tool for Teaching Communication in Nutrition and Dietetics Education\u2014A Novel Education Innovation",
+    "authors": [
+      "Lisa A. Barker",
+      "Joel David Moore",
+      "Helmy A. Cook"
+    ],
+    "year": 2024,
+    "journal": "Nutrients",
+    "abstract": {
+      "Although": [
+        0
+      ],
+      "effective": [
+        1
+      ],
+      "communication": [
+        2,
+        64,
+        125,
+        154,
+        174
+      ],
+      "is": [
+        3,
+        43,
+        75,
+        92
+      ],
+      "fundamental": [
+        4
+      ],
+      "to": [
+        5,
+        53,
+        59,
+        113,
+        147,
+        165
+      ],
+      "nutrition": [
+        6
+      ],
+      "and": [
+        7,
+        33,
+        38,
+        61,
+        81,
+        88,
+        105,
+        119,
+        130,
+        171,
+        181
+      ],
+      "dietetics": [
+        8
+      ],
+      "practice,": [
+        9
+      ],
+      "providing": [
+        10
+      ],
+      "novice": [
+        11
+      ],
+      "practitioners": [
+        12
+      ],
+      "with": [
+        13,
+        55
+      ],
+      "efficacious": [
+        14
+      ],
+      "training": [
+        15
+      ],
+      "remains": [
+        16
+      ],
+      "a": [
+        17,
+        44
+      ],
+      "challenge.": [
+        18
+      ],
+      "Traditionally,": [
+        19
+      ],
+      "human": [
+        20
+      ],
+      "simulated": [
+        21,
+        57,
+        185
+      ],
+      "patients": [
+        22,
+        58
+      ],
+      "have": [
+        23,
+        48,
+        134
+      ],
+      "been": [
+        24
+      ],
+      "utilised": [
+        25
+      ],
+      "in": [
+        26,
+        173
+      ],
+      "health": [
+        27
+      ],
+      "professions": [
+        28
+      ],
+      "training,": [
+        29,
+        176
+      ],
+      "however": [
+        30,
+        142
+      ],
+      "their": [
+        31,
+        63
+      ],
+      "use": [
+        32
+      ],
+      "development": [
+        34
+      ],
+      "can": [
+        35
+      ],
+      "be": [
+        36
+      ],
+      "cost": [
+        37
+      ],
+      "time": [
+        39
+      ],
+      "prohibitive.": [
+        40
+      ],
+      "Presented": [
+        41
+      ],
+      "here": [
+        42
+      ],
+      "platform": [
+        45,
+        158
+      ],
+      "the": [
+        46,
+        67,
+        95,
+        117,
+        160,
+        167
+      ],
+      "authors": [
+        47
+      ],
+      "created": [
+        49
+      ],
+      "that": [
+        50,
+        127
+      ],
+      "allows": [
+        51
+      ],
+      "students": [
+        52,
+        136
+      ],
+      "interact": [
+        54
+      ],
+      "virtual": [
+        56
+      ],
+      "practise": [
+        60
+      ],
+      "develop": [
+        62
+      ],
+      "skills.": [
+        65
+      ],
+      "Leveraging": [
+        66
+      ],
+      "structured": [
+        68
+      ],
+      "incorporation": [
+        69
+      ],
+      "of": [
+        70,
+        97,
+        101,
+        109,
+        162
+      ],
+      "large": [
+        71
+      ],
+      "language": [
+        72
+      ],
+      "models,": [
+        73
+      ],
+      "it": [
+        74
+      ],
+      "designed": [
+        76
+      ],
+      "by": [
+        77
+      ],
+      "pedagogical": [
+        78
+      ],
+      "content": [
+        79
+      ],
+      "experts": [
+        80
+      ],
+      "comprises": [
+        82
+      ],
+      "individual": [
+        83
+      ],
+      "cases": [
+        84
+      ],
+      "based": [
+        85,
+        122
+      ],
+      "on": [
+        86,
+        123
+      ],
+      "curricula": [
+        87
+      ],
+      "student": [
+        89
+      ],
+      "needs.": [
+        90
+      ],
+      "It": [
+        91
+      ],
+      "targeted": [
+        93
+      ],
+      "towards": [
+        94
+      ],
+      "practice": [
+        96,
+        172
+      ],
+      "rapport": [
+        98
+      ],
+      "building,": [
+        99
+      ],
+      "asking": [
+        100
+      ],
+      "difficult": [
+        102
+      ],
+      "questions,": [
+        103
+      ],
+      "paraphrasing": [
+        104
+      ],
+      "mistake": [
+        106
+      ],
+      "making,": [
+        107
+      ],
+      "all": [
+        108
+      ],
+      "which": [
+        110
+      ],
+      "are": [
+        111,
+        137,
+        145
+      ],
+      "essential": [
+        112
+      ],
+      "learning.": [
+        114
+      ],
+      "Students": [
+        115
+      ],
+      "appreciate": [
+        116
+      ],
+      "individualised": [
+        118
+      ],
+      "immediate": [
+        120
+      ],
+      "feedback": [
+        121
+      ],
+      "validated": [
+        124
+      ],
+      "tools": [
+        126
+      ],
+      "encourage": [
+        128
+      ],
+      "self-reflection": [
+        129
+      ],
+      "improvement.": [
+        131
+      ],
+      "Early": [
+        132
+      ],
+      "trials": [
+        133
+      ],
+      "shown": [
+        135
+      ],
+      "enthusiastic": [
+        138
+      ],
+      "about": [
+        139
+      ],
+      "this": [
+        140
+      ],
+      "platform,": [
+        141
+      ],
+      "further": [
+        143
+      ],
+      "investigations": [
+        144
+      ],
+      "required": [
+        146
+      ],
+      "determine": [
+        148
+      ],
+      "its": [
+        149
+      ],
+      "impact": [
+        150
+      ],
+      "as": [
+        151
+      ],
+      "an": [
+        152
+      ],
+      "experiential": [
+        153
+      ],
+      "skills": [
+        155,
+        175
+      ],
+      "tool.": [
+        156
+      ],
+      "This": [
+        157
+      ],
+      "harnesses": [
+        159
+      ],
+      "power": [
+        161
+      ],
+      "artificial": [
+        163
+      ],
+      "intelligence": [
+        164
+      ],
+      "bridge": [
+        166
+      ],
+      "gap": [
+        168
+      ],
+      "between": [
+        169
+      ],
+      "theory": [
+        170
+      ],
+      "requiring": [
+        177
+      ],
+      "significantly": [
+        178
+      ],
+      "reduced": [
+        179
+      ],
+      "costs": [
+        180
+      ],
+      "resources": [
+        182
+      ],
+      "than": [
+        183
+      ],
+      "traditional": [
+        184
+      ],
+      "patient": [
+        186
+      ],
+      "encounters.": [
+        187
+      ]
+    },
+    "citations": 16,
+    "concepts": [
+      "Mistake",
+      "Experiential learning",
+      "Curriculum",
+      "Medical education",
+      "Computer science"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4391275368",
+    "doi": "https://doi.org/10.61838/kman.najm.2.1.1",
+    "title": "Evaluating the Applicability and Appropriateness of ChatGPT as a Source for Tailored Nutrition Advice: A Multi-Scenario Study",
+    "authors": [
+      "Ismail Dergaa",
+      "Helmi Ben Saad",
+      "Hatem Ghouili",
+      "Jordan M. Glenn",
+      "Abdelfatteh El Omri",
+      "I. Slim",
+      "Y. Hasni",
+      "Morteza Taheri",
+      "Mohamed Ben Aissa",
+      "Noomen Guelmami",
+      "Ramzi Al-Horani",
+      "Jad Adrian Washif",
+      "Sheikh Shoib",
+      "Osamah Mohammed Alyasiri",
+      "Leonardo Jos\u00e9 Mataruna-Dos-Santos",
+      "Regina Alves",
+      "Halil \u0130\u0307brahim Ceylan",
+      "Sarya Swed",
+      "Najim Z. Alshahrani",
+      "Nasr Chalghaf",
+      "Haijiang Dai",
+      "Nicola Luigi Bragazzi",
+      "Karim Chamari"
+    ],
+    "year": 2024,
+    "journal": "New Asian Journal of Medicine",
+    "abstract": {
+      "Background:": [
+        0
+      ],
+      "In": [
+        1
+      ],
+      "the": [
+        2,
+        9,
+        50,
+        70,
+        147,
+        187,
+        265,
+        289
+      ],
+      "rapidly": [
+        3
+      ],
+      "evolving": [
+        4
+      ],
+      "domain": [
+        5
+      ],
+      "of": [
+        6,
+        11,
+        26,
+        54,
+        72,
+        77,
+        136,
+        155,
+        172,
+        261,
+        267,
+        285
+      ],
+      "healthcare": [
+        7
+      ],
+      "technology,": [
+        8
+      ],
+      "integration": [
+        10
+      ],
+      "advanced": [
+        12
+      ],
+      "computational": [
+        13
+      ],
+      "models": [
+        14
+      ],
+      "has": [
+        15
+      ],
+      "opened": [
+        16
+      ],
+      "up": [
+        17
+      ],
+      "new": [
+        18
+      ],
+      "possibilities": [
+        19
+      ],
+      "for": [
+        20,
+        58,
+        119,
+        215,
+        231,
+        253,
+        291,
+        297
+      ],
+      "personalized": [
+        21,
+        99,
+        299
+      ],
+      "nutrition": [
+        22,
+        179,
+        222
+      ],
+      "guidance.": [
+        23
+      ],
+      "The": [
+        24,
+        143,
+        258
+      ],
+      "emergence": [
+        25
+      ],
+      "sophisticated": [
+        27
+      ],
+      "language": [
+        28
+      ],
+      "models,": [
+        29
+      ],
+      "such": [
+        30
+      ],
+      "as": [
+        31,
+        74,
+        113,
+        115,
+        208,
+        271,
+        279
+      ],
+      "Chat": [
+        32
+      ],
+      "Generative": [
+        33
+      ],
+      "Pre-training": [
+        34
+      ],
+      "Transformer": [
+        35
+      ],
+      "(ChatGPT),": [
+        36
+      ],
+      "offers": [
+        37
+      ],
+      "potential": [
+        38
+      ],
+      "in": [
+        39,
+        109,
+        175,
+        235
+      ],
+      "providing": [
+        40
+      ],
+      "interactive": [
+        41
+      ],
+      "and": [
+        42,
+        52,
+        111,
+        140,
+        159,
+        197,
+        249,
+        294
+      ],
+      "tailored": [
+        43
+      ],
+      "dietary": [
+        44,
+        92,
+        100,
+        126,
+        152,
+        210
+      ],
+      "advice.": [
+        45,
+        79
+      ],
+      "However,": [
+        46,
+        181
+      ],
+      "concerns": [
+        47
+      ],
+      "remain": [
+        48
+      ],
+      "about": [
+        49
+      ],
+      "applicability": [
+        51
+      ],
+      "appropriateness": [
+        53
+      ],
+      "ChatGPT's": [
+        55
+      ],
+      "recommendations,": [
+        56
+      ],
+      "especially": [
+        57
+      ],
+      "those": [
+        59
+      ],
+      "with": [
+        60,
+        151,
+        177,
+        186,
+        255
+      ],
+      "distinct": [
+        61
+      ],
+      "health": [
+        62,
+        86,
+        157,
+        193
+      ],
+      "conditions.": [
+        63,
+        257
+      ],
+      "Objectives:": [
+        64
+      ],
+      "This": [
+        65
+      ],
+      "study": [
+        66
+      ],
+      "aimed": [
+        67
+      ],
+      "to": [
+        68,
+        97,
+        168,
+        220,
+        233,
+        242,
+        245
+      ],
+      "evaluate": [
+        69
+      ],
+      "reliability": [
+        71
+      ],
+      "ChatGPT": [
+        73,
+        94,
+        164,
+        205,
+        238,
+        269
+      ],
+      "a": [
+        75,
+        129,
+        133,
+        209,
+        272
+      ],
+      "source": [
+        76
+      ],
+      "nutritional": [
+        78
+      ],
+      "Methods:": [
+        80
+      ],
+      "Three": [
+        81
+      ],
+      "hypothetical": [
+        82
+      ],
+      "scenarios": [
+        83
+      ],
+      "representing": [
+        84
+      ],
+      "various": [
+        85,
+        170
+      ],
+      "conditions": [
+        87
+      ],
+      "were": [
+        88
+      ],
+      "presented": [
+        89
+      ],
+      "alongside": [
+        90
+      ],
+      "precise": [
+        91,
+        298
+      ],
+      "requirements.": [
+        93
+      ],
+      "was": [
+        95
+      ],
+      "tasked": [
+        96
+      ],
+      "generate": [
+        98,
+        169
+      ],
+      "programs,": [
+        101
+      ],
+      "encompassing": [
+        102
+      ],
+      "meal": [
+        103,
+        117,
+        173
+      ],
+      "timing,": [
+        104
+      ],
+      "specific": [
+        105
+      ],
+      "caloric": [
+        106
+      ],
+      "portions": [
+        107
+      ],
+      "(measured": [
+        108
+      ],
+      "grams": [
+        110
+      ],
+      "spoons),": [
+        112
+      ],
+      "well": [
+        114
+      ],
+      "alternative": [
+        116
+      ],
+      "options": [
+        118,
+        171
+      ],
+      "each": [
+        120
+      ],
+      "scenario.": [
+        121
+      ],
+      "Following": [
+        122
+      ],
+      "this,": [
+        123
+      ],
+      "ChatGPT\u2019s": [
+        124
+      ],
+      "generated": [
+        125
+      ],
+      "programs": [
+        127
+      ],
+      "underwent": [
+        128
+      ],
+      "thorough": [
+        130
+      ],
+      "review": [
+        131
+      ],
+      "by": [
+        132
+      ],
+      "multidisciplinary": [
+        134
+      ],
+      "team": [
+        135
+      ],
+      "nutritionist,": [
+        137
+      ],
+      "specialist": [
+        138
+      ],
+      "physicians": [
+        139
+      ],
+      "clinical": [
+        141,
+        262,
+        286
+      ],
+      "researchers.": [
+        142
+      ],
+      "evaluation": [
+        144
+      ],
+      "focused": [
+        145
+      ],
+      "on": [
+        146,
+        277
+      ],
+      "programs'": [
+        148
+      ],
+      "suitability,": [
+        149
+      ],
+      "alignment": [
+        150
+      ],
+      "standards,": [
+        153
+      ],
+      "consideration": [
+        154
+      ],
+      "individual": [
+        156,
+        189
+      ],
+      "factors,": [
+        158
+      ],
+      "additional": [
+        160
+      ],
+      "guidance": [
+        161
+      ],
+      "Safety.": [
+        162
+      ],
+      "Results:": [
+        163
+      ],
+      "demonstrated": [
+        165
+      ],
+      "its": [
+        166,
+        213,
+        243
+      ],
+      "ability": [
+        167
+      ],
+      "plans": [
+        174
+      ],
+      "accordance": [
+        176
+      ],
+      "basic": [
+        178
+      ],
+      "principles.": [
+        180
+      ],
+      "there": [
+        182
+      ],
+      "are": [
+        183
+      ],
+      "apparent": [
+        184
+      ],
+      "issues": [
+        185
+      ],
+      "recommended": [
+        188
+      ],
+      "macronutrient": [
+        190
+      ],
+      "distribution,": [
+        191
+      ],
+      "handling": [
+        192
+      ],
+      "conditions,": [
+        194
+      ],
+      "drug": [
+        195
+      ],
+      "interactions,": [
+        196
+      ],
+      "setting": [
+        198
+      ],
+      "realistic": [
+        199
+      ],
+      "weight": [
+        200
+      ],
+      "loss": [
+        201
+      ],
+      "goals.": [
+        202
+      ],
+      "Conclusions:": [
+        203
+      ],
+      "While": [
+        204
+      ],
+      "exhibits": [
+        206
+      ],
+      "promise": [
+        207
+      ],
+      "program": [
+        211
+      ],
+      "generator,": [
+        212
+      ],
+      "application": [
+        214
+      ],
+      "intervention": [
+        216,
+        293
+      ],
+      "should": [
+        217
+      ],
+      "be": [
+        218
+      ],
+      "restricted": [
+        219
+      ],
+      "certified": [
+        221
+      ],
+      "professionals.": [
+        223
+      ],
+      "Until": [
+        224
+      ],
+      "July": [
+        225
+      ],
+      "2023,": [
+        226
+      ],
+      "it": [
+        227,
+        278
+      ],
+      "is": [
+        228
+      ],
+      "not": [
+        229
+      ],
+      "advisable": [
+        230
+      ],
+      "patients": [
+        232
+      ],
+      "engage": [
+        234
+      ],
+      "self-prescription": [
+        236
+      ],
+      "using": [
+        237
+      ],
+      "version": [
+        239
+      ],
+      "3.5,": [
+        240
+      ],
+      "owing": [
+        241
+      ],
+      "inability": [
+        244
+      ],
+      "provide": [
+        246
+      ],
+      "professional": [
+        247
+      ],
+      "knowledge": [
+        248
+      ],
+      "acceptable": [
+        250
+      ],
+      "guidance,": [
+        251
+      ],
+      "particularly": [
+        252
+      ],
+      "individuals": [
+        254
+      ],
+      "co-existing": [
+        256
+      ],
+      "prevailing": [
+        259
+      ],
+      "absence": [
+        260
+      ],
+      "reasoning": [
+        263,
+        287
+      ],
+      "highlights": [
+        264
+      ],
+      "importance": [
+        266
+      ],
+      "employing": [
+        268
+      ],
+      "solely": [
+        270
+      ],
+      "tool,": [
+        273
+      ],
+      "rather": [
+        274
+      ],
+      "than": [
+        275
+      ],
+      "relying": [
+        276
+      ],
+      "an": [
+        280
+      ],
+      "autonomous": [
+        281
+      ],
+      "decision-maker.": [
+        282
+      ],
+      "Its": [
+        283
+      ],
+      "lack": [
+        284
+      ],
+      "highlighted": [
+        288
+      ],
+      "need": [
+        290
+      ],
+      "human": [
+        292
+      ],
+      "expert": [
+        295
+      ],
+      "collaboration": [
+        296
+      ],
+      "evaluations.": [
+        300
+      ]
+    },
+    "citations": 11,
+    "concepts": [
+      "Nutritionist",
+      "Certification",
+      "Multidisciplinary approach",
+      "Health care",
+      "Medicine"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4407208230",
+    "doi": "https://doi.org/10.24251/hicss.2025.407",
+    "title": "Personalized Coaching for Lifestyle Behavior Change through Large Language Models: A Qualitative Study",
+    "authors": [
+      "Sophia Meywirth",
+      "Andreas Janson",
+      "Matthias S\u00f6llner"
+    ],
+    "year": 2025,
+    "journal": "Proceedings of the ... Annual Hawaii International Conference on System Sciences/Proceedings of the Annual Hawaii International Conference on System Sciences",
+    "abstract": {
+      "This": [
+        0,
+        101
+      ],
+      "paper": [
+        1,
+        115
+      ],
+      "investigates": [
+        2
+      ],
+      "the": [
+        3,
+        37,
+        40,
+        49,
+        56,
+        62,
+        67,
+        98,
+        125,
+        129
+      ],
+      "impact": [
+        4
+      ],
+      "of": [
+        5,
+        58,
+        79
+      ],
+      "large": [
+        6
+      ],
+      "language": [
+        7
+      ],
+      "model": [
+        8
+      ],
+      "(LLM)-based": [
+        9
+      ],
+      "coaching": [
+        10,
+        53,
+        81,
+        134
+      ],
+      "interventions": [
+        11
+      ],
+      "on": [
+        12,
+        97
+      ],
+      "enhancing": [
+        13
+      ],
+      "physical": [
+        14
+      ],
+      "activity": [
+        15
+      ],
+      "and": [
+        16,
+        44,
+        54,
+        66,
+        72,
+        84,
+        112,
+        119,
+        127
+      ],
+      "nutritional": [
+        17
+      ],
+      "habits,": [
+        18
+      ],
+      "following": [
+        19
+      ],
+      "motivational": [
+        20
+      ],
+      "interviewing": [
+        21
+      ],
+      "guidelines.": [
+        22
+      ],
+      "By": [
+        23
+      ],
+      "exploring": [
+        24
+      ],
+      "user": [
+        25
+      ],
+      "perceptions": [
+        26,
+        78
+      ],
+      "through": [
+        27
+      ],
+      "qualitative": [
+        28
+      ],
+      "research": [
+        29
+      ],
+      "involving": [
+        30
+      ],
+      "eight": [
+        31
+      ],
+      "interviews,": [
+        32
+      ],
+      "five": [
+        33
+      ],
+      "key": [
+        34
+      ],
+      "themes": [
+        35
+      ],
+      "emerged:": [
+        36
+      ],
+      "tension": [
+        38
+      ],
+      "between": [
+        39
+      ],
+      "need": [
+        41,
+        68
+      ],
+      "for": [
+        42,
+        51,
+        64,
+        69
+      ],
+      "authenticity": [
+        43
+      ],
+      "reservations": [
+        45
+      ],
+      "about": [
+        46
+      ],
+      "AI": [
+        47
+      ],
+      "humanization,": [
+        48
+      ],
+      "desire": [
+        50
+      ],
+      "personalized": [
+        52
+      ],
+      "autonomy,": [
+        55
+      ],
+      "necessity": [
+        57
+      ],
+      "simplifying": [
+        59
+      ],
+      "daily": [
+        60
+      ],
+      "tasks,": [
+        61
+      ],
+      "aspiration": [
+        63
+      ],
+      "self-development,": [
+        65
+      ],
+      "perceived": [
+        70
+      ],
+      "privacy": [
+        71
+      ],
+      "trust.": [
+        73
+      ],
+      "The": [
+        74,
+        114
+      ],
+      "findings": [
+        75
+      ],
+      "reveal": [
+        76
+      ],
+      "that": [
+        77,
+        104
+      ],
+      "LLM-based": [
+        80,
+        133
+      ],
+      "are": [
+        82
+      ],
+      "multifaceted": [
+        83
+      ],
+      "cannot": [
+        85
+      ],
+      "be": [
+        86
+      ],
+      "easily": [
+        87
+      ],
+      "classified": [
+        88
+      ],
+      "as": [
+        89
+      ],
+      "purely": [
+        90
+      ],
+      "beneficial": [
+        91
+      ],
+      "or": [
+        92
+      ],
+      "concerning;": [
+        93
+      ],
+      "they": [
+        94
+      ],
+      "vary": [
+        95
+      ],
+      "based": [
+        96
+      ],
+      "specific": [
+        99
+      ],
+      "implementation.": [
+        100
+      ],
+      "complexity": [
+        102
+      ],
+      "indicates": [
+        103
+      ],
+      "certain": [
+        105
+      ],
+      "aspects": [
+        106
+      ],
+      "can": [
+        107
+      ],
+      "simultaneously": [
+        108
+      ],
+      "present": [
+        109
+      ],
+      "both": [
+        110
+      ],
+      "benefits": [
+        111
+      ],
+      "risks.": [
+        113
+      ],
+      "discusses": [
+        116
+      ],
+      "theoretical": [
+        117
+      ],
+      "implications": [
+        118
+      ],
+      "offers": [
+        120
+      ],
+      "practical": [
+        121
+      ],
+      "recommendations": [
+        122
+      ],
+      "to": [
+        123
+      ],
+      "enhance": [
+        124
+      ],
+      "advantages": [
+        126
+      ],
+      "mitigate": [
+        128
+      ],
+      "risks": [
+        130
+      ],
+      "associated": [
+        131
+      ],
+      "with": [
+        132
+      ],
+      "interventions.": [
+        135
+      ]
+    },
+    "citations": 2,
+    "concepts": [
+      "Coaching",
+      "Computer science",
+      "Qualitative research",
+      "Behavior change",
+      "Human\u2013computer interaction"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4413167912",
+    "doi": "https://doi.org/10.55549/ephels.149",
+    "title": "Evaluating the Role of ChatGPT in Health Information Provision: Capabilities, Limitations, and Ethical Implications",
+    "authors": [
+      "Rumyana Stoyanova",
+      "O. M. Stoyanov"
+    ],
+    "year": 2025,
+    "journal": "The Eurasia Proceedings of Health Environment and Life Sciences",
+    "abstract": {
+      "This": [
+        0
+      ],
+      "study": [
+        1,
+        37,
+        159
+      ],
+      "provides": [
+        2
+      ],
+      "a": [
+        3,
+        12,
+        30,
+        48,
+        70,
+        119,
+        124
+      ],
+      "critical": [
+        4,
+        162
+      ],
+      "analysis": [
+        5
+      ],
+      "of": [
+        6,
+        51,
+        85,
+        107,
+        115,
+        141,
+        149,
+        164,
+        205
+      ],
+      "ChatGPT's": [
+        7,
+        39,
+        187
+      ],
+      "strengths": [
+        8
+      ],
+      "and": [
+        9,
+        25,
+        33,
+        44,
+        56,
+        64,
+        87,
+        104,
+        146,
+        169,
+        181,
+        190,
+        207
+      ],
+      "weaknesses": [
+        10
+      ],
+      "as": [
+        11,
+        118
+      ],
+      "resource": [
+        13,
+        72
+      ],
+      "for": [
+        14,
+        21,
+        66,
+        73,
+        126,
+        152
+      ],
+      "delivering": [
+        15
+      ],
+      "health-related": [
+        16
+      ],
+      "information,": [
+        17
+      ],
+      "emphasizing": [
+        18
+      ],
+      "its": [
+        19,
+        61,
+        83,
+        99,
+        137,
+        153,
+        193
+      ],
+      "potential": [
+        20,
+        105
+      ],
+      "both": [
+        22
+      ],
+      "general": [
+        23
+      ],
+      "advice": [
+        24
+      ],
+      "tailored": [
+        26
+      ],
+      "health": [
+        27,
+        52,
+        89,
+        197
+      ],
+      "guidance.": [
+        28
+      ],
+      "Through": [
+        29
+      ],
+      "systematic": [
+        31
+      ],
+      "review": [
+        32
+      ],
+      "expert": [
+        34
+      ],
+      "analysis,": [
+        35
+      ],
+      "the": [
+        36,
+        113,
+        142,
+        147,
+        161,
+        202
+      ],
+      "highlights": [
+        38
+      ],
+      "ability": [
+        40
+      ],
+      "to": [
+        41,
+        96,
+        136,
+        185,
+        196
+      ],
+      "deliver": [
+        42
+      ],
+      "immediate": [
+        43
+      ],
+      "accessible": [
+        45
+      ],
+      "information": [
+        46,
+        198
+      ],
+      "on": [
+        47
+      ],
+      "wide": [
+        49
+      ],
+      "range": [
+        50
+      ],
+      "topics,": [
+        53
+      ],
+      "including": [
+        54,
+        101
+      ],
+      "nutrition": [
+        55
+      ],
+      "chronic": [
+        57
+      ],
+      "disease": [
+        58
+      ],
+      "management.": [
+        59
+      ],
+      "While": [
+        60
+      ],
+      "conversational": [
+        62
+      ],
+      "interface": [
+        63
+      ],
+      "capacity": [
+        65
+      ],
+      "personalization": [
+        67
+      ],
+      "make": [
+        68
+      ],
+      "it": [
+        69
+      ],
+      "valuable": [
+        71
+      ],
+      "users": [
+        74
+      ],
+      "seeking": [
+        75
+      ],
+      "initial": [
+        76
+      ],
+      "advice,": [
+        77,
+        172
+      ],
+      "significant": [
+        78
+      ],
+      "limitations": [
+        79
+      ],
+      "are": [
+        80,
+        93,
+        183
+      ],
+      "evident": [
+        81
+      ],
+      "in": [
+        82,
+        98,
+        155,
+        167,
+        174
+      ],
+      "handling": [
+        84
+      ],
+      "complex": [
+        86,
+        175
+      ],
+      "nuanced": [
+        88
+      ],
+      "scenarios.": [
+        90
+      ],
+      "These": [
+        91
+      ],
+      "shortcomings": [
+        92
+      ],
+      "primarily": [
+        94
+      ],
+      "attributed": [
+        95
+      ],
+      "gaps": [
+        97
+      ],
+      "training,": [
+        100
+      ],
+      "outdated": [
+        102
+      ],
+      "data": [
+        103
+      ],
+      "incorporation": [
+        106
+      ],
+      "unverified": [
+        108
+      ],
+      "sources.": [
+        109
+      ],
+      "The": [
+        110,
+        158
+      ],
+      "findings": [
+        111
+      ],
+      "emphasize": [
+        112
+      ],
+      "importance": [
+        114
+      ],
+      "recognizing": [
+        116
+      ],
+      "ChatGPT": [
+        117
+      ],
+      "supplementary": [
+        120
+      ],
+      "tool": [
+        121
+      ],
+      "rather": [
+        122
+      ],
+      "than": [
+        123
+      ],
+      "replacement": [
+        125
+      ],
+      "professional": [
+        127
+      ],
+      "healthcare": [
+        128,
+        156
+      ],
+      "consultation.": [
+        129
+      ],
+      "Ensuring": [
+        130
+      ],
+      "user": [
+        131
+      ],
+      "safety": [
+        132,
+        206
+      ],
+      "requires": [
+        133
+      ],
+      "ongoing": [
+        134
+      ],
+      "updates": [
+        135
+      ],
+      "training": [
+        138
+      ],
+      "datasets,": [
+        139
+      ],
+      "integration": [
+        140
+      ],
+      "latest": [
+        143
+      ],
+      "scientific": [
+        144
+      ],
+      "evidence,": [
+        145
+      ],
+      "establishment": [
+        148
+      ],
+      "clear": [
+        150
+      ],
+      "guidelines": [
+        151
+      ],
+      "application": [
+        154
+      ],
+      "settings.": [
+        157
+      ],
+      "underscores": [
+        160
+      ],
+      "role": [
+        163
+      ],
+      "qualified": [
+        165
+      ],
+      "professionals": [
+        166
+      ],
+      "verifying": [
+        168
+      ],
+      "contextualizing": [
+        170
+      ],
+      "AI-generated": [
+        171
+      ],
+      "particularly": [
+        173
+      ],
+      "or": [
+        176
+      ],
+      "high-risk": [
+        177
+      ],
+      "cases.": [
+        178
+      ],
+      "Future": [
+        179
+      ],
+      "research": [
+        180
+      ],
+      "development": [
+        182
+      ],
+      "essential": [
+        184
+      ],
+      "enhance": [
+        186
+      ],
+      "reliability,": [
+        188
+      ],
+      "accuracy,": [
+        189
+      ],
+      "effectiveness,": [
+        191
+      ],
+      "ensuring": [
+        192
+      ],
+      "optimal": [
+        194
+      ],
+      "contribution": [
+        195
+      ],
+      "dissemination": [
+        199
+      ],
+      "while": [
+        200
+      ],
+      "maintaining": [
+        201
+      ],
+      "highest": [
+        203
+      ],
+      "standards": [
+        204
+      ],
+      "ethics.": [
+        208
+      ]
+    },
+    "citations": 1,
+    "concepts": [
+      "Personalization",
+      "Health care",
+      "Resource (disambiguation)",
+      "Knowledge management",
+      "Strengths and weaknesses"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W3093565758",
+    "doi": "https://doi.org/10.1111/jhn.12827",
+    "title": "Digital disruption of dietetics: are we ready?",
+    "authors": [
+      "Jaimon T. Kelly",
+      "Peter Collins",
+      "Jordan McCamley",
+      "Lauren Ball",
+      "Shelley Roberts",
+      "Katrina L. Campbell"
+    ],
+    "year": 2020,
+    "journal": "Journal of Human Nutrition and Dietetics",
+    "abstract": {
+      "Abstract": [
+        0
+      ],
+      "Digital": [
+        1,
+        26
+      ],
+      "health": [
+        2,
+        8,
+        27,
+        76,
+        97,
+        137
+      ],
+      "is": [
+        3,
+        59,
+        98,
+        133,
+        159
+      ],
+      "transforming": [
+        4
+      ],
+      "the": [
+        5,
+        11,
+        15,
+        31,
+        38,
+        100,
+        109,
+        144,
+        148,
+        171,
+        174,
+        190
+      ],
+      "delivery": [
+        6,
+        32,
+        50,
+        106
+      ],
+      "of": [
+        7,
+        33,
+        55,
+        103,
+        135,
+        165,
+        173
+      ],
+      "care": [
+        9,
+        36,
+        105
+      ],
+      "around": [
+        10
+      ],
+      "world": [
+        12
+      ],
+      "to": [
+        13,
+        113,
+        127,
+        143,
+        179,
+        198
+      ],
+      "meet": [
+        14
+      ],
+      "growing": [
+        16
+      ],
+      "challenges": [
+        17
+      ],
+      "presented": [
+        18
+      ],
+      "by": [
+        19,
+        44
+      ],
+      "ageing": [
+        20
+      ],
+      "populations": [
+        21
+      ],
+      "with": [
+        22
+      ],
+      "multiple": [
+        23
+      ],
+      "chronic": [
+        24
+      ],
+      "conditions.": [
+        25
+      ],
+      "technologies": [
+        28,
+        70,
+        141
+      ],
+      "can": [
+        29
+      ],
+      "support": [
+        30
+      ],
+      "personalised": [
+        34
+      ],
+      "nutrition": [
+        35,
+        66,
+        104,
+        150,
+        201
+      ],
+      "through": [
+        37
+      ],
+      "standardised": [
+        39
+      ],
+      "Nutrition": [
+        40
+      ],
+      "Care": [
+        41
+      ],
+      "Process": [
+        42
+      ],
+      "(NCP)": [
+        43
+      ],
+      "using": [
+        45
+      ],
+      "personal": [
+        46,
+        75
+      ],
+      "data": [
+        47
+      ],
+      "and": [
+        48,
+        64,
+        74,
+        83,
+        89,
+        107,
+        139,
+        154,
+        156,
+        169,
+        196
+      ],
+      "technology\u2010supported": [
+        49
+      ],
+      "modalities.": [
+        51
+      ],
+      "The": [
+        52
+      ],
+      "digital": [
+        53,
+        96,
+        117,
+        136
+      ],
+      "disruption": [
+        54
+      ],
+      "traditional": [
+        56,
+        101
+      ],
+      "dietetic": [
+        57
+      ],
+      "services": [
+        58
+      ],
+      "occurring": [
+        60
+      ],
+      "worldwide,": [
+        61
+      ],
+      "supporting": [
+        62
+      ],
+      "responsive": [
+        63
+      ],
+      "high\u2010quality": [
+        65
+      ],
+      "care.": [
+        67,
+        130
+      ],
+      "These": [
+        68
+      ],
+      "disruptive": [
+        69,
+        140
+      ],
+      "include": [
+        71
+      ],
+      "integrated": [
+        72
+      ],
+      "electronic": [
+        73
+      ],
+      "records,": [
+        77
+      ],
+      "mobile": [
+        78
+      ],
+      "apps,": [
+        79
+      ],
+      "wearables,": [
+        80
+      ],
+      "artificial": [
+        81
+      ],
+      "intelligence": [
+        82
+      ],
+      "machine": [
+        84
+      ],
+      "learning,": [
+        85
+      ],
+      "conversation": [
+        86
+      ],
+      "agents,": [
+        87
+      ],
+      "chatbots,": [
+        88
+      ],
+      "social": [
+        90
+      ],
+      "robots.": [
+        91
+      ],
+      "Here,": [
+        92
+      ],
+      "we": [
+        93
+      ],
+      "outline": [
+        94,
+        108
+      ],
+      "how": [
+        95
+      ],
+      "disrupting": [
+        99
+      ],
+      "model": [
+        102
+      ],
+      "potential": [
+        110
+      ],
+      "for": [
+        111
+      ],
+      "dietitians": [
+        112,
+        162,
+        184
+      ],
+      "not": [
+        114,
+        176
+      ],
+      "only": [
+        115
+      ],
+      "embrace": [
+        116
+      ],
+      "disruption,": [
+        118,
+        175
+      ],
+      "but": [
+        119
+      ],
+      "also": [
+        120
+      ],
+      "take": [
+        121
+      ],
+      "ownership": [
+        122
+      ],
+      "in": [
+        123,
+        147,
+        189
+      ],
+      "shaping": [
+        124
+      ],
+      "it,": [
+        125
+      ],
+      "aiming": [
+        126
+      ],
+      "enhance": [
+        128
+      ],
+      "patient": [
+        129
+      ],
+      "An": [
+        131
+      ],
+      "overview": [
+        132
+      ],
+      "provided": [
+        134
+      ],
+      "concepts": [
+        138
+      ],
+      "according": [
+        142
+      ],
+      "four": [
+        145
+      ],
+      "steps": [
+        146
+      ],
+      "NCP:": [
+        149
+      ],
+      "assessment,": [
+        151
+      ],
+      "diagnosis,": [
+        152
+      ],
+      "intervention,": [
+        153
+      ],
+      "monitoring": [
+        155
+      ],
+      "evaluation.": [
+        157
+      ],
+      "It": [
+        158
+      ],
+      "imperative": [
+        160
+      ],
+      "that": [
+        161
+      ],
+      "stay": [
+        163
+      ],
+      "abreast": [
+        164
+      ],
+      "these": [
+        166
+      ],
+      "technological": [
+        167
+      ],
+      "developments": [
+        168
+      ],
+      "be": [
+        170
+      ],
+      "leaders": [
+        172
+      ],
+      "simply": [
+        177
+      ],
+      "subject": [
+        178
+      ],
+      "it.": [
+        180
+      ],
+      "By": [
+        181
+      ],
+      "doing": [
+        182
+      ],
+      "so,": [
+        183
+      ],
+      "now,": [
+        185
+      ],
+      "as": [
+        186,
+        188
+      ],
+      "well": [
+        187
+      ],
+      "future,": [
+        191
+      ],
+      "will": [
+        192
+      ],
+      "maximise": [
+        193
+      ],
+      "their": [
+        194
+      ],
+      "impact": [
+        195
+      ],
+      "continue": [
+        197
+      ],
+      "champion": [
+        199
+      ],
+      "evidence\u2010based": [
+        200
+      ],
+      "practice.": [
+        202
+      ]
+    },
+    "citations": 58,
+    "concepts": [
+      "Champion",
+      "Medicine",
+      "Digital health",
+      "Health care",
+      "Modalities"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4307942343",
+    "doi": "https://doi.org/10.3390/foods11213429",
+    "title": "Rapid Non-Destructive Analysis of Food Nutrient Content Using Swin-Nutrition",
+    "authors": [
+      "Wenjing Shao",
+      "Sujuan Hou",
+      "Weikuan Jia",
+      "Yuanjie Zheng"
+    ],
+    "year": 2022,
+    "journal": "Foods",
+    "abstract": {
+      "Food": [
+        0
+      ],
+      "non-destructive": [
+        1,
+        28,
+        64
+      ],
+      "detection": [
+        2,
+        29,
+        65
+      ],
+      "technology": [
+        3
+      ],
+      "(NDDT)": [
+        4
+      ],
+      "is": [
+        5,
+        26
+      ],
+      "a": [
+        6,
+        205
+      ],
+      "powerful": [
+        7
+      ],
+      "impetus": [
+        8
+      ],
+      "to": [
+        9,
+        75,
+        85,
+        104,
+        117,
+        140,
+        146
+      ],
+      "the": [
+        10,
+        19,
+        27,
+        31,
+        77,
+        88,
+        92,
+        99,
+        107,
+        113,
+        127,
+        142,
+        148,
+        156,
+        160,
+        169,
+        173,
+        209
+      ],
+      "development": [
+        11
+      ],
+      "of": [
+        12,
+        18,
+        22,
+        30,
+        44,
+        80,
+        133,
+        150,
+        164,
+        172,
+        211
+      ],
+      "food": [
+        13,
+        23,
+        37,
+        62,
+        93,
+        134,
+        212
+      ],
+      "safety": [
+        14
+      ],
+      "and": [
+        15,
+        46,
+        73,
+        95,
+        112,
+        136,
+        162,
+        184,
+        192,
+        200
+      ],
+      "quality.": [
+        16
+      ],
+      "One": [
+        17
+      ],
+      "essential": [
+        20
+      ],
+      "tasks": [
+        21
+      ],
+      "quality": [
+        24
+      ],
+      "regulation": [
+        25
+      ],
+      "food\u2019s": [
+        32
+      ],
+      "nutrient": [
+        33,
+        38,
+        78,
+        100,
+        114,
+        119
+      ],
+      "content.": [
+        34,
+        101,
+        120
+      ],
+      "However,": [
+        35
+      ],
+      "existing": [
+        36
+      ],
+      "NDDT": [
+        39,
+        74
+      ],
+      "performs": [
+        40
+      ],
+      "poorly": [
+        41
+      ],
+      "in": [
+        42,
+        53
+      ],
+      "terms": [
+        43
+      ],
+      "efficiency": [
+        45,
+        163
+      ],
+      "accuracy,": [
+        47
+      ],
+      "which": [
+        48,
+        69
+      ],
+      "hinders": [
+        49
+      ],
+      "their": [
+        50
+      ],
+      "widespread": [
+        51
+      ],
+      "application": [
+        52
+      ],
+      "daily": [
+        54
+      ],
+      "meals.": [
+        55
+      ],
+      "Therefore,": [
+        56
+      ],
+      "this": [
+        57
+      ],
+      "paper": [
+        58
+      ],
+      "proposed": [
+        59,
+        166
+      ],
+      "an": [
+        60
+      ],
+      "end-to-end": [
+        61
+      ],
+      "nutrition": [
+        63
+      ],
+      "method,": [
+        66
+      ],
+      "named": [
+        67
+      ],
+      "Swin-Nutrition,": [
+        68
+      ],
+      "combined": [
+        70
+      ],
+      "deep": [
+        71
+      ],
+      "learning": [
+        72
+      ],
+      "evaluate": [
+        76,
+        118
+      ],
+      "content": [
+        79
+      ],
+      "food.": [
+        81
+      ],
+      "The": [
+        82,
+        152
+      ],
+      "method": [
+        83,
+        202
+      ],
+      "aimed": [
+        84
+      ],
+      "fully": [
+        86
+      ],
+      "capture": [
+        87
+      ],
+      "feature": [
+        89,
+        108,
+        131,
+        144
+      ],
+      "information": [
+        90
+      ],
+      "from": [
+        91
+      ],
+      "images": [
+        94
+      ],
+      "thus": [
+        96
+      ],
+      "accurately": [
+        97
+      ],
+      "estimate": [
+        98
+      ],
+      "Swin-Nutrition": [
+        102
+      ],
+      "resorted": [
+        103
+      ],
+      "Swin": [
+        105,
+        123
+      ],
+      "Transformer,": [
+        106
+      ],
+      "fusion": [
+        109
+      ],
+      "module": [
+        110,
+        116
+      ],
+      "(FFM),": [
+        111
+      ],
+      "prediction": [
+        115
+      ],
+      "In": [
+        121
+      ],
+      "particular,": [
+        122
+      ],
+      "Transformer": [
+        124
+      ],
+      "acted": [
+        125
+      ],
+      "as": [
+        126
+      ],
+      "backbone": [
+        128
+      ],
+      "network": [
+        129
+      ],
+      "for": [
+        130,
+        179,
+        208
+      ],
+      "extraction": [
+        132
+      ],
+      "images,": [
+        135
+      ],
+      "FFM": [
+        137
+      ],
+      "was": [
+        138
+      ],
+      "used": [
+        139
+      ],
+      "obtain": [
+        141
+      ],
+      "discriminative": [
+        143
+      ],
+      "representation": [
+        145
+      ],
+      "improve": [
+        147
+      ],
+      "accuracy": [
+        149
+      ],
+      "prediction.": [
+        151
+      ],
+      "experimental": [
+        153
+      ],
+      "results": [
+        154
+      ],
+      "on": [
+        155
+      ],
+      "Nutrition5k": [
+        157
+      ],
+      "dataset": [
+        158
+      ],
+      "demonstrated": [
+        159
+      ],
+      "effectiveness": [
+        161
+      ],
+      "our": [
+        165,
+        198
+      ],
+      "method.": [
+        167
+      ],
+      "Specifically,": [
+        168
+      ],
+      "mean": [
+        170,
+        175
+      ],
+      "value": [
+        171
+      ],
+      "percentage": [
+        174
+      ],
+      "absolute": [
+        176
+      ],
+      "error": [
+        177
+      ],
+      "(PMAE)": [
+        178
+      ],
+      "calories,": [
+        180
+      ],
+      "mass,": [
+        181
+      ],
+      "fat,": [
+        182
+      ],
+      "carbohydrate,": [
+        183
+      ],
+      "protein": [
+        185
+      ],
+      "were": [
+        186
+      ],
+      "only": [
+        187
+      ],
+      "15.3%,": [
+        188
+      ],
+      "12.5%,": [
+        189
+      ],
+      "22.1%,": [
+        190
+      ],
+      "20.8%,": [
+        191
+      ],
+      "15.4%,": [
+        193
+      ],
+      "respectively.": [
+        194
+      ],
+      "We": [
+        195
+      ],
+      "hope": [
+        196
+      ],
+      "that": [
+        197
+      ],
+      "simple": [
+        199
+      ],
+      "effective": [
+        201
+      ],
+      "will": [
+        203
+      ],
+      "provide": [
+        204
+      ],
+      "solid": [
+        206
+      ],
+      "foundation": [
+        207
+      ],
+      "research": [
+        210
+      ],
+      "NDDT.": [
+        213
+      ]
+    },
+    "citations": 28,
+    "concepts": [
+      "Food science",
+      "Nutrient",
+      "Environmental science",
+      "Chemistry",
+      "Biology"
+    ]
+  }
+]
