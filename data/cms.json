@@ -1,0 +1,145 @@
+{
+  "settings": {
+    "brandName": "Ke Trancas",
+    "heroTitle": "Trancas com identidade, produtos com resultado e atendimento de verdade.",
+    "heroSubtitle": "Catalogo organizado por objetivo, videos de cuidado e informacoes claras de frete, pagamento e troca para vender com previsibilidade.",
+    "whatsappUrl": "https://wa.me/5521999999999",
+    "instagramUrl": "https://instagram.com/ketrancas",
+    "supportText": "Atendimento via WhatsApp de segunda a sabado, 9h as 20h.",
+    "trustItems": [
+      "Frete com prazo estimado no checkout",
+      "Troca simplificada em ate 7 dias",
+      "Pagamento seguro com pix e cartao"
+    ],
+    "paymentItems": [
+      "Pix com desconto",
+      "Cartao em ate 6x",
+      "Boleto para pedidos corporativos"
+    ]
+  },
+  "products": [
+    {
+      "id": "p1",
+      "slug": "kit-pos-tranca-reconstrucao",
+      "name": "Kit Pos-Tranca Reconstrucao",
+      "description": "Limpeza suave + mascara + finalizador para recuperar brilho sem pesar na raiz.",
+      "category": "Kits",
+      "hairType": "Trancas e cabelos com quimica",
+      "brand": "Ke Trancas",
+      "benefit": "Hidratacao intensa e controle de frizz",
+      "price": 139.9,
+      "oldPrice": 169.9,
+      "imageUrl": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.9,
+      "reviewCount": 67,
+      "isFeatured": true,
+      "isBestSeller": true,
+      "inStock": true,
+      "tags": [
+        "pos-tranca",
+        "hidratacao",
+        "frizz"
+      ]
+    },
+    {
+      "id": "p2",
+      "slug": "spray-refresh-trancas",
+      "name": "Spray Refresh Trancas",
+      "description": "Revitaliza no day after e reduz odor sem acumulo.",
+      "category": "Finalizadores",
+      "hairType": "Trancas",
+      "brand": "Ke Trancas",
+      "benefit": "Refresh rapido com perfume leve",
+      "price": 54.9,
+      "oldPrice": 64.9,
+      "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.8,
+      "reviewCount": 41,
+      "isFeatured": true,
+      "isBestSeller": true,
+      "inStock": true,
+      "tags": [
+        "refresh",
+        "day-after"
+      ]
+    },
+    {
+      "id": "p3",
+      "slug": "oleo-couro-cabeludo",
+      "name": "Oleo Couro Cabeludo Comfort",
+      "description": "Blend nutritivo para massagear o couro cabeludo sem aspecto oleoso.",
+      "category": "Tratamento",
+      "hairType": "Todos os tipos",
+      "brand": "Ke Trancas",
+      "benefit": "Conforto e nutricao na raiz",
+      "price": 44.9,
+      "imageUrl": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.7,
+      "reviewCount": 29,
+      "isFeatured": true,
+      "isBestSeller": false,
+      "inStock": true,
+      "tags": [
+        "couro-cabeludo",
+        "nutricao"
+      ]
+    },
+    {
+      "id": "p4",
+      "slug": "espuma-modeladora-baby-hair",
+      "name": "Espuma Modeladora Baby Hair",
+      "description": "Fixacao flexivel para acabamento profissional sem rigidez.",
+      "category": "Finalizadores",
+      "hairType": "Trancas e penteados",
+      "brand": "Ke Trancas",
+      "benefit": "Definicao com toque natural",
+      "price": 39.9,
+      "imageUrl": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.6,
+      "reviewCount": 23,
+      "isFeatured": false,
+      "isBestSeller": true,
+      "inStock": true,
+      "tags": [
+        "acabamento",
+        "baby-hair"
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "id": "v1",
+      "title": "Como manter o brilho das trancas por 15 dias",
+      "url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
+      "description": "Rotina rapida de 3 passos para preservar definicao e leveza."
+    },
+    {
+      "id": "v2",
+      "title": "Pre-lavagem para proteger o couro cabeludo",
+      "url": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
+      "description": "Guia pratico para evitar ressecamento na raiz."
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r1",
+      "author": "Camila M.",
+      "text": "Comprei o kit pos-tranca e ja na segunda semana senti menos frizz e mais brilho. Entrega chegou em 2 dias.",
+      "rating": 5,
+      "productSlug": "kit-pos-tranca-reconstrucao"
+    },
+    {
+      "id": "r2",
+      "author": "Lari S.",
+      "text": "Site facil de usar, consegui filtrar por tipo de cabelo e achei o produto certo em minutos.",
+      "rating": 5
+    },
+    {
+      "id": "r3",
+      "author": "Nath A.",
+      "text": "Gostei muito do spray refresh, super pratico para rotina corrida.",
+      "rating": 4,
+      "productSlug": "spray-refresh-trancas"
+    }
+  ]
+}

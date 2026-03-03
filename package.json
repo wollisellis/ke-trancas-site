@@ -1,0 +1,24 @@
+{
+  "name": "ke-trancas-site",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .ts,.tsx --max-warnings=0"
+  },
+  "dependencies": {
+    "next": "16.1.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "typescript": "5.8.3",
+    "@types/node": "20.19.9",
+    "@types/react": "18.3.23",
+    "@types/react-dom": "18.3.7",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.5"
+  }
+}
