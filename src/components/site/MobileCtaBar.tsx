@@ -1,13 +1,13 @@
 type MobileCtaBarProps = {
   whatsappUrl: string;
-  stripeUrl?: string;
+  slug?: string;
 };
 
-export function MobileCtaBar({ whatsappUrl, stripeUrl }: MobileCtaBarProps) {
+export function MobileCtaBar({ whatsappUrl, slug }: MobileCtaBarProps) {
   return (
     <div className="mobile-cta-bar" role="region" aria-label="Acoes rapidas">
-      {stripeUrl ? (
-        <a className="btn" href={stripeUrl} target="_blank" rel="noreferrer">
+      {slug ? (
+        <a className="btn" href={`/comprar/${slug}`}>
           Comprar agora
         </a>
       ) : (

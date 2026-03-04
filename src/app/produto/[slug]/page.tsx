@@ -57,6 +57,8 @@ export default async function ProdutoPage({ params }: Params) {
       ? Math.round((1 - product.price / product.oldPrice) * 100)
       : null;
 
+  const stripeActive = !!(product.buyOnline && process.env.STRIPE_SECRET_KEY);
+
   return (
     <main>
       <Header
@@ -95,9 +97,9 @@ export default async function ProdutoPage({ params }: Params) {
           </div>
 
           <div className="product-page-actions">
-            {product.stripeUrl ? (
+            {stripeActive ? (
               <>
-                <a className="btn" href={product.stripeUrl} target="_blank" rel="noreferrer">
+                <a className="btn" href={`/comprar/${product.slug}`}>
                   Comprar agora
                 </a>
                 <a className="btn btn-ghost" href={cms.settings.whatsappUrl} target="_blank" rel="noreferrer">
@@ -179,7 +181,7 @@ export default async function ProdutoPage({ params }: Params) {
         supportText={cms.settings.supportText}
       />
 
-      <MobileCtaBar whatsappUrl={cms.settings.whatsappUrl} stripeUrl={product.stripeUrl} />
+      <MobileCtaBar whatsappUrl={cms.settings.whatsappUrl} slug={stripeActive ? product.slug : undefined} />
     </main>
   );
 }

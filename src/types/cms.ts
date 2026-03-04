@@ -17,7 +17,7 @@ export type CMSProduct = {
   inStock: boolean;
   tags: string[];
   howToUse?: string[];
-  stripeUrl?: string;
+  buyOnline?: boolean;
 };
 
 export type CMSVideo = {

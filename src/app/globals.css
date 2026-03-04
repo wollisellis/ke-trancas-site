@@ -1342,6 +1342,11 @@ textarea.input {
   padding: 8px 16px;
 }
 
+.admin-product.drag-over {
+  outline: 2px dashed var(--brand);
+  outline-offset: 2px;
+}
+
 .admin-footer-bar {
   position: sticky;
   bottom: 8px;

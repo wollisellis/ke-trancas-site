@@ -43,7 +43,7 @@ function createProduct(): CMSProduct {
     inStock: true,
     tags: [],
     howToUse: [],
-    stripeUrl: ''
+    buyOnline: false
   };
 }
 
@@ -67,6 +67,8 @@ export default function AdminClient() {
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [message, setMessage] = useState('');
+  const [dragIdx, setDragIdx] = useState<number | null>(null);
+  const [dragOverIdx, setDragOverIdx] = useState<number | null>(null);
 
   useEffect(() => {
     const stored = window.localStorage.getItem('ke_admin_token') ?? '';
@@ -95,6 +97,18 @@ export default function AdminClient() {
       ...prev,
       settings: { ...prev.settings, paymentItems: value.split('\n').map((item) => item.trim()).filter(Boolean) }
     }));
+  }
+
+  function moveProduct(from: number, to: number) {
+    if (from === to) return;
+    setCms((prev) => {
+      const products = [...prev.products];
+      const [moved] = products.splice(from, 1);
+      products.splice(to, 0, moved);
+      return { ...prev, products };
+    });
+    setDragIdx(null);
+    setDragOverIdx(null);
   }
 
   async function saveCMS() {
@@ -189,10 +203,22 @@ export default function AdminClient() {
         </div>
 
         {cms.products.map((product, index) => (
-          <article key={product.id} className="admin-product card">
+          <article
+            key={product.id}
+            className={`admin-product card${dragOverIdx === index && dragIdx !== index ? ' drag-over' : ''}`}
+            draggable
+            onDragStart={() => setDragIdx(index)}
+            onDragOver={(e) => { e.preventDefault(); setDragOverIdx(index); }}
+            onDrop={() => dragIdx !== null && moveProduct(dragIdx, index)}
+            onDragEnd={() => { setDragIdx(null); setDragOverIdx(null); }}
+            style={{ opacity: dragIdx === index ? 0.45 : 1, transition: 'opacity 0.15s' }}
+          >
             <div className="admin-head-row">
-              <strong>Produto #{index + 1}</strong>
-              <button className="btn btn-danger" onClick={() => setCms((prev) => ({ ...prev, products: prev.products.filter((item) => item.id !== product.id) }))}>Excluir</button>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                <span title="Arraste para reordenar" style={{ cursor: 'grab', fontSize: '1.3rem', color: 'var(--muted)', lineHeight: 1, userSelect: 'none' }}>⠿</span>
+                <strong>#{index + 1} — {product.name}</strong>
+              </div>
+              <button className="btn btn-danger btn-small" onClick={() => setCms((prev) => ({ ...prev, products: prev.products.filter((item) => item.id !== product.id) }))}>Excluir</button>
             </div>
 
             <div className="admin-grid-2">
@@ -248,10 +274,6 @@ export default function AdminClient() {
               <img src={product.imageUrl} alt="Preview" style={{ width: 100, height: 100, objectFit: 'cover', borderRadius: 8, marginTop: 8, border: '1px solid var(--line)' }} />
             )}
 
-            <label className="label">🔗 Link de pagamento Stripe (opcional)</label>
-            <input className="input" value={product.stripeUrl ?? ''} placeholder="https://buy.stripe.com/..." onChange={(event) => setCms((prev) => ({ ...prev, products: prev.products.map((item) => item.id === product.id ? { ...item, stripeUrl: event.target.value.trim() || undefined } : item) }))} />
-            <p className="muted" style={{ fontSize: '0.75rem', marginTop: 4 }}>Cole aqui o link gerado no painel do Stripe. Quando preenchido, o botao "Comprar agora" aparece na pagina do produto.</p>
-
             <label className="label">Tags (separadas por virgula)</label>
             <input className="input" value={product.tags.join(', ')} onChange={(event) => setCms((prev) => ({ ...prev, products: prev.products.map((item) => item.id === product.id ? { ...item, tags: event.target.value.split(',').map((tag) => tag.trim()).filter(Boolean) } : item) }))} />
 
@@ -262,7 +284,13 @@ export default function AdminClient() {
               <label><input type="checkbox" checked={product.inStock} onChange={(event) => setCms((prev) => ({ ...prev, products: prev.products.map((item) => item.id === product.id ? { ...item, inStock: event.target.checked } : item) }))} />Em estoque</label>
               <label><input type="checkbox" checked={product.isFeatured} onChange={(event) => setCms((prev) => ({ ...prev, products: prev.products.map((item) => item.id === product.id ? { ...item, isFeatured: event.target.checked } : item) }))} />Destaque</label>
               <label><input type="checkbox" checked={product.isBestSeller} onChange={(event) => setCms((prev) => ({ ...prev, products: prev.products.map((item) => item.id === product.id ? { ...item, isBestSeller: event.target.checked } : item) }))} />Mais vendido</label>
+              <label><input type="checkbox" checked={product.buyOnline ?? false} onChange={(event) => setCms((prev) => ({ ...prev, products: prev.products.map((item) => item.id === product.id ? { ...item, buyOnline: event.target.checked } : item) }))} />💳 Vender online (Stripe)</label>
             </div>
+            {product.buyOnline && (
+              <p style={{ fontSize: '0.75rem', color: 'var(--muted)', margin: '4px 0 0', background: 'var(--brand-soft)', padding: '6px 10px', borderRadius: 8 }}>
+                ✅ Botao "Comprar agora" ativado. A API do Stripe deve estar configurada nas variaveis de ambiente do Vercel.
+              </p>
+            )}
           </article>
         ))}
       </section>
