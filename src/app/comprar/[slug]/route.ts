@@ -43,6 +43,7 @@ export async function GET(
     cancel_url: `${origin}/produto/${slug}`,
     locale: 'pt-BR',
     phone_number_collection: { enabled: true },
+    metadata: { slug },
   });
 
   redirect(session.url!);

@@ -15,6 +15,7 @@ export type CMSProduct = {
   isFeatured: boolean;
   isBestSeller: boolean;
   inStock: boolean;
+  stockQty?: number;
   tags: string[];
   howToUse?: string[];
   buyOnline?: boolean;

@@ -181,13 +181,13 @@ export default function AdminClient() {
     <div className="admin-shell">
       <section className="card admin-top">
         <div>
-          <h1>Painel Ke Trancas</h1>
-          <p className="muted">Edite conteudo, produtos, videos e avaliacoes sem mexer em codigo.</p>
+          <h1>Painel Kê Tranças</h1>
+          <p className="muted">Edite conteúdo, produtos, vídeos e avaliações sem mexer em código.</p>
         </div>
         <div className="stats-row">
           <span className="chip">{stats.products} produtos</span>
-          <span className="chip">{stats.videos} videos</span>
-          <span className="chip">{stats.reviews} avaliacoes</span>
+          <span className="chip">{stats.videos} vídeos</span>
+          <span className="chip">{stats.reviews} avaliações</span>
         </div>
       </section>
 
@@ -197,7 +197,7 @@ export default function AdminClient() {
       </section>
 
       <section className="card admin-section">
-        <h2>Configuracoes principais</h2>
+        <h2>Configurações principais</h2>
         <div className="admin-grid-2">
           <div>
             <label className="label">Nome da marca</label>
@@ -232,15 +232,15 @@ export default function AdminClient() {
           </div>
         </div>
 
-        <label className="label">Titulo principal</label>
+        <label className="label">Título principal</label>
         <input className="input" value={cms.settings.heroTitle} onChange={(event) => setCms((prev) => ({ ...prev, settings: { ...prev.settings, heroTitle: event.target.value } }))} />
 
-        <label className="label">Subtitulo</label>
+        <label className="label">Subtítulo</label>
         <textarea className="input" value={cms.settings.heroSubtitle} onChange={(event) => setCms((prev) => ({ ...prev, settings: { ...prev.settings, heroSubtitle: event.target.value } }))} />
 
         <div className="admin-grid-2">
           <div>
-            <label className="label">Itens de confianca (1 por linha)</label>
+            <label className="label">Itens de confiança (1 por linha)</label>
             <textarea className="input" value={cms.settings.trustItems.join('\n')} onChange={(event) => setTrustItems(event.target.value)} />
           </div>
           <div>
@@ -294,7 +294,7 @@ export default function AdminClient() {
                 ['Categoria', 'category'],
                 ['Tipo de cabelo', 'hairType'],
                 ['Marca', 'brand'],
-                ['Beneficio', 'benefit']
+                ['Benefício', 'benefit']
               ].map(([label, key]) => (
                 <div key={key}>
                   <label className="label">{label}</label>
@@ -305,11 +305,11 @@ export default function AdminClient() {
 
             <div className="admin-grid-4">
               <div>
-                <label className="label">Preco</label>
+                <label className="label">Preço</label>
                 <input className="input" type="number" value={product.price} onChange={(event) => setCms((prev) => ({ ...prev, products: prev.products.map((item) => item.id === product.id ? { ...item, price: Number(event.target.value) } : item) }))} />
               </div>
               <div>
-                <label className="label">Preco anterior</label>
+                <label className="label">Preço anterior</label>
                 <input className="input" type="number" value={product.oldPrice ?? 0} onChange={(event) => setCms((prev) => ({ ...prev, products: prev.products.map((item) => item.id === product.id ? { ...item, oldPrice: Number(event.target.value) > 0 ? Number(event.target.value) : undefined } : item) }))} />
               </div>
               <div>
@@ -317,13 +317,17 @@ export default function AdminClient() {
                 <input className="input" type="number" min={0} max={5} step={0.1} value={product.rating} onChange={(event) => setCms((prev) => ({ ...prev, products: prev.products.map((item) => item.id === product.id ? { ...item, rating: Number(event.target.value) } : item) }))} />
               </div>
               <div>
-                <label className="label">Qtd. avaliacoes</label>
+                <label className="label">Qtd. avaliações</label>
                 <input className="input" type="number" value={product.reviewCount} onChange={(event) => setCms((prev) => ({ ...prev, products: prev.products.map((item) => item.id === product.id ? { ...item, reviewCount: Number(event.target.value) } : item) }))} />
+              </div>
+              <div>
+                <label className="label">Estoque (unid.)</label>
+                <input className="input" type="number" min={0} placeholder="Vazio = sem controle" value={product.stockQty ?? ''} onChange={(event) => setCms((prev) => ({ ...prev, products: prev.products.map((item) => item.id === product.id ? { ...item, stockQty: event.target.value === '' ? undefined : Number(event.target.value), inStock: event.target.value === '' ? item.inStock : Number(event.target.value) > 0 } : item) }))} />
               </div>
             </div>
 
             <label className="label">Fotos do produto</label>
-            <p className="muted" style={{ fontSize: '0.75rem', margin: '-4px 0 8px' }}>A primeira foto e a capa. Arraste para reordenar. Cole URLs de imagem (Unsplash, Google Drive etc).</p>
+            <p className="muted" style={{ fontSize: '0.75rem', margin: '-4px 0 8px' }}>A primeira foto é a capa. Arraste para reordenar.</p>
             <div className="admin-image-list">
               {(product.images ?? []).map((url, imgIdx) => (
                 <div
@@ -415,7 +419,7 @@ export default function AdminClient() {
             >+ Adicionar foto</button>
             </div>
 
-            <label className="label">Tags (separadas por virgula)</label>
+            <label className="label">Tags (separadas por vírgula)</label>
             <input className="input" value={product.tags.join(', ')} onChange={(event) => setCms((prev) => ({ ...prev, products: prev.products.map((item) => item.id === product.id ? { ...item, tags: event.target.value.split(',').map((tag) => tag.trim()).filter(Boolean) } : item) }))} />
 
             <label className="label">Como usar (1 passo por linha)</label>
@@ -429,7 +433,7 @@ export default function AdminClient() {
             </div>
             {product.buyOnline && (
               <p style={{ fontSize: '0.75rem', color: 'var(--muted)', margin: '4px 0 0', background: 'var(--brand-soft)', padding: '6px 10px', borderRadius: 8 }}>
-                ✅ Botao &ldquo;Comprar agora&rdquo; ativado. A API do Stripe deve estar configurada nas variaveis de ambiente do Vercel.
+                ✅ Botão &ldquo;Comprar agora&rdquo; ativado. Configure STRIPE_SECRET_KEY e STRIPE_WEBHOOK_SECRET nas variáveis de ambiente do Vercel.
               </p>
             )}
           </article>
@@ -438,8 +442,8 @@ export default function AdminClient() {
 
       <section className="card admin-section">
         <div className="admin-head-row">
-          <h2>Videos</h2>
-          <button className="btn" onClick={() => setCms((prev) => ({ ...prev, videos: [createVideo(), ...prev.videos] }))}>+ Novo video</button>
+          <h2>Vídeos</h2>
+          <button className="btn" onClick={() => setCms((prev) => ({ ...prev, videos: [createVideo(), ...prev.videos] }))}>+ Novo vídeo</button>
         </div>
 
         {cms.videos.map((video) => (
@@ -454,8 +458,8 @@ export default function AdminClient() {
 
       <section className="card admin-section">
         <div className="admin-head-row">
-          <h2>Avaliacoes</h2>
-          <button className="btn" onClick={() => setCms((prev) => ({ ...prev, reviews: [createReview(), ...prev.reviews] }))}>+ Nova avaliacao</button>
+          <h2>Avaliações</h2>
+          <button className="btn" onClick={() => setCms((prev) => ({ ...prev, reviews: [createReview(), ...prev.reviews] }))}>+ Nova avaliação</button>
         </div>
 
         {cms.reviews.map((review) => (
@@ -476,24 +480,24 @@ export default function AdminClient() {
           <h2>Motivos para comprar</h2>
           <button className="btn" onClick={() => setCms((prev) => ({ ...prev, settings: { ...prev.settings, reasons: [createReason(), ...(prev.settings.reasons ?? [])] } }))}>+ Novo motivo</button>
         </div>
-        <p className="muted" style={{ marginBottom: 12 }}>Esses cards aparecem na secao &ldquo;Por que comprar aqui?&rdquo; da pagina inicial.</p>
+        <p className="muted" style={{ marginBottom: 12 }}>Esses cards aparecem na seção &ldquo;Por que comprar aqui?&rdquo; da página inicial.</p>
 
         {(cms.settings.reasons ?? []).map((reason, index) => (
           <article key={index} className="card admin-item-row">
             <div className="admin-grid-4">
               <div>
-                <label className="label">Icone (emoji)</label>
+                <label className="label">Ícone (emoji)</label>
                 <input className="input" value={reason.icon} onChange={(event) => setCms((prev) => ({ ...prev, settings: { ...prev.settings, reasons: prev.settings.reasons.map((item, i) => i === index ? { ...item, icon: event.target.value } : item) } }))} />
               </div>
               <div style={{ gridColumn: 'span 2' }}>
-                <label className="label">Titulo</label>
+                <label className="label">Título</label>
                 <input className="input" value={reason.title} onChange={(event) => setCms((prev) => ({ ...prev, settings: { ...prev.settings, reasons: prev.settings.reasons.map((item, i) => i === index ? { ...item, title: event.target.value } : item) } }))} />
               </div>
               <div>
                 <button className="btn btn-danger" style={{ marginTop: 22 }} onClick={() => setCms((prev) => ({ ...prev, settings: { ...prev.settings, reasons: prev.settings.reasons.filter((_, i) => i !== index) } }))}>Excluir</button>
               </div>
             </div>
-            <label className="label">Descricao</label>
+            <label className="label">Descrição</label>
             <textarea className="input" value={reason.text} onChange={(event) => setCms((prev) => ({ ...prev, settings: { ...prev.settings, reasons: prev.settings.reasons.map((item, i) => i === index ? { ...item, text: event.target.value } : item) } }))} />
           </article>
         ))}
