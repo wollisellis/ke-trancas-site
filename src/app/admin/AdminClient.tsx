@@ -181,12 +181,16 @@ export default function AdminClient() {
 
         <div className="admin-grid-2">
           <div>
-            <label className="label">Faixa do topo — mensagem 1</label>
-            <input className="input" value={cms.settings.promoMessages?.[0] ?? ''} onChange={(event) => setCms((prev) => ({ ...prev, settings: { ...prev.settings, promoMessages: [event.target.value, prev.settings.promoMessages?.[1] ?? ''] } }))} placeholder="Ex.: Frete calculado no checkout" />
+            <label className="label">Faixa do topo — msg 1</label>
+            <input className="input" value={cms.settings.promoMessages?.[0] ?? ''} onChange={(e) => setCms((prev) => { const m = [...(prev.settings.promoMessages ?? ['','',''])]; m[0] = e.target.value; return { ...prev, settings: { ...prev.settings, promoMessages: m } }; })} placeholder="Ex.: Frete calculado no checkout" />
           </div>
           <div>
-            <label className="label">Faixa do topo — mensagem 2</label>
-            <input className="input" value={cms.settings.promoMessages?.[1] ?? ''} onChange={(event) => setCms((prev) => ({ ...prev, settings: { ...prev.settings, promoMessages: [prev.settings.promoMessages?.[0] ?? '', event.target.value] } }))} placeholder="Ex.: Atendimento rápido no WhatsApp" />
+            <label className="label">Faixa do topo — msg 2</label>
+            <input className="input" value={cms.settings.promoMessages?.[1] ?? ''} onChange={(e) => setCms((prev) => { const m = [...(prev.settings.promoMessages ?? ['','',''])]; m[1] = e.target.value; return { ...prev, settings: { ...prev.settings, promoMessages: m } }; })} placeholder="Ex.: Atendimento rápido no WhatsApp" />
+          </div>
+          <div>
+            <label className="label">Faixa do topo — msg 3 (opcional)</label>
+            <input className="input" value={cms.settings.promoMessages?.[2] ?? ''} onChange={(e) => setCms((prev) => { const m = [...(prev.settings.promoMessages ?? ['','',''])]; m[2] = e.target.value; return { ...prev, settings: { ...prev.settings, promoMessages: m } }; })} placeholder="Deixe vazio para usar só 2" />
           </div>
         </div>
 

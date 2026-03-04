@@ -1,32 +1,34 @@
+import { Fragment } from 'react';
 import Link from 'next/link';
 
 type HeaderProps = {
   brandName: string;
   whatsappUrl: string;
   instagramUrl: string;
-  promoMessages?: [string, string];
+  promoMessages?: string[];
 };
 
-const DEFAULT_PROMO: [string, string] = [
+const DEFAULT_PROMO = [
   'Frete calculado no checkout',
   'Atendimento rápido no WhatsApp',
 ];
 
 export function Header({ brandName, whatsappUrl, instagramUrl, promoMessages }: HeaderProps) {
-  const [msgA, msgB] = promoMessages ?? DEFAULT_PROMO;
+  const msgs = (promoMessages ?? DEFAULT_PROMO).filter(Boolean);
 
-  // Duplicate items so the marquee loops seamlessly (translate -50%)
-  const items = [msgA, msgB, msgA, msgB];
+  // Duplicate for seamless loop: track is 2× wide, we translateX(-50%)
+  const doubled = [...msgs, ...msgs];
 
   return (
     <header className="site-header">
       <div className="promo-strip">
         <div className="promo-marquee" aria-hidden="true">
           <div className="promo-marquee-track">
-            {items.map((msg, i) => (
-              <span key={i} className="promo-marquee-item">
-                {msg}
-              </span>
+            {doubled.map((msg, i) => (
+              <Fragment key={i}>
+                <span className="promo-marquee-sep">·</span>
+                <span className="promo-marquee-item">{msg}</span>
+              </Fragment>
             ))}
           </div>
         </div>

@@ -75,18 +75,21 @@ h4 {
 
 .promo-marquee-track {
   display: flex;
+  align-items: center;
   white-space: nowrap;
-  animation: promo-scroll 20s linear infinite;
+  /* 28s for 2 msgs, gives ~14s each to be read before looping */
+  animation: promo-scroll 28s linear infinite;
+  will-change: transform;
 }
 
 .promo-marquee-item {
-  padding: 0 32px;
+  padding: 0 20px;
 }
 
-.promo-marquee-item:nth-child(odd)::before {
-  content: '· ';
-  opacity: 0.45;
-  margin-right: 32px;
+.promo-marquee-sep {
+  color: rgba(255, 255, 255, 0.35);
+  padding: 0 8px;
+  font-size: 0.7rem;
 }
 
 @keyframes promo-scroll {
