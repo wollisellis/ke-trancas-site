@@ -17,7 +17,7 @@ export function ProductCard({ product }: ProductCardProps) {
   return (
     <Link href={'/produto/' + product.slug} className="product-card">
       <div className="product-media-wrap">
-        <img src={product.imageUrl} alt={product.name} className="product-image" loading="lazy" />
+        <img src={product.images[0]} alt={product.name} className="product-image" loading="lazy" />
 
         {discountPct ? <span className="product-discount-badge">-{discountPct}%</span> : null}
 

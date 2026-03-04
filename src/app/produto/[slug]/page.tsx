@@ -6,6 +6,7 @@ import { Header } from '@/components/site/Header';
 import { MobileCtaBar } from '@/components/site/MobileCtaBar';
 import { ProductCard } from '@/components/site/ProductCard';
 import { MiniReviews } from '@/components/site/MiniReviews';
+import { ProductCarousel } from '@/components/site/ProductCarousel';
 import { formatBRL } from '@/lib/format';
 import { readCMS } from '@/lib/cms-store';
 
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     openGraph: {
       title: product.name,
       description: product.description,
-      images: [product.imageUrl]
+      images: product.images.slice(0, 1)
     }
   };
 }
@@ -68,10 +69,7 @@ export default async function ProdutoPage({ params }: Params) {
       />
 
       <section className="container product-page-grid">
-        <div className="product-page-media">
-          <img src={product.imageUrl} alt={product.name} className="product-page-image" />
-          {discount ? <span className="product-page-discount">-{discount}% OFF</span> : null}
-        </div>
+        <ProductCarousel images={product.images} name={product.name} discount={discount} />
 
         <div className="card product-page-info">
           <p className="kicker">{product.category}</p>

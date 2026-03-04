@@ -9,7 +9,7 @@ export type CMSProduct = {
   benefit: string;
   price: number;
   oldPrice?: number;
-  imageUrl: string;
+  images: string[];
   rating: number;
   reviewCount: number;
   isFeatured: boolean;

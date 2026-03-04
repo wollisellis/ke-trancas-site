@@ -31,7 +31,7 @@ export async function GET(
           product_data: {
             name: product.name,
             description: product.description || undefined,
-            ...(product.imageUrl.startsWith('http') ? { images: [product.imageUrl] } : {}),
+            ...(product.images[0]?.startsWith('http') ? { images: [product.images[0]] } : {}),
           },
           unit_amount: Math.round(product.price * 100),
         },

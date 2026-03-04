@@ -35,7 +35,7 @@ function createProduct(): CMSProduct {
     brand: 'Ke Trancas',
     benefit: 'Beneficio principal',
     price: 0,
-    imageUrl: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1200&q=80',
+    images: ['https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1200&q=80'],
     rating: 5,
     reviewCount: 0,
     isFeatured: false,
@@ -268,11 +268,72 @@ export default function AdminClient() {
               </div>
             </div>
 
-            <label className="label">URL da imagem</label>
-            <input className="input" value={product.imageUrl} onChange={(event) => setCms((prev) => ({ ...prev, products: prev.products.map((item) => item.id === product.id ? { ...item, imageUrl: event.target.value } : item) }))} />
-            {product.imageUrl && (
-              <img src={product.imageUrl} alt="Preview" style={{ width: 100, height: 100, objectFit: 'cover', borderRadius: 8, marginTop: 8, border: '1px solid var(--line)' }} />
-            )}
+            <label className="label">Fotos do produto</label>
+            <p className="muted" style={{ fontSize: '0.75rem', margin: '-4px 0 8px' }}>A primeira foto e a capa. Arraste para reordenar. Cole URLs de imagem (Unsplash, Google Drive etc).</p>
+            <div className="admin-image-list">
+              {(product.images ?? []).map((url, imgIdx) => (
+                <div
+                  key={imgIdx}
+                  className="admin-image-item"
+                  draggable
+                  onDragStart={(e) => e.dataTransfer.setData('imgIdx', String(imgIdx))}
+                  onDragOver={(e) => e.preventDefault()}
+                  onDrop={(e) => {
+                    const from = Number(e.dataTransfer.getData('imgIdx'));
+                    if (from === imgIdx) return;
+                    setCms((prev) => ({
+                      ...prev,
+                      products: prev.products.map((item) => {
+                        if (item.id !== product.id) return item;
+                        const imgs = [...item.images];
+                        const [moved] = imgs.splice(from, 1);
+                        imgs.splice(imgIdx, 0, moved);
+                        return { ...item, images: imgs };
+                      })
+                    }));
+                  }}
+                >
+                  <span style={{ cursor: 'grab', color: 'var(--muted)', fontSize: '1.1rem', userSelect: 'none' }}>⠿</span>
+                  {url && <img src={url} alt="preview" style={{ width: 52, height: 52, objectFit: 'cover', borderRadius: 6, border: '1px solid var(--line)', flexShrink: 0 }} />}
+                  {imgIdx === 0 && <span style={{ fontSize: '0.65rem', fontWeight: 700, background: 'var(--brand)', color: '#fff', borderRadius: 999, padding: '2px 7px' }}>CAPA</span>}
+                  <input
+                    className="input"
+                    style={{ flex: 1, minWidth: 0 }}
+                    value={url}
+                    placeholder="https://..."
+                    onChange={(e) => setCms((prev) => ({
+                      ...prev,
+                      products: prev.products.map((item) => {
+                        if (item.id !== product.id) return item;
+                        const imgs = [...item.images];
+                        imgs[imgIdx] = e.target.value;
+                        return { ...item, images: imgs };
+                      })
+                    }))}
+                  />
+                  <button
+                    className="btn btn-danger btn-small"
+                    style={{ flexShrink: 0 }}
+                    onClick={() => setCms((prev) => ({
+                      ...prev,
+                      products: prev.products.map((item) =>
+                        item.id !== product.id ? item : { ...item, images: item.images.filter((_, i) => i !== imgIdx) }
+                      )
+                    }))}
+                  >✕</button>
+                </div>
+              ))}
+            </div>
+            <button
+              className="btn btn-ghost btn-small"
+              style={{ marginTop: 8 }}
+              onClick={() => setCms((prev) => ({
+                ...prev,
+                products: prev.products.map((item) =>
+                  item.id !== product.id ? item : { ...item, images: [...item.images, ''] }
+                )
+              }))}
+            >+ Adicionar foto</button>
 
             <label className="label">Tags (separadas por virgula)</label>
             <input className="input" value={product.tags.join(', ')} onChange={(event) => setCms((prev) => ({ ...prev, products: prev.products.map((item) => item.id === product.id ? { ...item, tags: event.target.value.split(',').map((tag) => tag.trim()).filter(Boolean) } : item) }))} />
