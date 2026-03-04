@@ -4,15 +4,31 @@ type HeaderProps = {
   brandName: string;
   whatsappUrl: string;
   instagramUrl: string;
+  promoMessages?: [string, string];
 };
 
-export function Header({ brandName, whatsappUrl, instagramUrl }: HeaderProps) {
+const DEFAULT_PROMO: [string, string] = [
+  'Frete calculado no checkout',
+  'Atendimento rápido no WhatsApp',
+];
+
+export function Header({ brandName, whatsappUrl, instagramUrl, promoMessages }: HeaderProps) {
+  const [msgA, msgB] = promoMessages ?? DEFAULT_PROMO;
+
+  // Duplicate items so the marquee loops seamlessly (translate -50%)
+  const items = [msgA, msgB, msgA, msgB];
+
   return (
     <header className="site-header">
       <div className="promo-strip">
-        <div className="container promo-strip-inner">
-          <span>Frete calculado no checkout</span>
-          <span>Atendimento rápido no WhatsApp</span>
+        <div className="promo-marquee" aria-hidden="true">
+          <div className="promo-marquee-track">
+            {items.map((msg, i) => (
+              <span key={i} className="promo-marquee-item">
+                {msg}
+              </span>
+            ))}
+          </div>
         </div>
       </div>
 

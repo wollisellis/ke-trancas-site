@@ -38,6 +38,7 @@ export default async function HomePage() {
         brandName={cms.settings.brandName}
         whatsappUrl={cms.settings.whatsappUrl}
         instagramUrl={cms.settings.instagramUrl}
+        promoMessages={cms.settings.promoMessages}
       />
 
       {/* HERO */}

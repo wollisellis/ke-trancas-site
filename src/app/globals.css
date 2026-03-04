@@ -66,23 +66,32 @@ h4 {
   font-size: 0.78rem;
 }
 
-.promo-strip-inner {
+.promo-marquee {
+  overflow: hidden;
   min-height: 32px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  overflow: hidden;
 }
 
-.promo-strip-inner span:last-child {
-  display: none;
+.promo-marquee-track {
+  display: flex;
+  white-space: nowrap;
+  animation: promo-scroll 20s linear infinite;
 }
 
-@media (min-width: 540px) {
-  .promo-strip-inner span:last-child {
-    display: inline;
-  }
+.promo-marquee-item {
+  padding: 0 32px;
+}
+
+.promo-marquee-item:nth-child(odd)::before {
+  content: '· ';
+  opacity: 0.45;
+  margin-right: 32px;
+}
+
+@keyframes promo-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
 }
 
 .topbar {

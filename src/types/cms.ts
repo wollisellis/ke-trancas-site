@@ -64,6 +64,7 @@ export type CMSSettings = {
   reasons: CMSReason[];
   categoryImages: CMSCategoryImage[];
   hairTypeGuide: CMSHairTypeGuide[];
+  promoMessages?: [string, string];
 };
 
 export type CMSData = {

@@ -26,6 +26,7 @@ export default async function CatalogoPage() {
         brandName={cms.settings.brandName}
         whatsappUrl={cms.settings.whatsappUrl}
         instagramUrl={cms.settings.instagramUrl}
+        promoMessages={cms.settings.promoMessages}
       />
 
       <section className="container page-head">

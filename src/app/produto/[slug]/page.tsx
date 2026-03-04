@@ -66,6 +66,7 @@ export default async function ProdutoPage({ params }: Params) {
         brandName={cms.settings.brandName}
         whatsappUrl={cms.settings.whatsappUrl}
         instagramUrl={cms.settings.instagramUrl}
+        promoMessages={cms.settings.promoMessages}
       />
 
       <section className="container product-page-grid">

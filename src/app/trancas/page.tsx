@@ -36,6 +36,7 @@ export default async function TrancasPage() {
         brandName={cms.settings.brandName}
         whatsappUrl={cms.settings.whatsappUrl}
         instagramUrl={cms.settings.instagramUrl}
+        promoMessages={cms.settings.promoMessages}
       />
 
       {/* Hero da página de tranças */}

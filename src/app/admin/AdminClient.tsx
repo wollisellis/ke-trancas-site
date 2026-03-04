@@ -16,7 +16,8 @@ const emptyCMS: CMSData = {
     paymentItems: [],
     reasons: [],
     categoryImages: [],
-    hairTypeGuide: []
+    hairTypeGuide: [],
+    promoMessages: ['', '']
   },
   products: [],
   videos: [],
@@ -175,6 +176,17 @@ export default function AdminClient() {
           <div>
             <label className="label">Texto de suporte</label>
             <input className="input" value={cms.settings.supportText} onChange={(event) => setCms((prev) => ({ ...prev, settings: { ...prev.settings, supportText: event.target.value } }))} />
+          </div>
+        </div>
+
+        <div className="admin-grid-2">
+          <div>
+            <label className="label">Faixa do topo — mensagem 1</label>
+            <input className="input" value={cms.settings.promoMessages?.[0] ?? ''} onChange={(event) => setCms((prev) => ({ ...prev, settings: { ...prev.settings, promoMessages: [event.target.value, prev.settings.promoMessages?.[1] ?? ''] } }))} placeholder="Ex.: Frete calculado no checkout" />
+          </div>
+          <div>
+            <label className="label">Faixa do topo — mensagem 2</label>
+            <input className="input" value={cms.settings.promoMessages?.[1] ?? ''} onChange={(event) => setCms((prev) => ({ ...prev, settings: { ...prev.settings, promoMessages: [prev.settings.promoMessages?.[0] ?? '', event.target.value] } }))} placeholder="Ex.: Atendimento rápido no WhatsApp" />
           </div>
         </div>
 
