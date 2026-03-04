@@ -61,7 +61,7 @@ export default async function HomePage() {
 
         <article className="hero-visual">
           <a href="/trancas" className="hero-editorial-photo">
-            <img src="/images/instagram/ig-DUvip3bkTom.jpg" alt="Resultado real — tranças por Claudeth" />
+            <img src="/images/instagram/ig-DMyNb9GRJeU.jpg" alt="Resultado real — tranças por Claudeth" />
             <span className="hero-photo-tag">Resultado real</span>
           </a>
         </article>
