@@ -79,7 +79,45 @@ export default function AdminClient() {
       .then((response) => response.json())
       .then((data) => setCms(data))
       .finally(() => setLoading(false));
+
+    // Load Cloudinary Upload Widget script
+    if (!document.getElementById('cld-widget-script')) {
+      const script = document.createElement('script');
+      script.id = 'cld-widget-script';
+      script.src = 'https://upload-widget.cloudinary.com/global/all.js';
+      script.async = true;
+      document.body.appendChild(script);
+    }
   }, []);
+
+  function openCloudinaryUpload(onUrl: (url: string) => void) {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const cld = (window as any).cloudinary;
+    if (!cld) { alert('Widget ainda carregando, aguarde 2 segundos e tente novamente.'); return; }
+    const cloudName = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME;
+    const uploadPreset = process.env.NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET;
+    if (!cloudName || !uploadPreset) {
+      alert('Configure NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME e NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET nas variaveis de ambiente do Vercel.');
+      return;
+    }
+    cld.openUploadWidget(
+      {
+        cloudName,
+        uploadPreset,
+        sources: ['local', 'camera', 'url'],
+        multiple: false,
+        cropping: false,
+        language: 'pt',
+        styles: { palette: { window: '#FFFFFF', windowBorder: '#ede5f5', tabIcon: '#e8640a', menuIcons: '#6b5b7a', textDark: '#1a0a2e', textLight: '#ffffff', link: '#e8640a', action: '#e8640a', inactiveTabIcon: '#6b5b7a', error: '#b42318', inProgress: '#e8640a', complete: '#33b249', sourceBg: '#faf8ff' } }
+      },
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      (error: unknown, result: any) => {
+        if (!error && result?.event === 'success') {
+          onUrl(result.info.secure_url);
+        }
+      }
+    );
+  }
 
   const stats = useMemo(
     () => ({ products: cms.products.length, videos: cms.videos.length, reviews: cms.reviews.length }),
@@ -316,7 +354,7 @@ export default function AdminClient() {
                     className="input"
                     style={{ flex: 1, minWidth: 0 }}
                     value={url}
-                    placeholder="https://..."
+                    placeholder="https://... ou clique em 📷"
                     onChange={(e) => setCms((prev) => ({
                       ...prev,
                       products: prev.products.map((item) => {
@@ -327,6 +365,21 @@ export default function AdminClient() {
                       })
                     }))}
                   />
+                  <button
+                    type="button"
+                    className="btn btn-ghost btn-small"
+                    title="Enviar foto do dispositivo"
+                    style={{ flexShrink: 0 }}
+                    onClick={() => openCloudinaryUpload((newUrl) => setCms((prev) => ({
+                      ...prev,
+                      products: prev.products.map((item) => {
+                        if (item.id !== product.id) return item;
+                        const imgs = [...item.images];
+                        imgs[imgIdx] = newUrl;
+                        return { ...item, images: imgs };
+                      })
+                    })))}
+                  >📷</button>
                   <button
                     className="btn btn-danger btn-small"
                     style={{ flexShrink: 0 }}
@@ -340,9 +393,19 @@ export default function AdminClient() {
                 </div>
               ))}
             </div>
+            <div style={{ display: 'flex', gap: 8, marginTop: 8, flexWrap: 'wrap' }}>
+            <button
+              type="button"
+              className="btn btn-ghost btn-small"
+              onClick={() => openCloudinaryUpload((newUrl) => setCms((prev) => ({
+                ...prev,
+                products: prev.products.map((item) =>
+                  item.id !== product.id ? item : { ...item, images: [...item.images, newUrl] }
+                )
+              })))}
+            >📷 Enviar foto</button>
             <button
               className="btn btn-ghost btn-small"
-              style={{ marginTop: 8 }}
               onClick={() => setCms((prev) => ({
                 ...prev,
                 products: prev.products.map((item) =>
@@ -350,6 +413,7 @@ export default function AdminClient() {
                 )
               }))}
             >+ Adicionar foto</button>
+            </div>
 
             <label className="label">Tags (separadas por virgula)</label>
             <input className="input" value={product.tags.join(', ')} onChange={(event) => setCms((prev) => ({ ...prev, products: prev.products.map((item) => item.id === product.id ? { ...item, tags: event.target.value.split(',').map((tag) => tag.trim()).filter(Boolean) } : item) }))} />
