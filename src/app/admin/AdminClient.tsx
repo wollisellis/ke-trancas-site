@@ -42,7 +42,8 @@ function createProduct(): CMSProduct {
     isBestSeller: false,
     inStock: true,
     tags: [],
-    howToUse: []
+    howToUse: [],
+    stripeUrl: ''
   };
 }
 
@@ -243,6 +244,13 @@ export default function AdminClient() {
 
             <label className="label">URL da imagem</label>
             <input className="input" value={product.imageUrl} onChange={(event) => setCms((prev) => ({ ...prev, products: prev.products.map((item) => item.id === product.id ? { ...item, imageUrl: event.target.value } : item) }))} />
+            {product.imageUrl && (
+              <img src={product.imageUrl} alt="Preview" style={{ width: 100, height: 100, objectFit: 'cover', borderRadius: 8, marginTop: 8, border: '1px solid var(--line)' }} />
+            )}
+
+            <label className="label">🔗 Link de pagamento Stripe (opcional)</label>
+            <input className="input" value={product.stripeUrl ?? ''} placeholder="https://buy.stripe.com/..." onChange={(event) => setCms((prev) => ({ ...prev, products: prev.products.map((item) => item.id === product.id ? { ...item, stripeUrl: event.target.value.trim() || undefined } : item) }))} />
+            <p className="muted" style={{ fontSize: '0.75rem', marginTop: 4 }}>Cole aqui o link gerado no painel do Stripe. Quando preenchido, o botao "Comprar agora" aparece na pagina do produto.</p>
 
             <label className="label">Tags (separadas por virgula)</label>
             <input className="input" value={product.tags.join(', ')} onChange={(event) => setCms((prev) => ({ ...prev, products: prev.products.map((item) => item.id === product.id ? { ...item, tags: event.target.value.split(',').map((tag) => tag.trim()).filter(Boolean) } : item) }))} />

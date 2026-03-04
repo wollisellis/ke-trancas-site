@@ -95,12 +95,25 @@ export default async function ProdutoPage({ params }: Params) {
           </div>
 
           <div className="product-page-actions">
-            <a className="btn" href={cms.settings.whatsappUrl} target="_blank" rel="noreferrer">
-              Pedir no WhatsApp
-            </a>
-            <Link className="btn btn-ghost" href="/catalogo">
-              Voltar ao catálogo
-            </Link>
+            {product.stripeUrl ? (
+              <>
+                <a className="btn" href={product.stripeUrl} target="_blank" rel="noreferrer">
+                  Comprar agora
+                </a>
+                <a className="btn btn-ghost" href={cms.settings.whatsappUrl} target="_blank" rel="noreferrer">
+                  Falar com a Claudeth
+                </a>
+              </>
+            ) : (
+              <>
+                <a className="btn" href={cms.settings.whatsappUrl} target="_blank" rel="noreferrer">
+                  Pedir no WhatsApp
+                </a>
+                <Link className="btn btn-ghost" href="/catalogo">
+                  Voltar ao catálogo
+                </Link>
+              </>
+            )}
           </div>
 
           {/* Mini avaliações próximas ao produto */}
@@ -166,7 +179,7 @@ export default async function ProdutoPage({ params }: Params) {
         supportText={cms.settings.supportText}
       />
 
-      <MobileCtaBar whatsappUrl={cms.settings.whatsappUrl} />
+      <MobileCtaBar whatsappUrl={cms.settings.whatsappUrl} stripeUrl={product.stripeUrl} />
     </main>
   );
 }
