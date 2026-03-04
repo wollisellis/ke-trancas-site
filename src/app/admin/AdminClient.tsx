@@ -288,7 +288,7 @@ export default function AdminClient() {
             </div>
             {product.buyOnline && (
               <p style={{ fontSize: '0.75rem', color: 'var(--muted)', margin: '4px 0 0', background: 'var(--brand-soft)', padding: '6px 10px', borderRadius: 8 }}>
-                ✅ Botao "Comprar agora" ativado. A API do Stripe deve estar configurada nas variaveis de ambiente do Vercel.
+                ✅ Botao &ldquo;Comprar agora&rdquo; ativado. A API do Stripe deve estar configurada nas variaveis de ambiente do Vercel.
               </p>
             )}
           </article>
