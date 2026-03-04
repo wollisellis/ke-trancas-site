@@ -57,7 +57,7 @@ export default async function ProdutoPage({ params }: Params) {
       ? Math.round((1 - product.price / product.oldPrice) * 100)
       : null;
 
-  const stripeActive = !!(product.buyOnline && process.env.STRIPE_SECRET_KEY);
+  const stripeActive = !!product.buyOnline;
 
   return (
     <main>

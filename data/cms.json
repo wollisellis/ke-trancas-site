@@ -98,6 +98,7 @@
       "isFeatured": true,
       "isBestSeller": true,
       "inStock": true,
+      "buyOnline": true,
       "tags": ["pós-trança", "hidratação", "frizz", "kit"],
       "howToUse": [
         "Retire as tranças e molhe bem os cabelos.",
