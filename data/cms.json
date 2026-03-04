@@ -1,145 +1,291 @@
 {
   "settings": {
-    "brandName": "Ke Trancas",
-    "heroTitle": "Trancas com identidade, produtos com resultado e atendimento de verdade.",
-    "heroSubtitle": "Catalogo organizado por objetivo, videos de cuidado e informacoes claras de frete, pagamento e troca para vender com previsibilidade.",
-    "whatsappUrl": "https://wa.me/5521999999999",
-    "instagramUrl": "https://instagram.com/ketrancas",
-    "supportText": "Atendimento via WhatsApp de segunda a sabado, 9h as 20h.",
+    "brandName": "Kê Tranças",
+    "heroTitle": "Faço uma arte que transforma a sua autoestima.",
+    "heroSubtitle": "Trancista sem dor, com mais de 100 clientes atendidas em Limeira, SP. Box Braids, Nagô, Fulani, Boho Braids e muito mais — produtos e atendimento via WhatsApp.",
+    "whatsappUrl": "https://wa.me/5519996165314",
+    "instagramUrl": "https://instagram.com/ketrancass",
+    "supportText": "Atendimento via WhatsApp de segunda a sábado, 9h às 20h. Limeira, SP — (19) 99616-5314.",
     "trustItems": [
-      "Frete com prazo estimado no checkout",
-      "Troca simplificada em ate 7 dias",
-      "Pagamento seguro com pix e cartao"
+      "Trança sem dor, com cuidado e carinho",
+      "Mais de 100 clientes atendidas",
+      "Limeira, SP — atendimento pelo WhatsApp"
     ],
     "paymentItems": [
       "Pix com desconto",
-      "Cartao em ate 6x",
+      "Cartão em até 6x sem juros",
       "Boleto para pedidos corporativos"
+    ],
+    "reasons": [
+      {
+        "icon": "✓",
+        "title": "Produtos testados na prática",
+        "text": "Cada produto foi selecionado por quem vive e respira tranças no dia a dia."
+      },
+      {
+        "icon": "💬",
+        "title": "Atendimento humano de verdade",
+        "text": "Fale com a Claudeth pelo WhatsApp. Sem robô, sem espera longa, sem enrolação."
+      },
+      {
+        "icon": "📦",
+        "title": "Frete com prazo real",
+        "text": "Prazo estimado na hora da compra, sem surpresa na entrega."
+      },
+      {
+        "icon": "🔄",
+        "title": "Troca sem burocracia",
+        "text": "Não gostou ou veio com defeito? Troca em até 7 dias, simples assim."
+      }
+    ],
+    "categoryImages": [
+      {
+        "category": "Box Braids",
+        "imageUrl": "/images/instagram/ig-DU6mMcqga1Q.jpg"
+      },
+      {
+        "category": "Tranças Artísticas",
+        "imageUrl": "/images/instagram/ig-DUEzHb0Dl3T.jpg"
+      },
+      {
+        "category": "Resultados Reais",
+        "imageUrl": "/images/instagram/ig-DTycs4RiQm2.jpg"
+      }
+    ],
+    "hairTypeGuide": [
+      {
+        "type": "Box Braids",
+        "icon": "🔷",
+        "description": "Hidratação profunda e refresh do day after"
+      },
+      {
+        "type": "Nagô",
+        "icon": "🟤",
+        "description": "Cuidado do couro cabeludo e fixação da raiz"
+      },
+      {
+        "type": "Fulani Braids",
+        "icon": "✨",
+        "description": "Nutrição e brilho para tranças detalhadas"
+      },
+      {
+        "type": "Boho Braids",
+        "icon": "🌿",
+        "description": "Leveza e hidratação para acabamento solto"
+      },
+      {
+        "type": "Lemonade & Tiara",
+        "icon": "🎀",
+        "description": "Proteção das bordas e baby hairs"
+      }
     ]
   },
   "products": [
     {
       "id": "p1",
       "slug": "kit-pos-tranca-reconstrucao",
-      "name": "Kit Pos-Tranca Reconstrucao",
-      "description": "Limpeza suave + mascara + finalizador para recuperar brilho sem pesar na raiz.",
+      "name": "Kit Pós-Trança Reconstrução",
+      "description": "Limpeza suave + máscara + finalizador para recuperar brilho sem pesar na raiz. Ideal para usar após remover as tranças.",
       "category": "Kits",
-      "hairType": "Trancas e cabelos com quimica",
-      "brand": "Ke Trancas",
-      "benefit": "Hidratacao intensa e controle de frizz",
+      "hairType": "Tranças e cabelos com química",
+      "brand": "Ke Tranças",
+      "benefit": "Hidratação intensa e controle de frizz",
       "price": 139.9,
       "oldPrice": 169.9,
-      "imageUrl": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1764694187667-f28a05a52c0e?auto=format&fit=crop&w=1200&q=80",
       "rating": 4.9,
       "reviewCount": 67,
       "isFeatured": true,
       "isBestSeller": true,
       "inStock": true,
-      "tags": [
-        "pos-tranca",
-        "hidratacao",
-        "frizz"
+      "tags": ["pós-trança", "hidratação", "frizz", "kit"],
+      "howToUse": [
+        "Retire as tranças e molhe bem os cabelos.",
+        "Aplique o shampoo suave com massagem no couro cabeludo.",
+        "Enxague bem e aplique a máscara de comprimento à ponta.",
+        "Aguarde 10 minutos e enxague.",
+        "Finalize com o leave-in para selar as cutículas."
       ]
     },
     {
       "id": "p2",
       "slug": "spray-refresh-trancas",
-      "name": "Spray Refresh Trancas",
-      "description": "Revitaliza no day after e reduz odor sem acumulo.",
+      "name": "Spray Refresh Tranças",
+      "description": "Revitaliza no day after e reduz odor sem acúmulo. Fórmula leve que não deixa resíduo nas tranças.",
       "category": "Finalizadores",
-      "hairType": "Trancas",
-      "brand": "Ke Trancas",
-      "benefit": "Refresh rapido com perfume leve",
+      "hairType": "Tranças",
+      "brand": "Ke Tranças",
+      "benefit": "Refresh rápido com perfume leve",
       "price": 54.9,
       "oldPrice": 64.9,
-      "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1200&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1677725283538-3059b797136e?auto=format&fit=crop&w=1200&q=80",
       "rating": 4.8,
       "reviewCount": 41,
       "isFeatured": true,
       "isBestSeller": true,
       "inStock": true,
-      "tags": [
-        "refresh",
-        "day-after"
+      "tags": ["refresh", "day-after", "spray"],
+      "howToUse": [
+        "Agite bem o frasco antes de usar.",
+        "Borrife a 20cm de distância nas tranças.",
+        "Passe levemente os dedos para distribuir.",
+        "Deixe secar naturalmente."
       ]
     },
     {
       "id": "p3",
       "slug": "oleo-couro-cabeludo",
-      "name": "Oleo Couro Cabeludo Comfort",
-      "description": "Blend nutritivo para massagear o couro cabeludo sem aspecto oleoso.",
+      "name": "Óleo Couro Cabeludo Comfort",
+      "description": "Blend nutritivo para massagear o couro cabeludo sem aspecto oleoso. Com aplicador de precisão para uso entre as tranças.",
       "category": "Tratamento",
       "hairType": "Todos os tipos",
-      "brand": "Ke Trancas",
-      "benefit": "Conforto e nutricao na raiz",
+      "brand": "Ke Tranças",
+      "benefit": "Conforto e nutrição na raiz",
       "price": 44.9,
-      "imageUrl": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1200&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1608571899793-a1c0c27a7555?auto=format&fit=crop&w=1200&q=80",
       "rating": 4.7,
       "reviewCount": 29,
       "isFeatured": true,
       "isBestSeller": false,
       "inStock": true,
-      "tags": [
-        "couro-cabeludo",
-        "nutricao"
+      "tags": ["couro cabeludo", "nutrição", "óleo"],
+      "howToUse": [
+        "Divida as tranças para expor o couro cabeludo.",
+        "Aplique algumas gotas diretamente na raiz.",
+        "Massageie por 1-2 minutos com as pontas dos dedos.",
+        "Use 2-3 vezes por semana."
       ]
     },
     {
       "id": "p4",
       "slug": "espuma-modeladora-baby-hair",
       "name": "Espuma Modeladora Baby Hair",
-      "description": "Fixacao flexivel para acabamento profissional sem rigidez.",
+      "description": "Fixação flexível para acabamento profissional sem rigidez. Perfeita para definir os baby hairs e finalizar tranças com capricho.",
       "category": "Finalizadores",
-      "hairType": "Trancas e penteados",
-      "brand": "Ke Trancas",
-      "benefit": "Definicao com toque natural",
+      "hairType": "Tranças e penteados",
+      "brand": "Ke Tranças",
+      "benefit": "Definição com toque natural",
       "price": 39.9,
-      "imageUrl": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1200&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1572566202186-611ceb4042f0?auto=format&fit=crop&w=1200&q=80",
       "rating": 4.6,
       "reviewCount": 23,
       "isFeatured": false,
       "isBestSeller": true,
       "inStock": true,
-      "tags": [
-        "acabamento",
-        "baby-hair"
+      "tags": ["baby hair", "fixação", "acabamento"],
+      "howToUse": [
+        "Retire uma pequena quantidade de espuma.",
+        "Espalhe nas palmas das mãos.",
+        "Molde os baby hairs com pente fino ou escova.",
+        "Deixe secar naturalmente para fixação duradoura."
+      ]
+    },
+    {
+      "id": "p5",
+      "slug": "mascara-hidratacao-profunda",
+      "name": "Máscara Hidratação Profunda",
+      "description": "Tratamento intensivo com manteiga de karité e proteína de seda. Recupera cabelos ressecados e com danos de qualquer processo.",
+      "category": "Tratamento",
+      "hairType": "Cabelo natural 4C",
+      "brand": "Ke Tranças",
+      "benefit": "Hidratação e maciez duradoura",
+      "price": 49.9,
+      "oldPrice": 62.9,
+      "imageUrl": "https://images.unsplash.com/photo-1682798899794-8257a35b0109?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.8,
+      "reviewCount": 38,
+      "isFeatured": false,
+      "isBestSeller": true,
+      "inStock": true,
+      "tags": ["hidratação", "karité", "tratamento", "máscara"],
+      "howToUse": [
+        "Lave os cabelos com shampoo.",
+        "Retire o excesso de água com toalha.",
+        "Aplique a máscara de raiz à ponta.",
+        "Aguarde 20 minutos com touca térmica.",
+        "Enxague abundantemente."
+      ]
+    },
+    {
+      "id": "p6",
+      "slug": "shampoo-limpeza-suave-trancas",
+      "name": "Shampoo Limpeza Suave Tranças",
+      "description": "Fórmula sem sulfato para limpeza delicada sem ressecar. Ideal para uso regular em tranças e cabelos naturais.",
+      "category": "Shampoo",
+      "hairType": "Box braid",
+      "brand": "Ke Tranças",
+      "benefit": "Limpeza sem agredir a fibra capilar",
+      "price": 34.9,
+      "imageUrl": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.7,
+      "reviewCount": 52,
+      "isFeatured": false,
+      "isBestSeller": true,
+      "inStock": true,
+      "tags": ["shampoo", "sem sulfato", "limpeza"],
+      "howToUse": [
+        "Molhe bem os cabelos.",
+        "Aplique o shampoo e massageie suavemente o couro cabeludo.",
+        "Enxague bem.",
+        "Repita se necessário."
       ]
     }
   ],
-  "videos": [
-    {
-      "id": "v1",
-      "title": "Como manter o brilho das trancas por 15 dias",
-      "url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
-      "description": "Rotina rapida de 3 passos para preservar definicao e leveza."
-    },
-    {
-      "id": "v2",
-      "title": "Pre-lavagem para proteger o couro cabeludo",
-      "url": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
-      "description": "Guia pratico para evitar ressecamento na raiz."
-    }
-  ],
+  "videos": [],
   "reviews": [
     {
       "id": "r1",
       "author": "Camila M.",
-      "text": "Comprei o kit pos-tranca e ja na segunda semana senti menos frizz e mais brilho. Entrega chegou em 2 dias.",
+      "text": "O kit pós-trança foi um salva-vidas. Meu cabelo estava super ressecado e em uma semana já senti menos frizz e mais brilho. Entrega chegou em 2 dias.",
       "rating": 5,
       "productSlug": "kit-pos-tranca-reconstrucao"
     },
     {
       "id": "r2",
       "author": "Lari S.",
-      "text": "Site facil de usar, consegui filtrar por tipo de cabelo e achei o produto certo em minutos.",
+      "text": "Sempre tive dúvida sobre qual produto usar com meu cabelo 4C. A Claudeth me indicou exatamente o certo. Senti a diferença na primeira lavagem!",
       "rating": 5
     },
     {
       "id": "r3",
       "author": "Nath A.",
-      "text": "Gostei muito do spray refresh, super pratico para rotina corrida.",
-      "rating": 4,
+      "text": "Comprei o spray refresh e uso todo dia nas minhas box braids. Elimina aquele cheirinho e deixa as tranças com aparência fresca. Super prático.",
+      "rating": 5,
       "productSlug": "spray-refresh-trancas"
+    },
+    {
+      "id": "r4",
+      "author": "Renata F.",
+      "text": "Atendimento incrível. Tive uma dúvida sobre o frete e a Claudeth respondeu rapidinho no WhatsApp. Produto chegou bem embalado e rápido.",
+      "rating": 5
+    },
+    {
+      "id": "r5",
+      "author": "Bruna C.",
+      "text": "Já comprei 3 vezes o óleo para couro cabeludo. Minha cabeça não fica mais coçando durante as tranças. Vale cada centavo.",
+      "rating": 4,
+      "productSlug": "oleo-couro-cabeludo"
+    },
+    {
+      "id": "r6",
+      "author": "Jess T.",
+      "text": "Finalmente encontrei uma espuma que segura os baby hairs sem deixar duro. Fica natural e dura o dia todo. Amei.",
+      "rating": 5,
+      "productSlug": "espuma-modeladora-baby-hair"
+    },
+    {
+      "id": "r7",
+      "author": "Priscila R.",
+      "text": "Máscara de hidratação é demais. Cabelo voltou à vida depois de meses de tranças. Uso com touca térmica e o resultado é absurdo.",
+      "rating": 5,
+      "productSlug": "mascara-hidratacao-profunda"
+    },
+    {
+      "id": "r8",
+      "author": "Carol B.",
+      "text": "Produto de qualidade e preço justo. Já indiquei para minhas amigas. O shampoo sem sulfato é suave mas limpa bem.",
+      "rating": 4,
+      "productSlug": "shampoo-limpeza-suave-trancas"
     }
   ]
 }

@@ -6,14 +6,17 @@ const CMS_FILE = path.join(process.cwd(), 'data', 'cms.json');
 
 const fallbackCMS: CMSData = {
   settings: {
-    brandName: 'Ke Trancas',
-    heroTitle: 'Trancas com identidade e produtos com resultado.',
-    heroSubtitle: 'Catalogo profissional com foco em conversao e fidelizacao.',
-    whatsappUrl: 'https://wa.me/5521999999999',
-    instagramUrl: 'https://instagram.com/ketrancas',
-    supportText: 'Atendimento via WhatsApp de segunda a sabado.',
-    trustItems: ['Frete com prazo estimado', 'Troca simplificada', 'Pagamento seguro'],
-    paymentItems: ['Pix', 'Cartao', 'Boleto']
+    brandName: 'Kê Tranças',
+    heroTitle: 'Faço uma arte que transforma a sua autoestima.',
+    heroSubtitle: 'Trancista sem dor, com mais de 100 clientes atendidas em Limeira, SP.',
+    whatsappUrl: 'https://wa.me/5519996165314',
+    instagramUrl: 'https://instagram.com/ketrancass',
+    supportText: 'Atendimento via WhatsApp de segunda a sábado. Limeira, SP.',
+    trustItems: ['Trança sem dor, com cuidado', 'Mais de 100 clientes atendidas', 'Limeira, SP'],
+    paymentItems: ['Pix com desconto', 'Cartão em até 6x', 'Boleto'],
+    reasons: [],
+    categoryImages: [],
+    hairTypeGuide: []
   },
   products: [],
   videos: [],
@@ -36,9 +39,12 @@ function normalizeCMS(payload: CMSData): CMSData {
     settings: {
       ...payload.settings,
       trustItems: payload.settings.trustItems ?? [],
-      paymentItems: payload.settings.paymentItems ?? []
+      paymentItems: payload.settings.paymentItems ?? [],
+      reasons: payload.settings.reasons ?? [],
+      categoryImages: payload.settings.categoryImages ?? [],
+      hairTypeGuide: payload.settings.hairTypeGuide ?? []
     },
-    products: (payload.products ?? []).map((item) => ({ ...item, tags: item.tags ?? [] })),
+    products: (payload.products ?? []).map((item) => ({ ...item, tags: item.tags ?? [], howToUse: item.howToUse ?? [] })),
     videos: payload.videos ?? [],
     reviews: payload.reviews ?? []
   };

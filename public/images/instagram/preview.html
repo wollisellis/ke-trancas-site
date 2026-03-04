@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head><title>Instagram Preview</title>
+<style>
+body{background:#111;color:#fff;font-family:sans-serif;margin:0;padding:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:8px}
+.item{position:relative;cursor:pointer}
+.item img{width:100%;aspect-ratio:1;object-fit:cover;display:block}
+.item span{position:absolute;bottom:0;left:0;right:0;background:rgba(0,0,0,.7);font-size:11px;padding:4px;word-break:break-all}
+h1{font-size:16px;margin-bottom:12px}
+</style></head>
+<body>
+<h1>@ketrancass — 64 posts baixados</h1>
+<div class="grid" id="g"></div>
+<script>
+const ids = ['DU6mMcqga1Q','DUvip3bkTom','DUl3ueygcSy','DUEzHb0Dl3T','DTycs4RiQm2','DRzqKh6ESsl','DRxOp2vEZpM','DRXQbL1EYuq','DRNk6hFgb0-','DRCtb6JEYcd','DOTiaOqDgd-','DOJSuQnjtcA','DM6GPltxuE9','DMyNb9GRJeU','DIe4kK7R4v7','DGYTEQyRWYf','DGGS5ZuRiTD','DFSyxNXxDbL','DE8P6lLRatM','DDvACZDhR8J','DDsgQ9UBZpw','DDe4kXMOnEu','DDX1A7XBEDa','DDLH4I1Rvrz','DC9j3RaRiN7','DC4aomuRWd4','DCU2uAxRtQv','DB9FkB-Rkxl','DBzjrNIu8CR','DByyrCcNLHa','DBMMd8axa2l','DBB4HWBt3Qr','DA0_ie0t4wZ','DAtQ_3bRO1j','C_dceQQtroc','C_imGBhNMay','C-tKI8mxShC','C96aMb1tYjn','C9xStXOxxsP','C9LR8IuPEne','C8fjXqUPTnV','C8aZvddPjSc','C8M4L49NwcY','C7kRK-RtIeK','C7UOo65g3_A','C7PFE4KNN85','C6l4R3ANHIx','C6ZAVEbtQ7Y','C5mGONGvs2S','C5Yod4pth6W','C5RSK8TAZOs','C4_e4R3v9Uw','Cq3rTyrueoc','CpV1DHQtgzZ','CpQrfWgtuBF','CpLh6sItVq7','CpDzkTrNqY9','Co-p9PPNAz6','Co5gYy4tNyc','CkyU-Ubu7KP','ChU3jWJOhAr','ChFaIhtulvU','ChA7MQRv3Py','Cg9jbFnuk2x'];
+const g = document.getElementById('g');
+ids.forEach(id => {
+  const d = document.createElement('div');
+  d.className = 'item';
+  d.innerHTML = `<img src="ig-${id}.jpg" loading="lazy"><span>${id}</span>`;
+  d.onclick = () => window.open('https://www.instagram.com/p/'+id+'/','_blank');
+  g.appendChild(d);
+});
+</script>
+</body></html>

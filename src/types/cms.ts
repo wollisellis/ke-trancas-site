@@ -16,6 +16,7 @@ export type CMSProduct = {
   isBestSeller: boolean;
   inStock: boolean;
   tags: string[];
+  howToUse?: string[];
 };
 
 export type CMSVideo = {
@@ -33,6 +34,23 @@ export type CMSReview = {
   productSlug?: string;
 };
 
+export type CMSReason = {
+  icon: string;
+  title: string;
+  text: string;
+};
+
+export type CMSCategoryImage = {
+  category: string;
+  imageUrl: string;
+};
+
+export type CMSHairTypeGuide = {
+  type: string;
+  icon: string;
+  description: string;
+};
+
 export type CMSSettings = {
   brandName: string;
   heroTitle: string;
@@ -42,6 +60,9 @@ export type CMSSettings = {
   supportText: string;
   trustItems: string[];
   paymentItems: string[];
+  reasons: CMSReason[];
+  categoryImages: CMSCategoryImage[];
+  hairTypeGuide: CMSHairTypeGuide[];
 };
 
 export type CMSData = {

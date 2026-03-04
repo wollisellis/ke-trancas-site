@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import { slugify } from '@/lib/format';
-import { CMSData, CMSProduct, CMSReview, CMSVideo } from '@/types/cms';
+import { CMSData, CMSProduct, CMSReason, CMSReview, CMSVideo } from '@/types/cms';
 
 const emptyCMS: CMSData = {
   settings: {
@@ -13,7 +13,10 @@ const emptyCMS: CMSData = {
     instagramUrl: '',
     supportText: '',
     trustItems: [],
-    paymentItems: []
+    paymentItems: [],
+    reasons: [],
+    categoryImages: [],
+    hairTypeGuide: []
   },
   products: [],
   videos: [],
@@ -38,7 +41,8 @@ function createProduct(): CMSProduct {
     isFeatured: false,
     isBestSeller: false,
     inStock: true,
-    tags: []
+    tags: [],
+    howToUse: []
   };
 }
 
@@ -50,6 +54,10 @@ function createVideo(): CMSVideo {
 function createReview(): CMSReview {
   const id = typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function' ? crypto.randomUUID() : `${Date.now()}`;
   return { id, author: 'Cliente', text: 'Depoimento novo.', rating: 5 };
+}
+
+function createReason(): CMSReason {
+  return { icon: '✓', title: 'Novo motivo', text: 'Descreva o diferencial aqui.' };
 }
 
 export default function AdminClient() {
@@ -145,6 +153,14 @@ export default function AdminClient() {
             <label className="label">WhatsApp URL</label>
             <input className="input" value={cms.settings.whatsappUrl} onChange={(event) => setCms((prev) => ({ ...prev, settings: { ...prev.settings, whatsappUrl: event.target.value } }))} />
           </div>
+          <div>
+            <label className="label">Instagram URL</label>
+            <input className="input" value={cms.settings.instagramUrl} onChange={(event) => setCms((prev) => ({ ...prev, settings: { ...prev.settings, instagramUrl: event.target.value } }))} />
+          </div>
+          <div>
+            <label className="label">Texto de suporte</label>
+            <input className="input" value={cms.settings.supportText} onChange={(event) => setCms((prev) => ({ ...prev, settings: { ...prev.settings, supportText: event.target.value } }))} />
+          </div>
         </div>
 
         <label className="label">Titulo principal</label>
@@ -231,6 +247,9 @@ export default function AdminClient() {
             <label className="label">Tags (separadas por virgula)</label>
             <input className="input" value={product.tags.join(', ')} onChange={(event) => setCms((prev) => ({ ...prev, products: prev.products.map((item) => item.id === product.id ? { ...item, tags: event.target.value.split(',').map((tag) => tag.trim()).filter(Boolean) } : item) }))} />
 
+            <label className="label">Como usar (1 passo por linha)</label>
+            <textarea className="input" rows={4} value={(product.howToUse ?? []).join('\n')} placeholder="Ex.: Aplique nas tranças secas&#10;Massageie levemente&#10;Aguarde 5 minutos" onChange={(event) => setCms((prev) => ({ ...prev, products: prev.products.map((item) => item.id === product.id ? { ...item, howToUse: event.target.value.split('\n').map((s) => s.trim()).filter(Boolean) } : item) }))} />
+
             <div className="check-row">
               <label><input type="checkbox" checked={product.inStock} onChange={(event) => setCms((prev) => ({ ...prev, products: prev.products.map((item) => item.id === product.id ? { ...item, inStock: event.target.checked } : item) }))} />Em estoque</label>
               <label><input type="checkbox" checked={product.isFeatured} onChange={(event) => setCms((prev) => ({ ...prev, products: prev.products.map((item) => item.id === product.id ? { ...item, isFeatured: event.target.checked } : item) }))} />Destaque</label>
@@ -271,6 +290,34 @@ export default function AdminClient() {
             <textarea className="input" value={review.text} onChange={(event) => setCms((prev) => ({ ...prev, reviews: prev.reviews.map((item) => item.id === review.id ? { ...item, text: event.target.value } : item) }))} />
             <input className="input" value={review.productSlug ?? ''} placeholder="Slug do produto (opcional)" onChange={(event) => setCms((prev) => ({ ...prev, reviews: prev.reviews.map((item) => item.id === review.id ? { ...item, productSlug: event.target.value.trim() ? slugify(event.target.value) : undefined } : item) }))} />
             <button className="btn btn-danger" onClick={() => setCms((prev) => ({ ...prev, reviews: prev.reviews.filter((item) => item.id !== review.id) }))}>Excluir</button>
+          </article>
+        ))}
+      </section>
+
+      <section className="card admin-section">
+        <div className="admin-head-row">
+          <h2>Motivos para comprar</h2>
+          <button className="btn" onClick={() => setCms((prev) => ({ ...prev, settings: { ...prev.settings, reasons: [createReason(), ...(prev.settings.reasons ?? [])] } }))}>+ Novo motivo</button>
+        </div>
+        <p className="muted" style={{ marginBottom: 12 }}>Esses cards aparecem na secao &ldquo;Por que comprar aqui?&rdquo; da pagina inicial.</p>
+
+        {(cms.settings.reasons ?? []).map((reason, index) => (
+          <article key={index} className="card admin-item-row">
+            <div className="admin-grid-4">
+              <div>
+                <label className="label">Icone (emoji)</label>
+                <input className="input" value={reason.icon} onChange={(event) => setCms((prev) => ({ ...prev, settings: { ...prev.settings, reasons: prev.settings.reasons.map((item, i) => i === index ? { ...item, icon: event.target.value } : item) } }))} />
+              </div>
+              <div style={{ gridColumn: 'span 2' }}>
+                <label className="label">Titulo</label>
+                <input className="input" value={reason.title} onChange={(event) => setCms((prev) => ({ ...prev, settings: { ...prev.settings, reasons: prev.settings.reasons.map((item, i) => i === index ? { ...item, title: event.target.value } : item) } }))} />
+              </div>
+              <div>
+                <button className="btn btn-danger" style={{ marginTop: 22 }} onClick={() => setCms((prev) => ({ ...prev, settings: { ...prev.settings, reasons: prev.settings.reasons.filter((_, i) => i !== index) } }))}>Excluir</button>
+              </div>
+            </div>
+            <label className="label">Descricao</label>
+            <textarea className="input" value={reason.text} onChange={(event) => setCms((prev) => ({ ...prev, settings: { ...prev.settings, reasons: prev.settings.reasons.map((item, i) => i === index ? { ...item, text: event.target.value } : item) } }))} />
           </article>
         ))}
       </section>

@@ -12,7 +12,7 @@ export function Header({ brandName, whatsappUrl, instagramUrl }: HeaderProps) {
       <div className="promo-strip">
         <div className="container promo-strip-inner">
           <span>Frete calculado no checkout</span>
-          <span>Atendimento rapido no WhatsApp</span>
+          <span>Atendimento rápido no WhatsApp</span>
         </div>
       </div>
 
@@ -22,8 +22,8 @@ export function Header({ brandName, whatsappUrl, instagramUrl }: HeaderProps) {
         </Link>
 
         <nav className="main-nav">
-          <Link href="/catalogo">Catalogo</Link>
-          <Link href="/admin">Painel</Link>
+          <Link href="/catalogo">Catálogo</Link>
+          <Link href="/trancas">Tranças</Link>
           <a href={instagramUrl} target="_blank" rel="noreferrer">
             Instagram
           </a>

@@ -7,36 +7,49 @@ type ProductCardProps = {
 };
 
 export function ProductCard({ product }: ProductCardProps) {
-  return (
-    <article className="product-card">
-      <div className="product-media-wrap">
-        <Link href={'/produto/' + product.slug}>
-          <img src={product.imageUrl} alt={product.name} className="product-image" loading="lazy" />
-        </Link>
+  const discountPct =
+    typeof product.oldPrice === 'number' && product.oldPrice > product.price
+      ? Math.round((1 - product.price / product.oldPrice) * 100)
+      : null;
 
-        <div className="product-flags">
-          {product.isBestSeller ? <span className="chip chip-highlight">Mais vendido</span> : null}
-          {!product.inStock ? <span className="chip chip-danger">Sem estoque</span> : null}
-        </div>
+  const installmentValue = product.price >= 50 ? Math.ceil(product.price / 6) : null;
+
+  return (
+    <Link href={'/produto/' + product.slug} className="product-card">
+      <div className="product-media-wrap">
+        <img src={product.imageUrl} alt={product.name} className="product-image" loading="lazy" />
+
+        {discountPct ? <span className="product-discount-badge">-{discountPct}%</span> : null}
+
+        {product.isBestSeller && !discountPct ? (
+          <span className="product-bestseller-badge">Mais vendido</span>
+        ) : null}
+
+        {!product.inStock ? (
+          <div className="product-outofstock-overlay">Sem estoque</div>
+        ) : null}
       </div>
 
       <div className="product-body">
-        <p className="kicker">{product.category}</p>
-        <h3>
-          <Link href={'/produto/' + product.slug}>{product.name}</Link>
-        </h3>
-        <p className="muted">{product.benefit}</p>
+        <p className="product-category-label">{product.category}</p>
+        <h3 className="product-name">{product.name}</h3>
 
         <p className="rating" aria-label={starsLabel(product.rating)}>
-          {'?'.repeat(Math.round(product.rating))}
-          <span className="muted"> {product.rating.toFixed(1)} ({product.reviewCount})</span>
+          {'★'.repeat(Math.round(product.rating))}
+          <span className="rating-count"> ({product.reviewCount})</span>
         </p>
 
         <div className="price-row">
-          <strong>{formatBRL(product.price)}</strong>
-          {typeof product.oldPrice === 'number' ? <span className="price-old">{formatBRL(product.oldPrice)}</span> : null}
+          <strong className="price-main">{formatBRL(product.price)}</strong>
+          {typeof product.oldPrice === 'number' ? (
+            <span className="price-old">{formatBRL(product.oldPrice)}</span>
+          ) : null}
         </div>
+
+        {installmentValue ? (
+          <p className="price-installment">ou 6x de {formatBRL(installmentValue)}</p>
+        ) : null}
       </div>
-    </article>
+    </Link>
   );
 }

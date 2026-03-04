@@ -1,6 +1,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
+import { useSearchParams } from 'next/navigation';
 import { ProductCard } from '@/components/site/ProductCard';
 import { CMSProduct } from '@/types/cms';
 
@@ -9,10 +10,11 @@ type CatalogClientProps = {
 };
 
 export default function CatalogClient({ products }: CatalogClientProps) {
+  const searchParams = useSearchParams();
   const [query, setQuery] = useState('');
-  const [category, setCategory] = useState('all');
-  const [hairType, setHairType] = useState('all');
-  const [brand, setBrand] = useState('all');
+  const [category, setCategory] = useState(searchParams.get('category') ?? 'all');
+  const [hairType, setHairType] = useState(searchParams.get('hairType') ?? 'all');
+  const [brand, setBrand] = useState(searchParams.get('brand') ?? 'all');
 
   const categories = useMemo(() => ['all', ...new Set(products.map((p) => p.category))], [products]);
   const hairTypes = useMemo(() => ['all', ...new Set(products.map((p) => p.hairType))], [products]);
@@ -33,7 +35,7 @@ export default function CatalogClient({ products }: CatalogClientProps) {
     <section className="catalog-wrapper">
       <div className="filters card">
         <input
-          placeholder="Buscar por nome, beneficio ou tag"
+          placeholder="Buscar por nome, benefício ou tag"
           value={query}
           onChange={(event) => setQuery(event.target.value)}
           className="input"
@@ -60,13 +62,22 @@ export default function CatalogClient({ products }: CatalogClientProps) {
         </div>
       </div>
 
-      <p className="muted">{filtered.length} itens encontrados.</p>
+      <p className="muted">{filtered.length} {filtered.length === 1 ? 'item encontrado' : 'itens encontrados'}.</p>
 
-      <div className="product-grid">
-        {filtered.map((product) => (
-          <ProductCard key={product.id} product={product} />
-        ))}
-      </div>
+      {filtered.length === 0 ? (
+        <div className="catalog-empty">
+          <p>Nenhum produto encontrado com esses filtros.</p>
+          <button className="btn btn-ghost" onClick={() => { setQuery(''); setCategory('all'); setHairType('all'); setBrand('all'); }}>
+            Limpar filtros
+          </button>
+        </div>
+      ) : (
+        <div className="product-grid">
+          {filtered.map((product) => (
+            <ProductCard key={product.id} product={product} />
+          ))}
+        </div>
+      )}
     </section>
   );
 }
